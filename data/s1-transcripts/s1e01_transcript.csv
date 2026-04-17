@@ -1,0 +1,488 @@
+timestamp,speaker,text
+00:00:14,Mark,Who are you?
+00:00:26,Mark,Who are you?
+00:00:49,Helly,Hello?
+00:00:58,Mark,"I’m sorry, I got ahead of myself."
+00:01:02,Mark,"Hi there, you on the table. I wonder if you’d mind taking a brief survey."
+00:01:07,Helly,Who is that?
+00:01:09,Mark,Five questions.
+00:01:10,Mark,"Now, I know you’re sleepy, but I just bet it’ll make you feel right as rain."
+00:01:16,Helly,Who’s speaking?
+00:01:27,Helly,"Oh, God."
+00:01:37,Helly,Hey! Open the door!
+00:01:47,Mark,I’d be just thrilled to chat once we’ve run the survey. Shall we begin with question one?
+00:01:54,Helly,I’m not taking your survey.
+00:01:57,Mark,Shall we begin with question one?
+00:02:02,Helly,Let me out of here.
+00:02:08,Helly,Hey!
+00:02:10,Helly,Open the door!
+00:02:13,Helly,Fuck.
+00:02:15,Helly,Hey! Let me out!
+00:02:41,Helly,Hey.
+00:02:44,Mark,Hello.
+00:02:46,Helly,Five questions?
+00:02:48,Mark,Five questions.
+00:02:51,Helly,What do I get at the end?
+00:02:54,Mark,Depends on your answers.
+00:02:59,Helly,Okay.
+00:03:01,Mark,"Great. Off we go. Now to start, who are you?"
+00:03:06,Helly,That’s the first question?
+00:03:09,Mark,First name will do.
+00:03:24,Helly,I don’t…
+00:03:26,Mark,"It’s okay. If you can’t answer the question, feel free to say, “unknown.”"
+00:03:32,Helly,What is this?
+00:03:34,Mark,"Okay, unknown."
+00:03:35,Mark,"Question two, in which US state or territory were you born?"
+00:03:39,Helly,"Wait.
+Mark: Which state or territory, please?"
+00:03:42,Helly,"I don’t know.
+Mark: Unknown."
+00:03:44,Mark,"Question three, please name any US state or territory."
+00:03:48,Helly,"Fuck. I…
+Mark: First that comes to mind."
+00:03:49,Helly,"I don’t know. Delaware. What is this?
+Mark: Delaware."
+00:03:52,Mark,"Question four, what is Mr. Eagan’s favorite breakfast?"
+00:03:57,Helly,I don’t… That one makes no sense.
+00:03:58,Mark,"Right? Unknown. Question five. And as a reminder, this is the final question. To the best of your memory, what is or was the color of your mother’s eyes?"
+00:04:27,Helly,"Okay, what’s hap… What’s happening?"
+00:04:29,Mark,"Unknown. So that’s unknown, unknown, Delaware, unknown, unknown."
+00:04:38,Helly,What the hell did you do to me?
+00:04:51,Mark,That’s a perfect score.
+00:06:49,Florence,Are you ready for Mr. Scout?
+00:07:00,Florence,Thank you.
+00:07:05,Florence,Go ahead.
+00:08:31,Judd,Mr. Scout.
+00:08:33,Mark,"Hi, Judd."
+00:08:44,Judd,"All right, see you this evening.
+Mark: Yep, see you soon."
+00:11:16,Dylan,"You’re breathing shitty.
+Mark: Sorry."
+00:11:17,Dylan,You sick?
+00:11:19,Mark,Maybe. Petey was sniffling yesterday.
+00:11:21,Dylan,"If you breathe on me, I’ll rip your larynx out."
+00:11:23,Mark,Wow. That went right to ten. I feel like ripping out my germ-ridden larynx would get you sicker than just me breathing on you.
+00:11:33,Mark,Oh.
+00:11:35,Dylan,"Petey better not be out for the day, ’cause I’m about zero seconds from wrapping the Tumwater file, and he needs to process it."
+00:11:40,Mark,I think he’s out.
+00:11:43,Dylan,"If he doesn’t process today, they won’t know until Tuesday of next week. It’s typical Lumon bullshit."
+00:11:47,Mark,"Careful, guy."
+00:11:50,Irving,"Hi, kids. What’s for dinner?"
+00:11:52,Dylan,"Goddamn it, Irv. We warned you."
+00:11:54,Irving,About the greeting? You were kidding.
+00:11:55,Dylan,"No, we sincerely hate it. How many reasons did we come up with?"
+00:12:00,Mark,"Eight.
+Dylan: Eight reasons."
+00:12:02,Dylan,Chief among them the latent condescension.
+00:12:05,Mark,"And it’s confusing. Like, did the kids make you dinner in this scenario? Or…"
+00:12:08,Dylan,Yeah. What kind of a shit dad are you?
+00:12:12,Irving,"No Petey?
+Mark: We think he’s sick."
+00:12:14,Irving,"Oh, no. And Dylan’s about to wrap Tumwater today."
+00:12:17,Dylan,"Yeah, and if he doesn’t see me finish, I might get passed over for refiner of the quarter and miss out on my goddamn waffle party."
+00:12:23,Irving,"Grumble, grumble. These perks are so out of hand. When we’d process a file in the old days, they’d shake our hand and fill up the creamer."
+00:12:30,Dylan,I still don’t buy they actually incentivized creamer.
+00:12:32,Irving,"They did. And back then, we were grateful for it."
+00:12:35,Dylan,"That’s fucked, dude."
+00:12:37,Irving,"Yes, very fucked. To put in an honest day’s work and not get a children’s breakfast in return."
+00:12:43,Dylan,Irv’s got claws today.
+00:12:46,Milchick,"Good morning, Macrodata Refinement."
+00:12:49,Irving,"Hi, Mr. Milchick."
+00:12:51,Milchick,"Mark, could I have a word?"
+00:13:23,Milchick,"Last time you saw Ms. Cobel, she was in her old office. Now she’s in her new office. It’s a completely different office."
+00:13:31,Mark,What’s this about?
+00:13:32,Milchick,"She’d never say so, but I know a compliment about the office would just make her day."
+00:13:47,Cobel,Mark? Come in. Shut the thing.
+00:13:51,Mark,Nice office.
+00:13:52,Cobel,It’s horrid.
+00:13:55,Mark,"Yeah, the old one was better."
+00:14:04,Cobel,Oh… You look awful. You look hungover. Have a seat.
+00:14:15,Cobel,The Board will be joining us remotely today.
+00:14:20,Cobel,I have Mark S. at my desk.
+00:14:32,Mark,"Oh, uh, hello. I assume this is about me acting as department chief today. Okay. Well… I mean, I’ve subbed for Petey before, so it shouldn’t be that big a thing."
+00:14:47,Cobel,Petey is no longer with this company.
+00:14:52,Mark,I’m sorry?
+00:14:54,Cobel,"I said, Petey is no longer with this company."
+00:14:59,Milchick,"I’m sorry, Mark. You guys were one of my favorite office friendships."
+00:15:06,Mark,"I mean, there should have been some notice of this. What happened?"
+00:15:10,Milchick,"We’d love to tell you, but unfortunately, non-disclosure policy forbids. We’d be aiding an assault on Petey’s privacy by you."
+00:15:20,Cobel,"Mark, would you place your key card on my desk?"
+00:15:29,Cobel,"Mark S., at this time I confer upon you the freedom to serve Kier in the advanced role of Macrodata Refinement department chief. Congratulations."
+00:15:49,Cobel,"Oh, a handshake is available upon request."
+00:15:58,Mark,Thank you. May I have a handshake?
+00:16:07,Cobel,"I know you haven’t run a training before, but Irving will be there to shadow. Just stick to the flowchart and escalate properly depending on dialectics. You’ll be fine."
+00:16:17,Milchick,"If you need to take a few minutes…
+Mark: Thank you. I don’t."
+00:16:23,Mark,"Oh, and, uh, thank you to the Board as well."
+00:16:28,Cobel,The Board won’t be contributing to this meeting vocally.
+00:16:43,Irving,"Our last refiner, who was a woman, was…"
+00:16:46,Mark,Carol. Dylan’s old seat.
+00:16:51,Irving,Don’t be sad.
+00:16:52,Mark,I’m fine. We’ll be fine.
+00:16:54,Irving,I know you and Petey were close. He was the only one who really appreciated your humor.
+00:17:00,Mark,"Everything’s fine. So, I’m supposed to start with just the input survey? Isn’t that a little weird?"
+00:17:05,Milchick,"It’s standard. Just start at 1A and continue by line, based on her answers."
+00:17:10,Mark,"Well, what if I just talk to her?"
+00:17:12,Milchick,She deserves to have the information presented to her in the proper order. Just as you had.
+00:17:17,Mark,"“If the trainee becomes agitated and demands to leave, skip to page 19.”"
+00:17:24,Irving,She has to ask three times for you to let her.
+00:17:27,Mark,Right. Yes.
+00:17:33,Mark,Image is good.
+00:17:36,Irving,She looks nice.
+00:17:39,Milchick,Okay. You’re all set.
+00:17:44,Milchick,I just love seeing you all come in like this.
+00:17:48,Milchick,Go on ahead when you’re ready.
+00:17:53,Irving,"All right.
+Mark: Okay."
+00:18:02,Irving,There you go.
+00:18:06,Mark,Who are you?
+00:18:16,Irving,All right.
+00:18:19,Mark,Who are you?
+00:18:26,Irving,"Mark.
+Mark: What?"
+00:18:28,Irving,You skipped the preamble.
+00:18:30,Helly,Hello?
+00:18:31,Mark,Shit!
+00:18:36,Mark,"I’m sorry, I got ahead of myself."
+00:18:42,Irving,"That’s it.
+Mark: Okay."
+00:18:45,Mark,"Hi there, you on the table. I wonder if you’d mind taking a brief survey."
+00:18:51,Helly,Who is that?
+00:18:53,Mark,"Five questions. Now, I know you’re sleepy, but I just bet it’ll make you feel right as rain."
+00:19:01,Helly,Who’s speaking?
+00:19:02,Mark,“Who’s speaking?”
+00:19:17,Helly,Hey! Open the door!
+00:19:18,Irving,Mark.
+00:19:20,Mark,"I’d be just thrilled to chat, once we’ve run the survey. Shall we begin with question one?"
+00:19:24,Helly,I’m not taking your survey.
+00:19:29,Mark,Shall we begin with question one?
+00:19:32,Helly,Let me out of here. Hey!
+00:19:37,Helly,"Open the door!
+Irving: She’s not supposed to do that."
+00:19:40,Helly,Hey!
+00:19:41,Irving,She’s going to break in.
+00:19:43,Helly,"Let me out!
+Mark: No, she’s not."
+00:19:46,Milchick,Are you seeing this?
+00:19:48,Cobel,I’m watching.
+00:19:51,Milchick,Should I help?
+00:19:54,Cobel,You should not.
+00:20:02,Mark,That’s a perfect score.
+00:20:05,Mark,"Now, I think I know where our disconnect is coming from."
+00:20:10,Helly,"What?
+Mark: Well, there was a preamble, which I was supposed to read before the survey, to lead into the questions and… But I unfortunately skipped that and went straight into the survey."
+00:20:22,Helly,Am I livestock?
+00:20:24,Mark,I’m sorry?
+00:20:26,Helly,"Like, did you grow me as food and that’s why I have no memories?"
+00:20:33,Mark,"You think we grew a full human, gave you consciousness…"
+00:20:38,Helly,"I don’t know.
+Mark:  did your nails and…"
+00:20:39,Helly,I don’t know. I don’t know you.
+00:20:41,Mark,"No, you’re not livestock. Good Lord."
+00:20:44,Helly,Then what’s my name?
+00:20:47,Mark,Helly. Your name is Helly. Helly R.
+00:20:52,Mark,Please.
+00:21:08,Mark,"Thank you for taking the welcome survey. I can sense that the questions made you feel afraid or disoriented. Well, the good news is, you’re at an orientation."
+00:21:25,Mark,"You see, you have been hired to a position on the Severed Floor of Lumon Industries."
+00:21:31,Helly,The what floor?
+00:21:44,Mark,"I understand you’re confused about the severance procedure. Before we hop on that, let’s chat about something I bet you have heard of, the work/life balance. To start, imagine yourself as a seesaw."
+00:22:01,Mark,Ow! Fuck!
+00:22:02,Mark,That locks from out there!
+00:22:04,Helly,"Let me out!
+Mark:  God!"
+00:22:08,Mark,Can we just take a beat? Please.
+00:22:24,Mark,Please.
+00:22:47,Mark,"Okay, my name’s Mark. And, uh… So, I…"
+00:22:53,Mark,"You know, few years back, I woke up on this table. In this room. And a disembodied voice asked me 19 times who I was."
+00:23:07,Mark,"And when I realized I couldn’t answer, I told that voice that I would find him and kill him."
+00:23:16,Mark,"I don’t know why I said that. I mean, I was scared too."
+00:23:20,Helly,Did you kill the voice?
+00:23:23,Mark,No.
+00:23:25,Mark,"No, that voice’s name was Petey, and he became my best friend."
+00:23:32,Mark,"So, look, you know, there is a life to be had here, Helly."
+00:23:36,Helly,A life to be had?
+00:23:47,Mark,"Well, you see, life, like a seesaw, requi—"
+00:23:56,Helly,Let me the fuck out of here!
+00:24:07,Mark,"Ask me again.
+Helly: What?"
+00:24:10,Mark,You’ve asked twice to be let go. Ask one more time.
+00:24:16,Helly,"Mark.
+Mark:  Yeah?"
+00:24:18,Helly,I would like to leave the building now.
+00:24:23,Mark,"I understand you don’t feel it’s working out for you here at Lumon. While disappointed, I’d hate to keep you somewhere you’re not happy. So, let’s get you outta here."
+00:24:39,Mark,Irv.
+00:25:03,Mark,"The departments are pretty spaced out, but it’ll all fill in one day. They’re planning an expansion."
+00:25:10,Helly,"And I’m, what, part of that?"
+00:25:12,Mark,No. You’re a replacement.
+00:25:15,Helly,Replacement for who? Why are you saying that like you hate it?
+00:25:27,Mark,Here’s your stairwell. Just past the bend.
+00:25:36,Helly,You’re not coming with me?
+00:25:38,Mark,I’m not allowed to see.
+00:25:39,Helly,Excuse me?
+00:25:41,Mark,"Well, once you leave, you… I just can’t watch you leave."
+00:25:53,Helly,Of course you can’t.
+00:26:27,Helly,What the hell?
+00:27:21,Helly,"Am I dead?
+Mark: No."
+00:27:24,Helly,"This isn’t, like, hell or something?
+Mark: No."
+00:27:27,Helly,Then why the fuck can’t I leave?
+00:27:29,Mark,"Well, you did leave, just now. Out into the stairwell at least."
+00:27:32,Mark,"You left, but you came back."
+00:27:35,Helly,"I did not.
+Mark: You did. Come on."
+00:27:42,Cobel,"Weaponizing office equipment on your first day. You are gonna be fun. Look, I do sympathize. I’ve wanted to pummel Mark myself, but I am his employer. And he is your department chief. So we’ll both have to be strong. The good news is, there’s only one part left of your orientation, which Mark can’t possibly derail."
+00:28:11,Helly,Why is that?
+00:28:12,Cobel,Because it’s a video.
+00:28:22,Cobel,"Welcome to Lumon, Helly."
+00:28:50,Cobel,Have a seat.
+00:29:10,Mark,Are you mad at me?
+00:29:13,Cobel,For the incompetence or the disobedience?
+00:29:18,Mark,"Well…
+Cobel: Yes!"
+00:29:22,Cobel,"You know, my mother was an atheist. She used to say that there was good news and bad news about hell. The good news is, hell is just the product of a morbid human imagination. The bad news is, whatever humans can imagine, they can usually create."
+00:29:47,Mark,I don’t know what that means.
+00:29:51,Cobel,A department like yours can go so good or so bad. You know what makes the difference? The people.
+00:30:16,Milchick,You can have a seat.
+00:30:31,Milchick,"Okay, go ahead and have a seat."
+00:30:44,Helly,"My name is Helly R. I’m making this video roughly two hours before it will be shown to me. I have, of my own free accord, elected to undergo the procedure colloquially known as severance. I give consent for my perceptual chronologies to be surgically split, separating my memories between my work life and my personal life. I acknowledge that, henceforth, my access to my memories will be spatially dictated. I will be unable to access outside recollections whilst on Lumon’s severed basement floor, nor retain work memories upon my ascent. I am aware that this alteration is comprehensive and irreversible. I make these statements freely."
+00:31:44,Milchick,"Okay, that’s a wrap."
+00:31:54,Milchick,Okay. Go ahead.
+00:32:16,Helly,So I’ll never leave here?
+00:32:20,Mark,"You’ll leave at 5:00. Well, actually, they stagger our exits, so 5:15. But it won’t feel like it. Not to this version of you anyway."
+00:32:31,Helly,Do I have a family?
+00:32:33,Mark,You’ll never know.
+00:32:36,Helly,And I have no choice.
+00:32:39,Mark,"Well, every time you find yourself here, it’s because you chose to come back."
+00:33:13,Irving,Hello.
+00:33:52,Mark,Good night.
+00:33:53,Judd,Good night.
+00:34:43,Mark,"“Dear Mark, Whilst carrying boxes in a room today, you slipped on an overhead projector slide and sustained a minor blow to the temple.”"
+00:35:20,Helly,Hey!
+00:35:22,Mark,Sorry.
+00:35:25,Helly,Maybe keep your eyes on the icy road.
+00:35:29,Mark,Sorry.
+00:36:30,Television,"Indeed, this gnat will spend much of its three to seven-day life…"
+00:36:52,Mark,"No, I know, Mrs. Selvig. It’s just, it was in my space again. Yeah. Well, trash comes tomorrow night. Tonight’s recycling. Yeah, it is weird, but that’s how they do it. And with both yours, there’s no room for…"
+00:37:25,Devon,"Hey.
+Mark: Hey."
+00:37:31,Devon,Did you forget?
+00:37:37,Mark,"Oh, yeah. Shit."
+00:37:38,Devon,That’s okay.
+00:37:40,Mark,"Sorry.
+Devon: That’s fine."
+00:37:41,Devon,"Do you wanna put on pants, and I’ll…
+Mark: I’m wearing pants."
+00:37:44,Devon,meet you in… Those are not pants.
+00:37:47,Mark,"So if there’s no dinner, how is it dinner?"
+00:37:51,Devon,"Okay.
+Mark: Like…"
+00:37:53,Devon,You actually owe me this.
+00:37:55,Mark,"Do I?
+Devon: Yep."
+00:37:57,Devon,You remember that time when we were kids and I was a way better sibling than you?
+00:38:00,Mark,Must have slipped my mind.
+00:38:04,Devon,"Also, I know we’re nearing the anniversary, so I just thought maybe you’d wanna be around people."
+00:38:10,Mark,Nope.
+00:38:13,Devon,This is nice. When did you get it?
+00:38:15,Mark,"Something from work, and they apologized."
+00:38:18,Devon,They apologized. Thank God. Did they tack an explanation onto that apology?
+00:38:22,Mark,It’s fine. Got a gift card.
+00:38:25,Devon,You got a gift card. Where’s he going to?
+00:38:29,Mark,I don’t know. Pip’s.
+00:38:31,Devon,"Of course it’s Pip’s. Well, enjoy."
+00:38:34,Mark,"I will, without you."
+00:38:45,Ricken,There’s our captive.
+00:38:46,Mark,"Hi, Rick.
+Ricken: Ricken. Come on, it’s Ricken."
+00:38:50,Ricken,"You, sir, look at peace.
+Mark: You know."
+00:38:53,Mark,"Okay.
+Devon: Hi, baby."
+00:38:54,Ricken,Hi.
+00:38:56,Patton,"No, what a lot of people overlook, I think, is that life is not food."
+00:39:00,Danise,"Right.
+Patton: You’ve got life,"
+00:39:02,Patton,"this complex quality of sentience and activity. And then you’ve got food, which is what?"
+00:39:09,Ricken,"Yes, what is it?
+Patton: Fuel."
+00:39:11,Patton,Calories. It’s not the same thing.
+00:39:13,Ricken,"Yes, that is spot on, Patton.
+Rebeck: I definitely agree."
+00:39:15,Devon,"Though, if I’m…Sorry, Mark and my dad used to have “whiskey is life” carved on a flask."
+00:39:24,Mark,"True.
+Devon: It was low-hanging fruit."
+00:39:26,Ricken,He did. He was a misdiagnosed alcoholic.
+00:39:28,Danise,"Now, Mark, Ricken told Rebeck and me that you’re a former history professor."
+00:39:32,Mark,Yeah.
+00:39:33,Danise,"So, I’m curious for your take on all of this. The food v life of it."
+00:39:41,Mark,"Well, I’m not sure. I taught mostly about World War I."
+00:39:44,Patton,"Okay. Well, I got one for you. I was just reading this think piece about the comparative levels of violence and warfare throughout history."
+00:39:53,Ricken,Nerd alert.
+00:39:54,Patton,"War porn, I know."
+00:39:56,Patton,"But anyway, in it, he said that the people actually called it the Great War. Apparently, it would have been a faux pas to have called it World War I."
+00:40:06,Ricken,Is that right?
+00:40:11,Mark,"Well, you know, no one would’ve called it World War I ’cause World War II hadn’t happened yet."
+00:40:21,Danise,"Wow.
+Ricken: Of course."
+00:40:23,Patton,"That’s absolutely right.
+Ricken: Duh."
+00:40:25,Rebeck,That’s so true.
+00:40:26,Devon,This is why we bring this guy.
+00:40:28,Ricken,"Mark’s late wife, Gemma, was an educator as well. Russian literature."
+00:40:32,Rebeck,"I love literature.
+Ricken: Right?"
+00:40:35,Ricken,But Mark is a Lumon man now.
+00:40:37,Devon,"Ricken.
+Patton: Really?"
+00:40:39,Mark,Yeah. About two years.
+00:40:41,Rebeck,"Do you design the medicines?
+Mark: No."
+00:40:43,Patton,I thought Lumon was more on the tech side of things.
+00:40:45,Danise,"They began in the 1800s.
+Ricken: Really?"
+00:40:47,Danise,"Topical salves, right?"
+00:40:49,Rebeck,What don’t they make?
+00:40:51,Mark,"Yeah, but I’m in the corporate archives division, so…"
+00:40:54,Patton,So you know all the dirty secrets.
+00:40:57,Mark,"No, not really.
+Ricken: No."
+00:40:59,Ricken,Mark’s work is sensitive enough as to require the severance procedure.
+00:41:07,Danise,Well.
+00:41:10,Danise,"That’s something, isn’t it?"
+00:41:14,Devon,"Yeah. It’s also, I think, something that’s his choice to tell people or not."
+00:41:17,Devon,"Right, Ricken?
+Ricken: Oh, my God."
+00:41:18,Mark,"No. No.
+Ricken: Oh, God, Mark."
+00:41:20,Ricken,"Please forgive me.
+Mark: No. It’s okay. I don’t care."
+00:41:22,Ricken,"My apologies.
+Danise: No, I think it’s fascinating."
+00:41:25,Danise,"I mean, I wish I could do it. I’d just always be thinking about, you know, the other one."
+00:41:34,Mark,"Well, there is no other one. It’s me. I do the job."
+00:41:40,Danise,I just don’t grasp the visceral element. What does it feel like?
+00:41:48,Patton,"Well, it’s simple. One’s memories are bifurcated, so when you’re not at work, you have no recollection of what it is you do there. Did I get that right, Mark?"
+00:41:56,Mark,"Well, it’s…
+Danise: So you walk in at 9:00 a.m.,"
+00:41:59,Danise,"and then suddenly it’s 5:00, and you’re leaving?"
+00:42:01,Mark,"Well, they stagger us a little, so…
+Danise: They stagger you?"
+00:42:04,Patton,"And then, conversely, when you’re at work, you can’t access outside memories. So, in effect, that version of you is trapped there."
+00:42:11,Ricken,Well…
+00:42:13,Patton,"Well, I mean, not trapped, but…
+Mark: But what?"
+00:42:20,Mark,"No, no. I’m curious. What were you gonna say? But not trapped, but what? What were you gonna say?"
+00:42:32,Danise,"So, I suppose we know where you fall on the congressional goings-on."
+00:42:35,Ricken,"Okay, I think we may be"
+00:42:36,Ricken,"missing the point here.
+Devon: Yeah."
+00:42:39,Ricken,"The point is that Mark made a decision. And that decision was controversial, ethically and socially. Morally. Scientifically. But, Mark, I stand behind you without reservation."
+00:42:56,Danise,"So well said.
+Ricken: Thank you."
+00:42:58,Patton,"Absolutely.
+Rebeck: I definitely stand behind Mark."
+00:43:02,Mark,Wow. Thank you. That’s very sweet.
+00:43:07,Ricken,"Well, we’re at the point where, traditionally, I would say something like, “Dig in.” But I must say, I do think that the lack of food has allowed us to already do so on a much deeper level."
+00:43:21,Patton,"Oh, yeah. No, absolutely.
+Ricken: Right?"
+00:43:23,Patton,"I was saying, my friend in Lima hasn’t had a food-based dinner event in…"
+00:43:27,Devon,"If I give you $3,000, will you forgive me?"
+00:43:31,Mark,"Well, because your child is innocent of tonight’s atrocities, I’ll wait until after it’s born to murder you."
+00:43:40,Devon,"Oh, my God. Here you go, buddy."
+00:43:46,Mark,Thank you.
+00:43:52,Devon,"Hey, how’s the good doctor therapy man with that weird little mustache?"
+00:44:01,Devon,You’re not going?
+00:44:04,Mark,"Well, the work thing’s helped."
+00:44:08,Devon,Yeah.
+00:44:10,Devon,I’m proud of you for taking that job. I really am. And I think she would’ve been too. I know she would’ve been.
+00:44:20,Devon,I just feel like forgetting about her for eight hours a day isn’t the same thing as healing.
+00:44:34,Devon,"You wanna crash here, since you’re already here?"
+00:44:38,Mark,No.
+00:44:40,Devon,Why?
+00:44:41,Mark,Your house smells like pregnancy.
+00:44:47,Devon,"Yeah, I’m just not grasping the visceral element of it."
+00:44:51,Devon,"She is fun, wasn’t she?"
+00:44:53,Devon,"You’re definitely staying here tonight.
+Mark: No, I’m not."
+00:44:55,Ricken,"I’m making all the bedsheets myself, so I won’t finish with the big one for some time. But the twin is comfortable, and the pajamas were made on a Baltic handloom, so you’ll sleep well."
+00:45:10,Mark,Thanks. I still don’t quite get the three beds.
+00:45:14,Ricken,"Right.
+Devon: Ricken’s colleague told us that switching out the beds as the child grows can wound that child."
+00:45:20,Ricken,Irreparably.
+00:45:21,Ricken,"But if you provide said child with all of its beds upon birth, you allow it to progress across the room at its own rate."
+00:45:29,Mark,Got it. Yeah.
+00:45:36,Ricken,Yeah.
+00:45:38,Ricken,"I think people really enjoyed you tonight, Mark."
+00:45:42,Mark,Good.
+00:45:44,Devon,"All right, baby."
+00:45:46,Devon,"You ready, baby?
+Ricken: Yeah."
+00:45:47,Devon,"Let’s go.
+Ricken: Sweet dreams."
+00:45:48,Mark,Thanks.
+00:45:51,Mark,"Good night, milord."
+00:45:53,Devon,"Good night, milady."
+00:47:51,Devon,Hey.
+00:47:53,Mark,Hey.
+00:47:54,Devon,How long you been up?
+00:47:56,Mark,A while.
+00:48:00,Mark,There was a businessman in the yard last night.
+00:48:04,Devon,"A businessman?
+Mark: Yeah."
+00:48:06,Devon,Entry-level or management?
+00:48:08,Mark,I’m serious.
+00:48:09,Devon,There was seriously a man in my yard last night?
+00:48:11,Mark,Yeah.
+00:48:13,Devon,Holy shit.
+00:48:15,Mark,"He, you know, looked at me weird, like he knew me."
+00:48:19,Devon,Did the prowler invading my home make you feel seen?
+00:48:21,Mark,So seen.
+00:48:24,Devon,"Well, there’s a bar down the hill. It’s probably just a stumbler. Speaking of which, you still smell like a distillery."
+00:48:31,Mark,"I’m sorry, I just had to drown out the memory of Mom and Dad switching out my beds
+when we were kids."
+00:48:39,Devon,You’ve been sitting on that one.
+00:49:32,Mark,Hello.
+00:49:35,Mark,"Okay. So, recycling was last night, Mrs. Selvig. Tonight’s garbage. And you keep putting your bin on my side. So…"
+00:49:47,Mark,Yeah. Okay.
+00:49:49,Mark,"You know, I actually can’t talk right now. I’m out at dinner. But…"
+00:49:54,Mark,"No, by myself."
+00:49:59,Mark,Pip’s Bar and Grille.
+00:50:02,Mark,Excuse me.
+00:50:05,Petey,Hang up. Quickly.
+00:50:12,Mark,"I’m sorry, Mrs. Selvig. They’ve cooked the food, and it’s here."
+00:50:18,Petey,"Hi, kids. What’s for dinner?"
+00:50:26,Petey,I’m sorry. You don’t get that reference.
+00:50:31,Mark,Are you following me?
+00:50:34,Petey,Your voice is different here. Worse.
+00:50:40,Mark,"Okay, who the fuck are you?
+Petey: Petey."
+00:50:43,Petey,My name is Petey. I’m from work.
+00:50:47,Mark,"Well, that’s not plausible. Everyone in my department is…"
+00:50:51,Petey,Severed. Severed. I was.
+00:50:56,Mark,"Okay. Well, severance is pretty permanent."
+00:50:58,Petey,Yeah. Bypassing the implant wasn’t easy. I had help.
+00:51:15,Mark,"So, what, you were unhappy at work?"
+00:51:18,Mark,"And instead of lodging a complaint, you…
+Petey: No."
+00:51:21,Petey,I tried that first. So did you.
+00:51:26,Mark,"Right. Okay. So…You’ve unsevered. And now you, what, think they’re after you or something?"
+00:51:41,Petey,"Yeah. “They” being Graner, who’s probably out here right now."
+00:51:49,Mark,"Graner. Okay. Is that, like, a person you know or…"
+00:51:54,Petey,We both know him. We don’t like him.
+00:51:59,Mark,I see.
+00:52:06,Petey,"Nothing down there is what they say. If something happens to me, the things I know need to stay known. I’d prefer it be by a friend."
+00:52:28,Mark,"So, we’re friends?"
+00:52:32,Petey,I’m your best friend. You’re my very good friend.
+00:53:12,Petey,"Mark, sorry about the card. and I know it’s not appropriate. Though I’m sure you’d be a really fucking awesome niece. We used to wonder what kind of men we were on the outside, what choices we had made and why. I used to think it would take a monster to put someone in a place like that office. Especially if the person was himself. But we’re not monsters, Mark. Not real ones."
+00:53:55,Petey,"If you don’t wanna know what’s going on down there, I won’t force it. But if you do, there’s an address on the back of this card. Go alone, and you’ll find the beginning of a very long answer."
+00:54:34,Cobel,"Mark, is that you?"
+00:54:37,Mark,"Hi, Mrs. Selvig."
+00:54:39,Cobel,Will you color me embarrassed for the mix-up with the bins?
+00:54:44,Mark,"No, it’s no problem."
+00:54:46,Cobel,How was dinner?
+00:54:48,Mark,"Fine. I’m just, you know, tired."
+00:54:53,Cobel,"You know, my mother was a Catholic. She used to say it takes the saints eight hours to bless a sleeping child. I hope you aren’t rushing the saints."
+00:55:06,Mark,"Well, I’ll give them ample time tonight. Good night, Mrs. Selvig."
+00:55:12,Cobel,Mark.
+00:55:16,Cobel,You’re good people.

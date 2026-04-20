@@ -5,7 +5,7 @@ from pathlib import Path
 from get_soup_from_url import get_soup_from_url
 
 # Read the transcript links from the CSV into a list
-df_links = pd.read_csv("transcript-web-scraping/severance_transcript_links.csv")
+df_links = pd.read_csv("data/severance_transcript_links.csv")
 transcript_links = df_links["Transcript Link"].tolist()
 
 num_episodes_season_1 = 9

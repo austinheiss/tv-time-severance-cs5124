@@ -27,5 +27,5 @@ transcript_links = [
 
 # Store the transcript links in a DataFrame and save to CSV
 df = pd.DataFrame(transcript_links, columns=["Transcript Link"])
-df.to_csv("transcript-web-scraping/severance_transcript_links.csv", index=False)
-print(f"Saved {len(transcript_links)} transcript links to 'severance_transcript_links.csv'")
+df.to_csv("data/severance_transcript_links.csv", index=False)
+print(f"Saved {len(transcript_links)} transcript links to 'data/severance_transcript_links.csv'")

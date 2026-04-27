@@ -1,0 +1,2715 @@
+{
+  "source": "https://www.severance.wiki/list_of_characters",
+  "collectedAt": "2026-04-27T14:28:54.391Z",
+  "note": "Collected from public character pages via browser automation. sourceUrl values may require a browser session because the wiki uses a CDN JavaScript challenge for direct binary fetches. Character profile fields are copied from each page infobox when present.",
+  "characters": [
+    {
+      "slug": "dario_r",
+      "name": "Dario R.",
+      "pageUrl": "https://www.severance.wiki/dario_r",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dario_r.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/dario_r.jpg?w=800&h=800&tok=758667",
+          "sourcePath": "/_media/dario_r.jpg?w=800&h=800&tok=758667",
+          "alt": "Dario Rossi",
+          "title": "Dario Rossi"
+        }
+      ],
+      "profile": {
+        "displayName": "Dario Rossi",
+        "alsoKnownAs": "Dario R.",
+        "portrayedBy": "Stefano Carannante",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "dylan_g",
+      "name": "Dylan G.",
+      "pageUrl": "https://www.severance.wiki/dylan_g",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dylan_g.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
+          "sourcePath": "/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
+          "alt": "Dylan George",
+          "title": "Dylan George"
+        },
+        {
+          "role": "gallery",
+          "filename": "george_family_photo.jpeg",
+          "sourceUrl": "https://www.severance.wiki/_media/george_family_photo.jpeg?w=300&tok=34598d",
+          "sourcePath": "/_media/george_family_photo.jpeg?w=300&tok=34598d",
+          "alt": "Dylan, Gretchen, Merrick, Jim, Ruth",
+          "title": "Dylan, Gretchen, Merrick, Jim, Ruth"
+        },
+        {
+          "role": "gallery",
+          "filename": "dylan_and_son.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/dylan_and_son.webp?w=300&tok=400145",
+          "sourcePath": "/_media/dylan_and_son.webp?w=300&tok=400145",
+          "alt": "Dylan holding his son, Jim",
+          "title": "Dylan holding his son, Jim"
+        }
+      ],
+      "profile": {
+        "displayName": "Dylan George",
+        "alsoKnownAs": "Dylan G.",
+        "portrayedBy": "Zach Cherry",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "gwendolyn",
+      "name": "Gwendolyn Y.",
+      "pageUrl": "https://www.severance.wiki/gwendolyn",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gwendolyn_y.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/gwendolyn_y.jpg?w=800&h=800&tok=6f054d",
+          "sourcePath": "/_media/gwendolyn_y.jpg?w=800&h=800&tok=6f054d",
+          "alt": "Gwendolyn Y.",
+          "title": "Gwendolyn Y."
+        },
+        {
+          "role": "gallery",
+          "filename": "gwendolynbadge.jpeg",
+          "sourceUrl": "https://www.severance.wiki/_media/gwendolynbadge.jpeg?w=100&tok=6abfe4",
+          "sourcePath": "/_media/gwendolynbadge.jpeg?w=100&tok=6abfe4",
+          "alt": "",
+          "title": ""
+        }
+      ],
+      "profile": {
+        "displayName": "Gwendolyn Y.",
+        "alsoKnownAs": "Unknown",
+        "portrayedBy": "Alia Shawkat",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "helly_r",
+      "name": "Helly R.",
+      "pageUrl": "https://www.severance.wiki/helly_r",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "helly_r.gif",
+          "sourceUrl": "https://www.severance.wiki/_media/helly_r.gif?w=800&h=800&tok=4fca47",
+          "sourcePath": "/_media/helly_r.gif?w=800&h=800&tok=4fca47",
+          "alt": "Helly Riggs",
+          "title": "Helly Riggs"
+        }
+      ],
+      "profile": {
+        "displayName": "Helly Riggs",
+        "alsoKnownAs": "Helly R., Helly Riggs",
+        "portrayedBy": "Britt Lower",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "irving_b",
+      "name": "Irving B.",
+      "pageUrl": "https://www.severance.wiki/irving_b",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "irving_b.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/irving_b.webp?w=800&h=800&tok=145cfb",
+          "sourcePath": "/_media/irving_b.webp?w=800&h=800&tok=145cfb",
+          "alt": "",
+          "title": ""
+        }
+      ],
+      "profile": {
+        "displayName": "Irving Bailiff",
+        "alsoKnownAs": "Irving B., Irv",
+        "portrayedBy": "John Turturro",
+        "occupation": "Senior Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "mark_s",
+      "name": "Mark S.",
+      "pageUrl": "https://www.severance.wiki/mark_s",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "marks_desk.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
+          "sourcePath": "/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
+          "alt": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) ",
+          "title": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) "
+        },
+        {
+          "role": "gallery",
+          "filename": "mark_gemma_wedding.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/mark_gemma_wedding.webp?w=400&tok=2705a0",
+          "sourcePath": "/_media/mark_gemma_wedding.webp?w=400&tok=2705a0",
+          "alt": "Mark and Gemma’s wedding photo",
+          "title": "Mark and Gemma’s wedding photo"
+        },
+        {
+          "role": "gallery",
+          "filename": "marks_locker_room.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_locker_room.webp?w=1200&h=800&tok=616f76",
+          "sourcePath": "/_media/marks_locker_room.webp?w=1200&h=800&tok=616f76",
+          "alt": "Mark swaps out his watch before heading to the elevator",
+          "title": "Mark swaps out his watch before heading to the elevator"
+        },
+        {
+          "role": "gallery",
+          "filename": "marks_id_and_license.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_id_and_license.webp?w=1200&h=800&tok=8cf63d",
+          "sourcePath": "/_media/marks_id_and_license.webp?w=1200&h=800&tok=8cf63d",
+          "alt": "Mark’s ID badge and driver’s license",
+          "title": "Mark’s ID badge and driver’s license"
+        },
+        {
+          "role": "gallery",
+          "filename": "severance-mark-driver-license-from-1x01-and-1x03.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/severance-mark-driver-license-from-1x01-and-1x03.jpg?w=1200&h=800&tok=06f16f",
+          "sourcePath": "/_media/severance-mark-driver-license-from-1x01-and-1x03.jpg?w=1200&h=800&tok=06f16f",
+          "alt": "Mark’s driver’s license views combined",
+          "title": "Mark’s driver’s license views combined"
+        },
+        {
+          "role": "gallery",
+          "filename": "marks_watch.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_watch.webp?w=1200&h=800&tok=06c46e",
+          "sourcePath": "/_media/marks_watch.webp?w=1200&h=800&tok=06c46e",
+          "alt": "Mark’s Outie checking his watch",
+          "title": "Mark’s Outie checking his watch"
+        }
+      ],
+      "profile": {
+        "displayName": "Mark Scout",
+        "alsoKnownAs": "Mark S., Milady, Flip",
+        "portrayedBy": "Adam Scott",
+        "occupation": "Macrodata Refinement Chief at Lumon Industries",
+        "status": "Partially/Fully Reintegrated, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "mark_w",
+      "name": "Mark W.",
+      "pageUrl": "https://www.severance.wiki/mark_w",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "mark-w.png",
+          "sourceUrl": "https://www.severance.wiki/_media/mark-w.png",
+          "sourcePath": "/_media/mark-w.png",
+          "alt": "Mark Wilkins",
+          "title": "Mark Wilkins"
+        },
+        {
+          "role": "gallery",
+          "filename": "markwbadge.jpeg",
+          "sourceUrl": "https://www.severance.wiki/_media/markwbadge.jpeg?w=100&tok=3dfba1",
+          "sourcePath": "/_media/markwbadge.jpeg?w=100&tok=3dfba1",
+          "alt": "",
+          "title": ""
+        }
+      ],
+      "profile": {
+        "displayName": "Mark Wilkins",
+        "alsoKnownAs": "Mark W.",
+        "portrayedBy": "Bob Balaban",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "peter_k",
+      "name": "Peter K.",
+      "pageUrl": "https://www.severance.wiki/peter_k",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "petey.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/petey.webp?w=300&tok=0a2de4",
+          "sourcePath": "/_media/petey.webp?w=300&tok=0a2de4",
+          "alt": "Peter Kilmer",
+          "title": "Peter Kilmer"
+        }
+      ],
+      "profile": {
+        "displayName": "Peter Kilmer",
+        "alsoKnownAs": "Peter K., Petey",
+        "portrayedBy": "Yul Vazquez",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Reintegrated, Deceased",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "burt_g",
+      "name": "Burt G.",
+      "pageUrl": "https://www.severance.wiki/burt_g",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "burt_goodman.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/burt_goodman.webp",
+          "sourcePath": "/_media/burt_goodman.webp",
+          "alt": "Burt Goodman",
+          "title": "Burt Goodman"
+        }
+      ],
+      "profile": {
+        "displayName": "Burt Goodman",
+        "alsoKnownAs": "Burt G.",
+        "portrayedBy": "Christopher Walken",
+        "occupation": "Optics and Design at Lumon Industries",
+        "status": "Severed, Retired, Alive",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "elizabeth",
+      "name": "Elizabeth",
+      "pageUrl": "https://www.severance.wiki/elizabeth",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "elizabeth.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/elizabeth.webp",
+          "sourcePath": "/_media/elizabeth.webp",
+          "alt": "Elizabeth",
+          "title": "Elizabeth"
+        }
+      ],
+      "profile": {
+        "displayName": "Elizabeth",
+        "alsoKnownAs": "",
+        "portrayedBy": "Rachel Addington",
+        "occupation": "Optics and Design at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "The You You Are"
+      }
+    },
+    {
+      "slug": "felicia",
+      "name": "Felicia",
+      "pageUrl": "https://www.severance.wiki/felicia",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "felicia.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/felicia.webp?w=800&h=800&tok=ebc646",
+          "sourcePath": "/_media/felicia.webp?w=800&h=800&tok=ebc646",
+          "alt": "Felicia",
+          "title": "Felicia"
+        }
+      ],
+      "profile": {
+        "displayName": "Felicia",
+        "alsoKnownAs": "",
+        "portrayedBy": "Claudia Robinson",
+        "occupation": "Optics and Design at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "In Perpetuity"
+      }
+    },
+    {
+      "slug": "goat_man",
+      "name": "Goat Man",
+      "pageUrl": "https://www.severance.wiki/goat_man",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "goat_man.png",
+          "sourceUrl": "https://www.severance.wiki/_media/goat_man.png",
+          "sourcePath": "/_media/goat_man.png",
+          "alt": "Goat Man",
+          "title": "Goat Man"
+        }
+      ],
+      "profile": {
+        "displayName": "Goat Man",
+        "alsoKnownAs": "Unknown",
+        "portrayedBy": "Jared Johnston",
+        "occupation": "Mammalians Nurturable at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Who Is Alive?"
+      }
+    },
+    {
+      "slug": "lorne",
+      "name": "Lorne",
+      "pageUrl": "https://www.severance.wiki/lorne",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "lorne.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/lorne.jpg?w=800&h=800&tok=3e4037",
+          "sourcePath": "/_media/lorne.jpg?w=800&h=800&tok=3e4037",
+          "alt": "Lorne",
+          "title": "Lorne"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e3_08.09.07_lorne-mn.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_08.09.07_lorne-mn.webp",
+          "sourcePath": "/_media/s2e3_08.09.07_lorne-mn.webp",
+          "alt": "Lorne welcoming Mark and Helly to the MN office",
+          "title": "Lorne welcoming Mark and Helly to the MN office"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e3_11.12.44_lornes-desk.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_11.12.44_lornes-desk.webp",
+          "sourcePath": "/_media/s2e3_11.12.44_lornes-desk.webp",
+          "alt": "Lorne indulging Mark and Helly at her office desk",
+          "title": "Lorne indulging Mark and Helly at her office desk"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e3_10.40.14_lorne-cowbell.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_10.40.14_lorne-cowbell.webp",
+          "sourcePath": "/_media/s2e3_10.40.14_lorne-cowbell.webp",
+          "alt": "Lorne summons her department with a cowbell",
+          "title": "Lorne summons her department with a cowbell"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e3_11.13.08_lorne-frown.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_11.13.08_lorne-frown.webp",
+          "sourcePath": "/_media/s2e3_11.13.08_lorne-frown.webp",
+          "alt": "Lorne, unamused",
+          "title": "Lorne, unamused"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e3_11.13.53_lorne-smile.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_11.13.53_lorne-smile.webp",
+          "sourcePath": "/_media/s2e3_11.13.53_lorne-smile.webp",
+          "alt": "Lorne practices a smile",
+          "title": "Lorne practices a smile"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e3_18.32.20_lorne-scowl.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_18.32.20_lorne-scowl.webp",
+          "sourcePath": "/_media/s2e3_18.32.20_lorne-scowl.webp",
+          "alt": "Lorne scowls",
+          "title": "Lorne scowls"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_lorne_1.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_lorne_1.webp",
+          "sourcePath": "/_media/s2e10_lorne_1.webp",
+          "alt": "Lorne exorts [[Emile]] to the Goat Sacrifice Chamber",
+          "title": "Lorne exorts [[Emile]] to the Goat Sacrifice Chamber"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_lorne_3.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_lorne_3.webp",
+          "sourcePath": "/_media/s2e10_lorne_3.webp",
+          "alt": "As the head of Mammalians Nurturable, Lorne is tasked with carrying out the sacrifice ritual",
+          "title": "As the head of Mammalians Nurturable, Lorne is tasked with carrying out the sacrifice ritual"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_lorne_4.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_lorne_4.webp",
+          "sourcePath": "/_media/s2e10_lorne_4.webp",
+          "alt": "Being forced to sacrifice her flock has made Lorne resentful of Mr. Drummond",
+          "title": "Being forced to sacrifice her flock has made Lorne resentful of Mr. Drummond"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_lorne_5.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_lorne_5.webp",
+          "sourcePath": "/_media/s2e10_lorne_5.webp",
+          "alt": "A violent fight between Lorne and Mr. Drummond ensues",
+          "title": "A violent fight between Lorne and Mr. Drummond ensues"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_lorne-bloody.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_lorne-bloody.webp",
+          "sourcePath": "/_media/s2e10_lorne-bloody.webp",
+          "alt": "Lorne and Emile thank Mark for his help",
+          "title": "Lorne and Emile thank Mark for his help"
+        }
+      ],
+      "profile": {
+        "displayName": "Lorne",
+        "alsoKnownAs": "Unknown",
+        "portrayedBy": "Gwendoline Christie",
+        "occupation": "Mammalians Nurturable Flock Queen at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Who Is Alive?"
+      }
+    },
+    {
+      "slug": "goat_wrangler",
+      "name": "Wyatt",
+      "pageUrl": "https://www.severance.wiki/goat_wrangler",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "goat_wrangler.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/goat_wrangler.webp",
+          "sourcePath": "/_media/goat_wrangler.webp",
+          "alt": "Wyatt",
+          "title": "Wyatt"
+        }
+      ],
+      "profile": {
+        "displayName": "Wyatt",
+        "alsoKnownAs": "Goat Wrangler",
+        "portrayedBy": "Brian Rock",
+        "occupation": "Mammalians Nurturable Goat Wrangler at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "The Grim Barbarity of Optics and Design"
+      }
+    },
+    {
+      "slug": "bukayo",
+      "name": "Bukayo",
+      "pageUrl": "https://www.severance.wiki/bukayo",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "bukayo.png",
+          "sourceUrl": "https://www.severance.wiki/_media/bukayo.png",
+          "sourcePath": "/_media/bukayo.png",
+          "alt": "Bukayo",
+          "title": "Bukayo"
+        }
+      ],
+      "profile": {
+        "displayName": "Bukayo",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jonathan James Rodriguez",
+        "occupation": "Choreography & Merriment at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Cold Harbor"
+      }
+    },
+    {
+      "slug": "ms._casey",
+      "name": "Ms. Casey",
+      "pageUrl": "https://www.severance.wiki/ms._casey",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gemma_casey.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/gemma_casey.webp",
+          "sourcePath": "/_media/gemma_casey.webp",
+          "alt": "Gemma Scout",
+          "title": "Gemma Scout"
+        },
+        {
+          "role": "gallery",
+          "filename": "wellnesscaseytree.png",
+          "sourceUrl": "https://www.severance.wiki/_media/wellnesscaseytree.png",
+          "sourcePath": "/_media/wellnesscaseytree.png",
+          "alt": "Ms. Casey conducting a Wellness Session",
+          "title": "Ms. Casey conducting a Wellness Session"
+        },
+        {
+          "role": "gallery",
+          "filename": "mscaseyphotos1e7.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/mscaseyphotos1e7.webp",
+          "sourcePath": "/_media/mscaseyphotos1e7.webp",
+          "alt": "Mark's photo of Gemma, taped back together",
+          "title": "Mark's photo of Gemma, taped back together"
+        },
+        {
+          "role": "gallery",
+          "filename": "mscaseyphoto.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/mscaseyphoto.webp",
+          "sourcePath": "/_media/mscaseyphoto.webp",
+          "alt": "Mark and Gemma's wedding photo",
+          "title": "Mark and Gemma's wedding photo"
+        }
+      ],
+      "profile": {
+        "displayName": "Gemma Scout",
+        "alsoKnownAs": "Ms. Casey, Nan",
+        "portrayedBy": "Dichen Lachman",
+        "occupation": "Former Wellness Director/Test Subject",
+        "status": "Severed, “She’s alive!”",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "doug_graner",
+      "name": "Doug Graner",
+      "pageUrl": "https://www.severance.wiki/doug_graner",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "doug_graner.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/doug_graner.webp?w=800&h=800&tok=22351a",
+          "sourcePath": "/_media/doug_graner.webp?w=800&h=800&tok=22351a",
+          "alt": "Doug Graner",
+          "title": "Doug Graner"
+        }
+      ],
+      "profile": {
+        "displayName": "Doug Graner",
+        "alsoKnownAs": "Mr. Graner",
+        "portrayedBy": "Michael Cumpsty",
+        "occupation": "Head of Security on the Severed Floor at Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "eustice_huang",
+      "name": "Eustice Huang",
+      "pageUrl": "https://www.severance.wiki/eustice_huang",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "misshuang-cu.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/misshuang-cu.jpg?w=800&h=800&tok=8100e7",
+          "sourcePath": "/_media/misshuang-cu.jpg?w=800&h=800&tok=8100e7",
+          "alt": "Eustice Huang",
+          "title": "Eustice Huang"
+        }
+      ],
+      "profile": {
+        "displayName": "Eustice Huang",
+        "alsoKnownAs": "Miss Huang",
+        "portrayedBy": "Sarah Bock",
+        "occupation": "Student of Gunnel Eagan Empathy Center",
+        "status": "Unsevered, Alive",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "harmony_cobel",
+      "name": "Harmony Cobel",
+      "pageUrl": "https://www.severance.wiki/harmony_cobel",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "harmony_cobel.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/harmony_cobel.webp?w=800&h=800&tok=a46fc1",
+          "sourcePath": "/_media/harmony_cobel.webp?w=800&h=800&tok=a46fc1",
+          "alt": "Harmony Cobel",
+          "title": "Harmony Cobel"
+        },
+        {
+          "role": "gallery",
+          "filename": "harmonyroom.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/harmonyroom.webp?w=600&h=400&tok=54f7f4",
+          "sourcePath": "/_media/harmonyroom.webp?w=600&h=400&tok=54f7f4",
+          "alt": "Harmony’s bedroom, as formal as the preserved bedroom of Kier",
+          "title": "Harmony’s bedroom, as formal as the preserved bedroom of Kier"
+        },
+        {
+          "role": "gallery",
+          "filename": "sev_8_dolls_1432.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/sev_8_dolls_1432.webp?w=600&h=400&tok=9ec97f",
+          "sourcePath": "/_media/sev_8_dolls_1432.webp?w=600&h=400&tok=9ec97f",
+          "alt": "Dolls resembling Harmony and Kier",
+          "title": "Dolls resembling Harmony and Kier"
+        },
+        {
+          "role": "gallery",
+          "filename": "closeupofshrine1.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/closeupofshrine1.webp?w=600&h=400&tok=974302",
+          "sourcePath": "/_media/closeupofshrine1.webp?w=600&h=400&tok=974302",
+          "alt": "A close-up of the Kier Shrine",
+          "title": "A close-up of the Kier Shrine"
+        }
+      ],
+      "profile": {
+        "displayName": "Harmony Cobel",
+        "alsoKnownAs": "Mrs. Selvig, Ms. Cobel, Cobelvig",
+        "portrayedBy": "Patricia Arquette",
+        "occupation": "Vindication",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "mr_drummond",
+      "name": "Mr. Drummond",
+      "pageUrl": "https://www.severance.wiki/mr_drummond",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "drummond_bowtie.png",
+          "sourceUrl": "https://www.severance.wiki/_media/drummond_bowtie.png?w=800&h=800&tok=b826f0",
+          "sourcePath": "/_media/drummond_bowtie.png?w=800&h=800&tok=b826f0",
+          "alt": "Mr. Drummond",
+          "title": "Mr. Drummond"
+        }
+      ],
+      "profile": {
+        "displayName": "Mr. Drummond",
+        "alsoKnownAs": "",
+        "portrayedBy": "Ólafur Darri Ólafsson",
+        "occupation": "Fixer at Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "Goodbye, Mrs. Selvig"
+      }
+    },
+    {
+      "slug": "natalie",
+      "name": "Natalie Kalen",
+      "pageUrl": "https://www.severance.wiki/natalie",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "natalie.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/natalie.webp?w=250&tok=a3d18a",
+          "sourcePath": "/_media/natalie.webp?w=250&tok=a3d18a",
+          "alt": "Natalie Kalen",
+          "title": "Natalie Kalen"
+        }
+      ],
+      "profile": {
+        "displayName": "Natalie Kalen",
+        "alsoKnownAs": "",
+        "portrayedBy": "Sydney Cole Alexander",
+        "occupation": "PR Representative at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "In Perpetuity"
+      }
+    },
+    {
+      "slug": "seth_milchick",
+      "name": "Seth Milchick",
+      "pageUrl": "https://www.severance.wiki/seth_milchick",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "seth_milchick.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/seth_milchick.webp",
+          "sourcePath": "/_media/seth_milchick.webp",
+          "alt": "Seth Milchick",
+          "title": "Seth Milchick"
+        }
+      ],
+      "profile": {
+        "displayName": "Seth Milchick",
+        "alsoKnownAs": "Mr. Milchick, Mr. Milkshake",
+        "portrayedBy": "Tramell Tillman",
+        "occupation": "Severed Floor Manager at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "the_board",
+      "name": "The Board",
+      "pageUrl": "https://www.severance.wiki/the_board",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "the-board-speaker.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/the-board-speaker.webp",
+          "sourcePath": "/_media/the-board-speaker.webp",
+          "alt": "The intercom used by The Board",
+          "title": "The intercom used by The Board"
+        }
+      ],
+      "profile": {
+        "displayName": "The Board",
+        "alsoKnownAs": "",
+        "portrayedBy": "Unknown",
+        "occupation": "",
+        "status": "Vocally Non-contributory",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "ambrose_eagan",
+      "name": "Ambrose Eagan",
+      "pageUrl": "https://www.severance.wiki/ambrose_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "ambrose_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/ambrose_eagan.webp",
+          "sourcePath": "/_media/ambrose_eagan.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        },
+        {
+          "role": "gallery",
+          "filename": "ambrose_eagan_ceo_statue_plaque_-_severance_s01e03.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/ambrose_eagan_ceo_statue_plaque_-_severance_s01e03.jpg",
+          "sourcePath": "/_media/ambrose_eagan_ceo_statue_plaque_-_severance_s01e03.jpg",
+          "alt": "Ambrose Eagan CEO statue plque",
+          "title": "Ambrose Eagan CEO statue plque"
+        }
+      ],
+      "profile": {
+        "displayName": "Ambrose Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "In Perpetuity (likeness)"
+      }
+    },
+    {
+      "slug": "baird_eagan",
+      "name": "Baird Eagan",
+      "pageUrl": "https://www.severance.wiki/baird_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "baird_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/baird_eagan.webp",
+          "sourcePath": "/_media/baird_eagan.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        },
+        {
+          "role": "gallery",
+          "filename": "motivational_grin_and_baird_it.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/motivational_grin_and_baird_it.jpg?w=300&tok=073ee9",
+          "sourcePath": "/_media/motivational_grin_and_baird_it.jpg?w=300&tok=073ee9",
+          "alt": "motivational_grin_and_baird_it.jpg",
+          "title": "motivational_grin_and_baird_it.jpg"
+        }
+      ],
+      "profile": {
+        "displayName": "Baird Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "In Perpetuity (likeness)"
+      }
+    },
+    {
+      "slug": "gerhardt_eagan",
+      "name": "Gerhardt Eagan",
+      "pageUrl": "https://www.severance.wiki/gerhardt_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gerhardt_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/gerhardt_eagan.webp",
+          "sourcePath": "/_media/gerhardt_eagan.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        }
+      ],
+      "profile": {
+        "displayName": "Gerhardt Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "In Perpetuity (likeness)"
+      }
+    },
+    {
+      "slug": "helena_eagan",
+      "name": "Helena Eagan",
+      "pageUrl": "https://www.severance.wiki/helena_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "helly_r.gif",
+          "sourceUrl": "https://www.severance.wiki/_media/helly_r.gif?w=800&h=800&tok=4fca47",
+          "sourcePath": "/_media/helly_r.gif?w=800&h=800&tok=4fca47",
+          "alt": "Helly Riggs",
+          "title": "Helly Riggs"
+        }
+      ],
+      "profile": {
+        "displayName": "Helly Riggs",
+        "alsoKnownAs": "Helly R., Helly Riggs",
+        "portrayedBy": "Britt Lower",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "imogene_eagan",
+      "name": "Imogene Eagan",
+      "pageUrl": "https://www.severance.wiki/imogene_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "imogene.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/imogene.webp",
+          "sourcePath": "/_media/imogene.webp",
+          "alt": "Imogene Eagan",
+          "title": "Imogene Eagan"
+        }
+      ],
+      "profile": {
+        "displayName": "Imogene Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "Swab Girl",
+        "status": "Deceased",
+        "firstAppearance": "The Grim Barbarity of Optics and Design (likeness)"
+      }
+    },
+    {
+      "slug": "jame_eagan",
+      "name": "Jame Eagan",
+      "pageUrl": "https://www.severance.wiki/jame_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "jame_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/jame_eagan.webp?w=800&h=800&tok=4b4508",
+          "sourcePath": "/_media/jame_eagan.webp?w=800&h=800&tok=4b4508",
+          "alt": "Jame Eagan",
+          "title": "Jame Eagan"
+        },
+        {
+          "role": "gallery",
+          "filename": "jame_eagan_ceo_statue_-_severance.s01e03.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/jame_eagan_ceo_statue_-_severance.s01e03.webp",
+          "sourcePath": "/_media/jame_eagan_ceo_statue_-_severance.s01e03.webp",
+          "alt": "Lifesize statue Jame in the lobby of the Perpetuity Wing",
+          "title": "Lifesize statue Jame in the lobby of the Perpetuity Wing"
+        },
+        {
+          "role": "gallery",
+          "filename": "s1e9_jame-signet-ring_22-55.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s1e9_jame-signet-ring_22-55.webp",
+          "sourcePath": "/_media/s1e9_jame-signet-ring_22-55.webp",
+          "alt": "Jame's Lumon signet ring",
+          "title": "Jame's Lumon signet ring"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e9_take-them-raw.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e9_take-them-raw.webp",
+          "sourcePath": "/_media/s2e9_take-them-raw.webp",
+          "alt": "Jame vocalizing his disapproval in Helly's breakfast habits",
+          "title": "Jame vocalizing his disapproval in Helly's breakfast habits"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_helly-jame-silhouette.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_helly-jame-silhouette.webp",
+          "sourcePath": "/_media/s2e10_helly-jame-silhouette.webp",
+          "alt": "Jame surprises Helly in MDR office",
+          "title": "Jame surprises Helly in MDR office"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_jame-goon-room-3.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_jame-goon-room-3.webp",
+          "sourcePath": "/_media/s2e10_jame-goon-room-3.webp",
+          "alt": "Jame watching activity on the Testing Floor in his Observation Room",
+          "title": "Jame watching activity on the Testing Floor in his Observation Room"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_cu-jame-eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_cu-jame-eagan.webp",
+          "sourcePath": "/_media/s2e10_cu-jame-eagan.webp",
+          "alt": "Jame horror-stricken watching the Mark S|Mark sabotage the Cold Harbor test",
+          "title": "Jame horror-stricken watching the Mark S|Mark sabotage the Cold Harbor test"
+        }
+      ],
+      "profile": {
+        "displayName": "Jame Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "Michael Siberry",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "In Perpetuity (likeness)"
+      }
+    },
+    {
+      "slug": "kier_eagan",
+      "name": "Kier Eagan",
+      "pageUrl": "https://www.severance.wiki/kier_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "kier_eagan_wax_figure.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/kier_eagan_wax_figure.webp",
+          "sourcePath": "/_media/kier_eagan_wax_figure.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        },
+        {
+          "role": "gallery",
+          "filename": "kier_eagan_ceo_statue_plaque_-_severance.s01e03.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/kier_eagan_ceo_statue_plaque_-_severance.s01e03.webp?w=450&tok=eb249d",
+          "sourcePath": "/_media/kier_eagan_ceo_statue_plaque_-_severance.s01e03.webp?w=450&tok=eb249d",
+          "alt": "Kier Eagan CEO statue plaque",
+          "title": "Kier Eagan CEO statue plaque"
+        }
+      ],
+      "profile": {
+        "displayName": "Kier Eagan",
+        "alsoKnownAs": "The Founder, The Grandfather, Chosen One",
+        "portrayedBy": "Marc Geller\nBen Stiller (voice in animation)",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "Good News About Hell (likeness)"
+      }
+    },
+    {
+      "slug": "leonora_eagan",
+      "name": "Leonora Eagan",
+      "pageUrl": "https://www.severance.wiki/leonora_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "leonora_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/leonora_eagan.webp",
+          "sourcePath": "/_media/leonora_eagan.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        },
+        {
+          "role": "gallery",
+          "filename": "leonora_eagan_ceo_statue_plaque_-_severance_s01e03.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/leonora_eagan_ceo_statue_plaque_-_severance_s01e03.jpg?w=400&tok=5ab409",
+          "sourcePath": "/_media/leonora_eagan_ceo_statue_plaque_-_severance_s01e03.jpg?w=400&tok=5ab409",
+          "alt": "Leonora Eagan CEO statue plaque",
+          "title": "Leonora Eagan CEO statue plaque"
+        }
+      ],
+      "profile": {
+        "displayName": "Leonora Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "In Perpetuity (likeness)"
+      }
+    },
+    {
+      "slug": "myrtle_eagan",
+      "name": "Myrtle Eagan",
+      "pageUrl": "https://www.severance.wiki/myrtle_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "myrtle_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/myrtle_eagan.webp",
+          "sourcePath": "/_media/myrtle_eagan.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        },
+        {
+          "role": "gallery",
+          "filename": "harmony-cobel-at-myrtle-eagan-school.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/harmony-cobel-at-myrtle-eagan-school.webp",
+          "sourcePath": "/_media/harmony-cobel-at-myrtle-eagan-school.webp",
+          "alt": "Photo of Harmony Cobel at the Myrtle Eagan School for Girls",
+          "title": "Photo of Harmony Cobel at the Myrtle Eagan School for Girls"
+        },
+        {
+          "role": "gallery",
+          "filename": "myrtle-eagan-credit-union-mail.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/myrtle-eagan-credit-union-mail.webp",
+          "sourcePath": "/_media/myrtle-eagan-credit-union-mail.webp",
+          "alt": "Credit card offer from the Myrtle Eagan Credit Union",
+          "title": "Credit card offer from the Myrtle Eagan Credit Union"
+        }
+      ],
+      "profile": {
+        "displayName": "Myrtle Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jillian Lindig",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "In Perpetuity"
+      }
+    },
+    {
+      "slug": "phillip_pip_eagan",
+      "name": "Phillip “Pip” Eagan",
+      "pageUrl": "https://www.severance.wiki/phillip_pip_eagan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "pip_eagan.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/pip_eagan.webp",
+          "sourcePath": "/_media/pip_eagan.webp",
+          "alt": "Wax Figure",
+          "title": "Wax Figure"
+        }
+      ],
+      "profile": {
+        "displayName": "Phillip “Pip” Eagan",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "CEO of Lumon Industries",
+        "status": "Deceased",
+        "firstAppearance": "In Perpetuity (likeness)"
+      }
+    },
+    {
+      "slug": "animated_lumon_administrative_building",
+      "name": "Animated Lumon Administrative Building",
+      "pageUrl": "https://www.severance.wiki/animated_lumon_administrative_building",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "animated_lumon_administrative_building.png",
+          "sourceUrl": "https://www.severance.wiki/_media/animated_lumon_administrative_building.png",
+          "sourcePath": "/_media/animated_lumon_administrative_building.png",
+          "alt": "Animated Lumon Administrative Building",
+          "title": "Animated Lumon Administrative Building"
+        }
+      ],
+      "profile": {
+        "displayName": "Animated Lumon Administrative Building",
+        "alsoKnownAs": "Branch 501, Lumon",
+        "portrayedBy": "Keanu Reeves (voice)",
+        "occupation": "",
+        "status": "",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "animated_water_tower",
+      "name": "Animated Water Tower",
+      "pageUrl": "https://www.severance.wiki/animated_water_tower",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "animated_water_tower.png",
+          "sourceUrl": "https://www.severance.wiki/_media/animated_water_tower.png",
+          "sourcePath": "/_media/animated_water_tower.png",
+          "alt": "Animated Water Tower",
+          "title": "Animated Water Tower"
+        }
+      ],
+      "profile": {
+        "displayName": "Animated Water Tower",
+        "alsoKnownAs": "",
+        "portrayedBy": "Sarah Sherman (voice)",
+        "occupation": "",
+        "status": "",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "sevy",
+      "name": "Sevy",
+      "pageUrl": "https://www.severance.wiki/sevy",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "sevy.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/sevy.webp?w=400&tok=e4002d",
+          "sourcePath": "/_media/sevy.webp?w=400&tok=e4002d",
+          "alt": "Sevy as seen in The Macrodata Refiner's Orientation Booklet",
+          "title": "Sevy as seen in The Macrodata Refiner's Orientation Booklet"
+        }
+      ],
+      "profile": {
+        "displayName": "Sevy",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "",
+        "status": "",
+        "firstAppearance": "Severance: The Lexington Letter"
+      }
+    },
+    {
+      "slug": "four_tempers_dancers",
+      "name": "The Four Tempers (dancers)",
+      "pageUrl": "https://www.severance.wiki/four_tempers_dancers",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "s1e8_four_tempers_dancer.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s1e8_four_tempers_dancer.webp?w=800&h=800&tok=aa45d0",
+          "sourcePath": "/_media/s1e8_four_tempers_dancer.webp?w=800&h=800&tok=aa45d0",
+          "alt": "The Four Tempers",
+          "title": "The Four Tempers"
+        }
+      ],
+      "profile": {
+        "displayName": "The Four Tempers",
+        "alsoKnownAs": "The Tempers",
+        "portrayedBy": "Olivia Alboher\nSamantha Easton Farrow\nSarah Gold\nWeston Krukow",
+        "occupation": "Dancers at Lumon Industries",
+        "status": "Disappointed, Alive",
+        "firstAppearance": "What’s for Dinner?"
+      }
+    },
+    {
+      "slug": "shadow_dylan",
+      "name": "Shadow Dylan",
+      "pageUrl": "https://www.severance.wiki/shadow_dylan",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "shadow_dylan.png",
+          "sourceUrl": "https://www.severance.wiki/_media/shadow_dylan.png?w=800&h=800&tok=fd6d04",
+          "sourcePath": "/_media/shadow_dylan.png?w=800&h=800&tok=fd6d04",
+          "alt": "Shadow Dylan",
+          "title": "Shadow Dylan"
+        }
+      ],
+      "profile": {
+        "displayName": "Shadow Dylan",
+        "alsoKnownAs": "",
+        "portrayedBy": "Quentin Avery Brown",
+        "occupation": "Shadow at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Woe's Hollow"
+      }
+    },
+    {
+      "slug": "shadow_helly",
+      "name": "Shadow Helly",
+      "pageUrl": "https://www.severance.wiki/shadow_helly",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "shadow_helly.png",
+          "sourceUrl": "https://www.severance.wiki/_media/shadow_helly.png?w=800&h=800&tok=c68e29",
+          "sourcePath": "/_media/shadow_helly.png?w=800&h=800&tok=c68e29",
+          "alt": "Shadow Helly",
+          "title": "Shadow Helly"
+        }
+      ],
+      "profile": {
+        "displayName": "Shadow Helly",
+        "alsoKnownAs": "",
+        "portrayedBy": "Mishay Petronelli",
+        "occupation": "Shadow at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Woe's Hollow"
+      }
+    },
+    {
+      "slug": "shadow_irving",
+      "name": "Shadow Irving",
+      "pageUrl": "https://www.severance.wiki/shadow_irving",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "shadow_irving.png",
+          "sourceUrl": "https://www.severance.wiki/_media/shadow_irving.png?w=800&h=800&tok=c8c4da",
+          "sourcePath": "/_media/shadow_irving.png?w=800&h=800&tok=c8c4da",
+          "alt": "Shadow Mark, Shadow Helly, Shadow Irving, and Shadow Dylan stand upon a cliff",
+          "title": "Shadow Mark, Shadow Helly, Shadow Irving, and Shadow Dylan stand upon a cliff"
+        }
+      ],
+      "profile": {
+        "displayName": "Shadow Irving",
+        "alsoKnownAs": "",
+        "portrayedBy": "Matthew LaBanca",
+        "occupation": "Shadow at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Woe's Hollow"
+      }
+    },
+    {
+      "slug": "shadow_mark",
+      "name": "Shadow Mark",
+      "pageUrl": "https://www.severance.wiki/shadow_mark",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "shadow_mark_2.png",
+          "sourceUrl": "https://www.severance.wiki/_media/shadow_mark_2.png?w=800&h=800&tok=566c5f",
+          "sourcePath": "/_media/shadow_mark_2.png?w=800&h=800&tok=566c5f",
+          "alt": "Shadow Mark",
+          "title": "Shadow Mark"
+        },
+        {
+          "role": "gallery",
+          "filename": "man_in_hallway.png",
+          "sourceUrl": "https://www.severance.wiki/_media/man_in_hallway.png",
+          "sourcePath": "/_media/man_in_hallway.png",
+          "alt": "Shadow Mark lurks behind Mark, outside of Wellness",
+          "title": "Shadow Mark lurks behind Mark, outside of Wellness"
+        },
+        {
+          "role": "gallery",
+          "filename": "shadow_mark_1.png",
+          "sourceUrl": "https://www.severance.wiki/_media/shadow_mark_1.png",
+          "sourcePath": "/_media/shadow_mark_1.png",
+          "alt": "Shadow Mark points the way to Woe's Hollow",
+          "title": "Shadow Mark points the way to Woe's Hollow"
+        }
+      ],
+      "profile": {
+        "displayName": "Shadow Mark",
+        "alsoKnownAs": "Man in Hallway",
+        "portrayedBy": "Adam Jepsen",
+        "occupation": "Shadow at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Hello, Ms. Cobel"
+      }
+    },
+    {
+      "slug": "dylan_watcher",
+      "name": "Dylan Watcher",
+      "pageUrl": "https://www.severance.wiki/dylan_watcher",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dylan_watcher.png",
+          "sourceUrl": "https://www.severance.wiki/_media/dylan_watcher.png?w=800&h=800&tok=0dda2e",
+          "sourcePath": "/_media/dylan_watcher.png?w=800&h=800&tok=0dda2e",
+          "alt": "Dylan Watcher",
+          "title": "Dylan Watcher"
+        }
+      ],
+      "profile": {
+        "displayName": "Dylan Watcher",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jordan Plumey",
+        "occupation": "Watcher at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Chikhai Bardo"
+      }
+    },
+    {
+      "slug": "helly_watcher",
+      "name": "Helly Watcher",
+      "pageUrl": "https://www.severance.wiki/helly_watcher",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "helly_watcher.png",
+          "sourceUrl": "https://www.severance.wiki/_media/helly_watcher.png?w=800&h=800&tok=e11da9",
+          "sourcePath": "/_media/helly_watcher.png?w=800&h=800&tok=e11da9",
+          "alt": "Helly Watcher",
+          "title": "Helly Watcher"
+        }
+      ],
+      "profile": {
+        "displayName": "Helly Watcher",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jennifer Stepanyk",
+        "occupation": "Watcher at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Chikhai Bardo"
+      }
+    },
+    {
+      "slug": "reghabi",
+      "name": "Asal Reghabi",
+      "pageUrl": "https://www.severance.wiki/reghabi",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "regabhi.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/regabhi.webp",
+          "sourcePath": "/_media/regabhi.webp",
+          "alt": "Asal Reghabi",
+          "title": "Asal Reghabi"
+        }
+      ],
+      "profile": {
+        "displayName": "Asal Reghabi",
+        "alsoKnownAs": "",
+        "portrayedBy": "Karen Aldridge",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "cecily",
+      "name": "Cecily",
+      "pageUrl": "https://www.severance.wiki/cecily",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "nurse.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/nurse.jpg?w=800&h=800&tok=09bef2",
+          "sourcePath": "/_media/nurse.jpg?w=800&h=800&tok=09bef2",
+          "alt": "Cecily",
+          "title": "Cecily"
+        }
+      ],
+      "profile": {
+        "displayName": "Cecily",
+        "alsoKnownAs": "Nurse",
+        "portrayedBy": "Sandra Bernhard",
+        "occupation": "Nurse at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Chikhai Bardo"
+      }
+    },
+    {
+      "slug": "dr_mauer",
+      "name": "Dr. Mauer",
+      "pageUrl": "https://www.severance.wiki/dr_mauer",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dr_mauer.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/dr_mauer.jpg?w=800&h=800&tok=bd4a57",
+          "sourcePath": "/_media/dr_mauer.jpg?w=800&h=800&tok=bd4a57",
+          "alt": "Dr. Mauer",
+          "title": "Dr. Mauer"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e5-doctor.png",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e5-doctor.png",
+          "sourcePath": "/_media/s2e5-doctor.png",
+          "alt": "Dr. Mauer, seen from behind",
+          "title": "Dr. Mauer, seen from behind"
+        },
+        {
+          "role": "gallery",
+          "filename": "dr_mauer_butzemann_fertility_center.png",
+          "sourceUrl": "https://www.severance.wiki/_media/dr_mauer_butzemann_fertility_center.png",
+          "sourcePath": "/_media/dr_mauer_butzemann_fertility_center.png",
+          "alt": "Working at the Fertility Center as a doctor",
+          "title": "Working at the Fertility Center as a doctor"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e7-mauer-airplane.png",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e7-mauer-airplane.png",
+          "sourcePath": "/_media/s2e7-mauer-airplane.png",
+          "alt": "Terrifying Gemma as a flight attendant on a turbulent airplane",
+          "title": "Terrifying Gemma as a flight attendant on a turbulent airplane"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e7_mauer-sweater2.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e7_mauer-sweater2.webp",
+          "sourcePath": "/_media/s2e7_mauer-sweater2.webp",
+          "alt": "Monitoring his \"wife\" Gemma in the Allentown room",
+          "title": "Monitoring his \"wife\" Gemma in the Allentown room"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e7-allentown.png",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e7-allentown.png",
+          "sourcePath": "/_media/s2e7-allentown.png",
+          "alt": "The Allentown Room",
+          "title": "The Allentown Room"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e7_dr-mauer.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e7_dr-mauer.webp",
+          "sourcePath": "/_media/s2e7_dr-mauer.webp",
+          "alt": "Dr. Mauer's close-up",
+          "title": "Dr. Mauer's close-up"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e7_mauer-stereo.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e7_mauer-stereo.webp",
+          "sourcePath": "/_media/s2e7_mauer-stereo.webp",
+          "alt": "Dr. Mauer visits Gemma in her quarters",
+          "title": "Dr. Mauer visits Gemma in her quarters"
+        }
+      ],
+      "profile": {
+        "displayName": "Dr. Mauer",
+        "alsoKnownAs": "",
+        "portrayedBy": "Robby Benson",
+        "occupation": "Testing Floor Scientist at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Trojan's Horse"
+      }
+    },
+    {
+      "slug": "event_coordinator",
+      "name": "Event Coordinator",
+      "pageUrl": "https://www.severance.wiki/event_coordinator",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "event_coordinator.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/event_coordinator.webp",
+          "sourcePath": "/_media/event_coordinator.webp",
+          "alt": "Event Coordinator",
+          "title": "Event Coordinator"
+        }
+      ],
+      "profile": {
+        "displayName": "Event Coordinator",
+        "alsoKnownAs": "",
+        "portrayedBy": "Amy Stiller",
+        "occupation": "Event Coordinator",
+        "status": "Alive",
+        "firstAppearance": "The We We Are"
+      }
+    },
+    {
+      "slug": "florence",
+      "name": "Florence",
+      "pageUrl": "https://www.severance.wiki/florence",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "florence_alt.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/florence_alt.webp",
+          "sourcePath": "/_media/florence_alt.webp",
+          "alt": "Florence",
+          "title": "Florence"
+        }
+      ],
+      "profile": {
+        "displayName": "Florence",
+        "alsoKnownAs": "",
+        "portrayedBy": "Anthoula Katsimatides",
+        "occupation": "Receptionist at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "gate_guard",
+      "name": "Gate Guard",
+      "pageUrl": "https://www.severance.wiki/gate_guard",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gate_guard.png",
+          "sourceUrl": "https://www.severance.wiki/_media/gate_guard.png",
+          "sourcePath": "/_media/gate_guard.png",
+          "alt": "Gate Guard",
+          "title": "Gate Guard"
+        }
+      ],
+      "profile": {
+        "displayName": "Gate Guard",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jeanine Marie Flynn",
+        "occupation": "Unknown at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Trojan's Horse"
+      }
+    },
+    {
+      "slug": "driver",
+      "name": "Helena Eagan's Driver",
+      "pageUrl": "https://www.severance.wiki/driver",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "driver.png",
+          "sourceUrl": "https://www.severance.wiki/_media/driver.png",
+          "sourcePath": "/_media/driver.png",
+          "alt": "Unnamed Driver",
+          "title": "Unnamed Driver"
+        }
+      ],
+      "profile": {
+        "displayName": "Driver",
+        "alsoKnownAs": "",
+        "portrayedBy": "Unknown",
+        "occupation": "Driver/Security for Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Who Is Alive?"
+      }
+    },
+    {
+      "slug": "judd",
+      "name": "Judd",
+      "pageUrl": "https://www.severance.wiki/judd",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "judd.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/judd.webp?w=800&h=800&tok=c103d6",
+          "sourcePath": "/_media/judd.webp?w=800&h=800&tok=c103d6",
+          "alt": "Judd, the security guard",
+          "title": "Judd, the security guard"
+        }
+      ],
+      "profile": {
+        "displayName": "Judd",
+        "alsoKnownAs": "",
+        "portrayedBy": "Mark Kenneth Smaltz",
+        "occupation": "Security Guard at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "lawrence",
+      "name": "Lawrence",
+      "pageUrl": "https://www.severance.wiki/lawrence",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "lawrence.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/lawrence.webp",
+          "sourcePath": "/_media/lawrence.webp",
+          "alt": "Lawrence",
+          "title": "Lawrence"
+        }
+      ],
+      "profile": {
+        "displayName": "Lawrence",
+        "alsoKnownAs": "",
+        "portrayedBy": "Unknown",
+        "occupation": "Unknown at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "lumon_security_guard_1",
+      "name": "Lumon Security Guard #1",
+      "pageUrl": "https://www.severance.wiki/lumon_security_guard_1",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "lumon_security_guards.png",
+          "sourceUrl": "https://www.severance.wiki/_media/lumon_security_guards.png?w=800&h=800&tok=9b1f16",
+          "sourcePath": "/_media/lumon_security_guards.png?w=800&h=800&tok=9b1f16",
+          "alt": "Lumon Security Guard 1 (left) and Lumon Security Guard 2 (right) as they escort Mark Wilkins away from the building",
+          "title": "Lumon Security Guard 1 (left) and Lumon Security Guard 2 (right) as they escort Mark Wilkins away from the building"
+        }
+      ],
+      "profile": {
+        "displayName": "Lumon Security Guard #1",
+        "alsoKnownAs": "",
+        "portrayedBy": "Derek Hedlund",
+        "occupation": "Security Guard at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Goodbye, Mrs. Selvig"
+      }
+    },
+    {
+      "slug": "lumon_security_guard_2",
+      "name": "Lumon Security Guard #2",
+      "pageUrl": "https://www.severance.wiki/lumon_security_guard_2",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "lumon_security_guards.png",
+          "sourceUrl": "https://www.severance.wiki/_media/lumon_security_guards.png?w=800&h=800&tok=9b1f16",
+          "sourcePath": "/_media/lumon_security_guards.png?w=800&h=800&tok=9b1f16",
+          "alt": "Lumon Security Guard 1 (left) and Lumon Security Guard 2 (right) as they escort Mark Wilkins away from the building",
+          "title": "Lumon Security Guard 1 (left) and Lumon Security Guard 2 (right) as they escort Mark Wilkins away from the building"
+        }
+      ],
+      "profile": {
+        "displayName": "Lumon Security Guard #2",
+        "alsoKnownAs": "",
+        "portrayedBy": "Johnny Bermudez",
+        "occupation": "Security Guard at Lumon Industries",
+        "status": "Alive",
+        "firstAppearance": "Goodbye, Mrs. Selvig"
+      }
+    },
+    {
+      "slug": "neurosurgeon",
+      "name": "Neurosurgeon",
+      "pageUrl": "https://www.severance.wiki/neurosurgeon",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "s1e2_neurosurgeon-face.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s1e2_neurosurgeon-face.webp",
+          "sourcePath": "/_media/s1e2_neurosurgeon-face.webp",
+          "alt": "Masked neurosurgeon performs Helly's severance chip procedure",
+          "title": "Masked neurosurgeon performs Helly's severance chip procedure"
+        }
+      ],
+      "profile": {
+        "displayName": "Neurosurgeon  Masked neurosurgeon performs Helly's severance chip procedure",
+        "alsoKnownAs": "",
+        "portrayedBy": "Dr. Vijay Agrawal",
+        "occupation": "Neurosurgeon",
+        "status": "Non-severed, Alive",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "cornell_scout",
+      "name": "Cornell Scout",
+      "pageUrl": "https://www.severance.wiki/cornell_scout",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "cornell-scout-1.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/cornell-scout-1.webp",
+          "sourcePath": "/_media/cornell-scout-1.webp",
+          "alt": "Mark in his basement with the Cornell Scout footlocker in the lower-right corner",
+          "title": "Mark in his basement with the Cornell Scout footlocker in the lower-right corner"
+        },
+        {
+          "role": "gallery",
+          "filename": "cornell-scout-2.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/cornell-scout-2.webp",
+          "sourcePath": "/_media/cornell-scout-2.webp",
+          "alt": "Close-up of the name “Cornell” on the footlocker",
+          "title": "Close-up of the name “Cornell” on the footlocker"
+        }
+      ],
+      "profile": {
+        "displayName": "Cornell Scout",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "",
+        "status": "Unknown",
+        "firstAppearance": "In Perpetuity (referenced)"
+      }
+    },
+    {
+      "slug": "eleanor",
+      "name": "Eleanor Scout-Hale",
+      "pageUrl": "https://www.severance.wiki/eleanor",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "eleanor.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/eleanor.webp",
+          "sourcePath": "/_media/eleanor.webp",
+          "alt": "Eleanor Scout-Hale",
+          "title": "Eleanor Scout-Hale"
+        }
+      ],
+      "profile": {
+        "displayName": "Eleanor Scout-Hale",
+        "alsoKnownAs": "",
+        "portrayedBy": "Unknown",
+        "occupation": "",
+        "status": "Alive, Found",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "fern_scout",
+      "name": "Fern Scout",
+      "pageUrl": "https://www.severance.wiki/fern_scout",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "s2e3_reintegration-mark-1.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e3_reintegration-mark-1.webp",
+          "sourcePath": "/_media/s2e3_reintegration-mark-1.webp",
+          "alt": "Mark answering questions during his reintegration procedure",
+          "title": "Mark answering questions during his reintegration procedure"
+        }
+      ],
+      "profile": {
+        "displayName": "Fern Scout  Mark recalling his mother's name during his Reintegration procedure",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "",
+        "status": "Deceased",
+        "firstAppearance": "Who Is Alive? (referenced)"
+      }
+    },
+    {
+      "slug": "gemma",
+      "name": "Gemma Scout",
+      "pageUrl": "https://www.severance.wiki/gemma",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gemma_casey.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/gemma_casey.webp",
+          "sourcePath": "/_media/gemma_casey.webp",
+          "alt": "Gemma Scout",
+          "title": "Gemma Scout"
+        },
+        {
+          "role": "gallery",
+          "filename": "wellnesscaseytree.png",
+          "sourceUrl": "https://www.severance.wiki/_media/wellnesscaseytree.png",
+          "sourcePath": "/_media/wellnesscaseytree.png",
+          "alt": "Ms. Casey conducting a Wellness Session",
+          "title": "Ms. Casey conducting a Wellness Session"
+        },
+        {
+          "role": "gallery",
+          "filename": "mscaseyphotos1e7.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/mscaseyphotos1e7.webp",
+          "sourcePath": "/_media/mscaseyphotos1e7.webp",
+          "alt": "Mark's photo of Gemma, taped back together",
+          "title": "Mark's photo of Gemma, taped back together"
+        },
+        {
+          "role": "gallery",
+          "filename": "mscaseyphoto.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/mscaseyphoto.webp",
+          "sourcePath": "/_media/mscaseyphoto.webp",
+          "alt": "Mark and Gemma's wedding photo",
+          "title": "Mark and Gemma's wedding photo"
+        }
+      ],
+      "profile": {
+        "displayName": "Gemma Scout",
+        "alsoKnownAs": "Ms. Casey, Nan",
+        "portrayedBy": "Dichen Lachman",
+        "occupation": "Former Wellness Director/Test Subject",
+        "status": "Severed, “She’s alive!”",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "mark_scout",
+      "name": "Mark Scout",
+      "pageUrl": "https://www.severance.wiki/mark_scout",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "marks_desk.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
+          "sourcePath": "/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
+          "alt": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) ",
+          "title": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) "
+        },
+        {
+          "role": "gallery",
+          "filename": "mark_gemma_wedding.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/mark_gemma_wedding.webp?w=400&tok=2705a0",
+          "sourcePath": "/_media/mark_gemma_wedding.webp?w=400&tok=2705a0",
+          "alt": "Mark and Gemma’s wedding photo",
+          "title": "Mark and Gemma’s wedding photo"
+        },
+        {
+          "role": "gallery",
+          "filename": "marks_locker_room.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_locker_room.webp?w=1200&h=800&tok=616f76",
+          "sourcePath": "/_media/marks_locker_room.webp?w=1200&h=800&tok=616f76",
+          "alt": "Mark swaps out his watch before heading to the elevator",
+          "title": "Mark swaps out his watch before heading to the elevator"
+        },
+        {
+          "role": "gallery",
+          "filename": "marks_id_and_license.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_id_and_license.webp?w=1200&h=800&tok=8cf63d",
+          "sourcePath": "/_media/marks_id_and_license.webp?w=1200&h=800&tok=8cf63d",
+          "alt": "Mark’s ID badge and driver’s license",
+          "title": "Mark’s ID badge and driver’s license"
+        },
+        {
+          "role": "gallery",
+          "filename": "severance-mark-driver-license-from-1x01-and-1x03.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/severance-mark-driver-license-from-1x01-and-1x03.jpg?w=1200&h=800&tok=06f16f",
+          "sourcePath": "/_media/severance-mark-driver-license-from-1x01-and-1x03.jpg?w=1200&h=800&tok=06f16f",
+          "alt": "Mark’s driver’s license views combined",
+          "title": "Mark’s driver’s license views combined"
+        },
+        {
+          "role": "gallery",
+          "filename": "marks_watch.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/marks_watch.webp?w=1200&h=800&tok=06c46e",
+          "sourcePath": "/_media/marks_watch.webp?w=1200&h=800&tok=06c46e",
+          "alt": "Mark’s Outie checking his watch",
+          "title": "Mark’s Outie checking his watch"
+        }
+      ],
+      "profile": {
+        "displayName": "Mark Scout",
+        "alsoKnownAs": "Mark S., Milady, Flip",
+        "portrayedBy": "Adam Scott",
+        "occupation": "Macrodata Refinement Chief at Lumon Industries",
+        "status": "Partially/Fully Reintegrated, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "ricken_hale",
+      "name": "Ricken Hale",
+      "pageUrl": "https://www.severance.wiki/ricken_hale",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "ricken_face_cover.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/ricken_face_cover.webp",
+          "sourcePath": "/_media/ricken_face_cover.webp",
+          "alt": "Ricken Hale",
+          "title": "Ricken Hale"
+        },
+        {
+          "role": "gallery",
+          "filename": "ricken-backstory-tweet-by-michael-chernus-2022-04-01.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/ricken-backstory-tweet-by-michael-chernus-2022-04-01.webp?w=500&tok=7c8828",
+          "sourcePath": "/_media/ricken-backstory-tweet-by-michael-chernus-2022-04-01.webp?w=500&tok=7c8828",
+          "alt": "Ricken Backstory Tweet",
+          "title": "Ricken Backstory Tweet"
+        },
+        {
+          "role": "gallery",
+          "filename": "ricken_backstory_tweet_devon_relationship.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/ricken_backstory_tweet_devon_relationship.webp?w=500&tok=8dfe01",
+          "sourcePath": "/_media/ricken_backstory_tweet_devon_relationship.webp?w=500&tok=8dfe01",
+          "alt": "Ricken Backstory Tweet",
+          "title": "Ricken Backstory Tweet"
+        }
+      ],
+      "profile": {
+        "displayName": "Ricken Hale",
+        "alsoKnownAs": "Dr. Ricken Lazlo Hale, Ph.D.",
+        "portrayedBy": "Michael Chernus",
+        "occupation": "Author",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "book_reading_attendee",
+      "name": "Book Reading Attendee",
+      "pageUrl": "https://www.severance.wiki/book_reading_attendee",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dancameothumbnail.png",
+          "sourceUrl": "https://www.severance.wiki/_media/original/dancameothumbnail.png",
+          "sourcePath": "/_media/original/dancameothumbnail.png",
+          "alt": "Book Reading Attendee",
+          "title": "Book Reading Attendee"
+        },
+        {
+          "role": "gallery",
+          "filename": "dan_erickson_cameo.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/original/dan_erickson_cameo.jpg?w=400&tok=d750f6",
+          "sourcePath": "/_media/original/dan_erickson_cameo.jpg?w=400&tok=d750f6",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "role": "gallery",
+          "filename": "dancameowide.png",
+          "sourceUrl": "https://www.severance.wiki/_media/original/dancameowide.png?w=400&tok=b410aa",
+          "sourcePath": "/_media/original/dancameowide.png?w=400&tok=b410aa",
+          "alt": "",
+          "title": ""
+        }
+      ],
+      "profile": {
+        "displayName": "Book Reading Attendee",
+        "alsoKnownAs": "",
+        "portrayedBy": "Dan Erickson",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "The We We Are"
+      }
+    },
+    {
+      "slug": "danise",
+      "name": "Danise",
+      "pageUrl": "https://www.severance.wiki/danise",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "danise.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/danise.webp",
+          "sourcePath": "/_media/danise.webp",
+          "alt": "Danise",
+          "title": "Danise"
+        }
+      ],
+      "profile": {
+        "displayName": "Danise",
+        "alsoKnownAs": "",
+        "portrayedBy": "Annie McNamara",
+        "occupation": "Lawyer[1]",
+        "status": "Alive, Easily Impressed",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "rebeck",
+      "name": "Rebeck Gulk",
+      "pageUrl": "https://www.severance.wiki/rebeck",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "rebeck.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/rebeck.webp",
+          "sourcePath": "/_media/rebeck.webp",
+          "alt": "Rebeck Gulk",
+          "title": "Rebeck Gulk"
+        }
+      ],
+      "profile": {
+        "displayName": "Rebeck Gulk",
+        "alsoKnownAs": "",
+        "portrayedBy": "Grace Rex",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "dylan_george",
+      "name": "Dylan George",
+      "pageUrl": "https://www.severance.wiki/dylan_george",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dylan_g.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
+          "sourcePath": "/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
+          "alt": "Dylan George",
+          "title": "Dylan George"
+        },
+        {
+          "role": "gallery",
+          "filename": "george_family_photo.jpeg",
+          "sourceUrl": "https://www.severance.wiki/_media/george_family_photo.jpeg?w=300&tok=34598d",
+          "sourcePath": "/_media/george_family_photo.jpeg?w=300&tok=34598d",
+          "alt": "Dylan, Gretchen, Merrick, Jim, Ruth",
+          "title": "Dylan, Gretchen, Merrick, Jim, Ruth"
+        },
+        {
+          "role": "gallery",
+          "filename": "dylan_and_son.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/dylan_and_son.webp?w=300&tok=400145",
+          "sourcePath": "/_media/dylan_and_son.webp?w=300&tok=400145",
+          "alt": "Dylan holding his son, Jim",
+          "title": "Dylan holding his son, Jim"
+        }
+      ],
+      "profile": {
+        "displayName": "Dylan George",
+        "alsoKnownAs": "Dylan G.",
+        "portrayedBy": "Zach Cherry",
+        "occupation": "Macrodata Refiner at Lumon Industries",
+        "status": "Severed, Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
+      "slug": "gretchen",
+      "name": "Gretchen George",
+      "pageUrl": "https://www.severance.wiki/gretchen",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gretchen_george.png",
+          "sourceUrl": "https://www.severance.wiki/_media/gretchen_george.png",
+          "sourcePath": "/_media/gretchen_george.png",
+          "alt": "Gretchen George",
+          "title": "Gretchen George"
+        },
+        {
+          "role": "gallery",
+          "filename": "george_family_photo.jpeg",
+          "sourceUrl": "https://www.severance.wiki/_media/george_family_photo.jpeg?w=300&tok=34598d",
+          "sourcePath": "/_media/george_family_photo.jpeg?w=300&tok=34598d",
+          "alt": "george_family_photo.jpeg",
+          "title": "george_family_photo.jpeg"
+        }
+      ],
+      "profile": {
+        "displayName": "Gretchen George",
+        "alsoKnownAs": "Gretchen G.",
+        "portrayedBy": "Merritt Wever",
+        "occupation": "Unknown",
+        "status": "Undetermined, Alive",
+        "firstAppearance": "Goodbye, Mrs. Selvig"
+      }
+    },
+    {
+      "slug": "jim_george",
+      "name": "Jim George",
+      "pageUrl": "https://www.severance.wiki/jim_george",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "dylan_s_son.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/dylan_s_son.webp",
+          "sourcePath": "/_media/dylan_s_son.webp",
+          "alt": "Jim George",
+          "title": "Jim George"
+        },
+        {
+          "role": "gallery",
+          "filename": "dylans_sons_toys.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/dylans_sons_toys.webp?w=900&h=450&tok=800973",
+          "sourcePath": "/_media/dylans_sons_toys.webp?w=900&h=450&tok=800973",
+          "alt": "Jim counting to a thousand in front of the TV",
+          "title": "Jim counting to a thousand in front of the TV"
+        }
+      ],
+      "profile": {
+        "displayName": "Jim George",
+        "alsoKnownAs": "Dylan’s Son",
+        "portrayedBy": "Blaze James Gorman",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "merrick_george",
+      "name": "Merrick George",
+      "pageUrl": "https://www.severance.wiki/merrick_george",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "merrick.png",
+          "sourceUrl": "https://www.severance.wiki/_media/merrick.png?w=800&tok=160f68",
+          "sourcePath": "/_media/merrick.png?w=800&tok=160f68",
+          "alt": "Merrick George",
+          "title": "Merrick George"
+        }
+      ],
+      "profile": {
+        "displayName": "Merrick George",
+        "alsoKnownAs": "",
+        "portrayedBy": "Irish Knight Gorman",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Who Is Alive?"
+      }
+    },
+    {
+      "slug": "ruth_george",
+      "name": "Ruth George",
+      "pageUrl": "https://www.severance.wiki/ruth_george",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "george_family_photo.jpeg",
+          "sourceUrl": "https://www.severance.wiki/_media/george_family_photo.jpeg?w=800&tok=a14376",
+          "sourcePath": "/_media/george_family_photo.jpeg?w=800&tok=a14376",
+          "alt": "Family portrait of Dylan (top left), Gretchen (top right), Merrick (bottom left), Jim (bottom middle), and Ruth (bottom right)",
+          "title": "Family portrait of Dylan (top left), Gretchen (top right), Merrick (bottom left), Jim (bottom middle), and Ruth (bottom right)"
+        }
+      ],
+      "profile": {
+        "displayName": "Ruth George",
+        "alsoKnownAs": "",
+        "portrayedBy": "Unknown",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Who Is Alive?"
+      }
+    },
+    {
+      "slug": "june_kilmer",
+      "name": "June Kilmer",
+      "pageUrl": "https://www.severance.wiki/june_kilmer",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "june_kilmer.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/june_kilmer.webp",
+          "sourcePath": "/_media/june_kilmer.webp",
+          "alt": "June Kilmer",
+          "title": "June Kilmer"
+        }
+      ],
+      "profile": {
+        "displayName": "June Kilmer",
+        "alsoKnownAs": "",
+        "portrayedBy": "Cassidy Layton",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "The You You Are"
+      }
+    },
+    {
+      "slug": "burt_goodman",
+      "name": "Burt Goodman",
+      "pageUrl": "https://www.severance.wiki/burt_goodman",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "burt_goodman.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/burt_goodman.webp",
+          "sourcePath": "/_media/burt_goodman.webp",
+          "alt": "Burt Goodman",
+          "title": "Burt Goodman"
+        }
+      ],
+      "profile": {
+        "displayName": "Burt Goodman",
+        "alsoKnownAs": "Burt G.",
+        "portrayedBy": "Christopher Walken",
+        "occupation": "Optics and Design at Lumon Industries",
+        "status": "Severed, Retired, Alive",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "fields",
+      "name": "Fields",
+      "pageUrl": "https://www.severance.wiki/fields",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "fields.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/fields.jpg",
+          "sourcePath": "/_media/fields.jpg",
+          "alt": "Fields",
+          "title": "Fields"
+        },
+        {
+          "role": "gallery",
+          "filename": "cecil.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/cecil.webp?w=400&tok=9b978e",
+          "sourcePath": "/_media/cecil.webp?w=400&tok=9b978e",
+          "alt": "Fields (left) and Burt (right) taking a selfie",
+          "title": "Fields (left) and Burt (right) taking a selfie"
+        }
+      ],
+      "profile": {
+        "displayName": "Fields",
+        "alsoKnownAs": "",
+        "portrayedBy": "Arthur Brooks (Season 1)\nJohn Noble (Season 2)",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "The We We Are"
+      }
+    },
+    {
+      "slug": "charlotte_cobel",
+      "name": "Charlotte Cobel",
+      "pageUrl": "https://www.severance.wiki/charlotte_cobel",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "charlotte_tag.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/charlotte_tag.webp",
+          "sourcePath": "/_media/charlotte_tag.webp",
+          "alt": "Charlotte Cobel's Hospital Tag",
+          "title": "Charlotte Cobel's Hospital Tag"
+        }
+      ],
+      "profile": {
+        "displayName": "Charlotte Cobel",
+        "alsoKnownAs": "",
+        "portrayedBy": "",
+        "occupation": "",
+        "status": "Dead",
+        "firstAppearance": "Hide and Seek (referenced)"
+      }
+    },
+    {
+      "slug": "emile",
+      "name": "Emile",
+      "pageUrl": "https://www.severance.wiki/emile",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "emile.png",
+          "sourceUrl": "https://www.severance.wiki/_media/emile.png",
+          "sourcePath": "/_media/emile.png",
+          "alt": "Emile",
+          "title": "Emile"
+        }
+      ],
+      "profile": {
+        "displayName": "Emile",
+        "alsoKnownAs": "",
+        "portrayedBy": "Gio, Peggy",
+        "occupation": "Spirit guide for the cherished",
+        "status": "Alive, grateful",
+        "firstAppearance": "Cold Harbor"
+      }
+    },
+    {
+      "slug": "goats",
+      "name": "Goats",
+      "pageUrl": "https://www.severance.wiki/goats",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "goats.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/goats.webp",
+          "sourcePath": "/_media/goats.webp",
+          "alt": "Goats",
+          "title": "Goats"
+        }
+      ],
+      "profile": {
+        "displayName": "Goats",
+        "alsoKnownAs": "The Numbers?",
+        "portrayedBy": "",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "The Grim Barbarity of Optics and Design"
+      }
+    },
+    {
+      "slug": "radar",
+      "name": "Radar",
+      "pageUrl": "https://www.severance.wiki/radar",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "radar.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/radar.webp",
+          "sourcePath": "/_media/radar.webp",
+          "alt": "Radar the Dog",
+          "title": "Radar the Dog"
+        },
+        {
+          "role": "gallery",
+          "filename": "radar-name-tag.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/radar-name-tag.webp?w=500&tok=beffed",
+          "sourcePath": "/_media/radar-name-tag.webp?w=500&tok=beffed",
+          "alt": "Radar’s name tag",
+          "title": "Radar’s name tag"
+        }
+      ],
+      "profile": {
+        "displayName": "Radar",
+        "alsoKnownAs": "",
+        "portrayedBy": "Ditto",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Half Loop (referenced), What’s for Dinner?"
+      }
+    },
+    {
+      "slug": "ether_addict",
+      "name": "Ether Addict",
+      "pageUrl": "https://www.severance.wiki/ether_addict",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "ether_addict.png",
+          "sourceUrl": "https://www.severance.wiki/_media/ether_addict.png",
+          "sourcePath": "/_media/ether_addict.png",
+          "alt": "Ether Addict",
+          "title": "Ether Addict"
+        }
+      ],
+      "profile": {
+        "displayName": "Ether Addict",
+        "alsoKnownAs": "",
+        "portrayedBy": "Don Tripe",
+        "occupation": "",
+        "status": "Alive?",
+        "firstAppearance": "Sweet Vitriol"
+      }
+    },
+    {
+      "slug": "hampton",
+      "name": "Hampton",
+      "pageUrl": "https://www.severance.wiki/hampton",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "hampton.jpg",
+          "sourceUrl": "https://www.severance.wiki/_media/hampton.jpg",
+          "sourcePath": "/_media/hampton.jpg",
+          "alt": "Hampton",
+          "title": "Hampton"
+        }
+      ],
+      "profile": {
+        "displayName": "Hampton",
+        "alsoKnownAs": "",
+        "portrayedBy": "James Le Gros",
+        "occupation": "Waiter, Ether Dealer",
+        "status": "Alive",
+        "firstAppearance": "Sweet Vitriol"
+      }
+    },
+    {
+      "slug": "rose",
+      "name": "Rose",
+      "pageUrl": "https://www.severance.wiki/rose",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "rose.png",
+          "sourceUrl": "https://www.severance.wiki/_media/rose.png",
+          "sourcePath": "/_media/rose.png",
+          "alt": "Rose",
+          "title": "Rose"
+        }
+      ],
+      "profile": {
+        "displayName": "Rose",
+        "alsoKnownAs": "",
+        "portrayedBy": "Clare Coulter",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Sweet Vitriol"
+      }
+    },
+    {
+      "slug": "alexa",
+      "name": "Alexa",
+      "pageUrl": "https://www.severance.wiki/alexa",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "alexa.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/alexa.webp?w=300&h=350&tok=b8d41c",
+          "sourcePath": "/_media/alexa.webp?w=300&h=350&tok=b8d41c",
+          "alt": "Alexa",
+          "title": "Alexa"
+        }
+      ],
+      "profile": {
+        "displayName": "Alexa",
+        "alsoKnownAs": "",
+        "portrayedBy": "Nikki M. James",
+        "occupation": "Midwife",
+        "status": "Alive",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "angelo_arteta",
+      "name": "Angelo Arteta",
+      "pageUrl": "https://www.severance.wiki/angelo_arteta",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "angelo-arteta.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/angelo-arteta.webp",
+          "sourcePath": "/_media/angelo-arteta.webp",
+          "alt": "Angelo Arteta",
+          "title": "Angelo Arteta"
+        }
+      ],
+      "profile": {
+        "displayName": "Angelo Arteta",
+        "alsoKnownAs": "Senator Arteta",
+        "portrayedBy": "Ethan Flower",
+        "occupation": "State Senator",
+        "status": "Alive",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "bartender",
+      "name": "Bartender",
+      "pageUrl": "https://www.severance.wiki/bartender",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "bartender.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/bartender.webp",
+          "sourcePath": "/_media/bartender.webp",
+          "alt": "Bartender",
+          "title": "Bartender"
+        }
+      ],
+      "profile": {
+        "displayName": "Bartender",
+        "alsoKnownAs": "",
+        "portrayedBy": "James Augustus Lee",
+        "occupation": "Bartender",
+        "status": "Alive",
+        "firstAppearance": "The You You Are"
+      }
+    },
+    {
+      "slug": "checkout_girl",
+      "name": "Checkout Girl",
+      "pageUrl": "https://www.severance.wiki/checkout_girl",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "checkout_girl.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/checkout_girl.webp?w=600&h=400&tok=448af9",
+          "sourcePath": "/_media/checkout_girl.webp?w=600&h=400&tok=448af9",
+          "alt": "Checkout Girl",
+          "title": "Checkout Girl"
+        }
+      ],
+      "profile": {
+        "displayName": "Checkout Girl",
+        "alsoKnownAs": "Anne",
+        "portrayedBy": "Alexis Cofield",
+        "occupation": "Checkout Girl",
+        "status": "Alive",
+        "firstAppearance": "In Perpetuity"
+      }
+    },
+    {
+      "slug": "fissureman",
+      "name": "Fissureman",
+      "pageUrl": "https://www.severance.wiki/fissureman",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "bandposters.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/bandposters.webp?w=800&h=800&tok=12bb63",
+          "sourcePath": "/_media/bandposters.webp?w=800&h=800&tok=12bb63",
+          "alt": "Poster for Fissureman; photo by u/SubstantialPlan9124",
+          "title": "Poster for Fissureman; photo by u/SubstantialPlan9124"
+        }
+      ],
+      "profile": {
+        "displayName": "Fissureman",
+        "alsoKnownAs": "",
+        "portrayedBy": "Cassidy Layton\nMichael Caiazzo\nMargaret Chardiet\nTye Miller\nCharles Henry Wood",
+        "occupation": "Punk Band",
+        "status": "Alive",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "gabby_arteta",
+      "name": "Gabby Arteta",
+      "pageUrl": "https://www.severance.wiki/gabby_arteta",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "gabby-arteta.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/gabby-arteta.webp",
+          "sourcePath": "/_media/gabby-arteta.webp",
+          "alt": "Gabby Arteta",
+          "title": "Gabby Arteta"
+        }
+      ],
+      "profile": {
+        "displayName": "Gabby Artera",
+        "alsoKnownAs": "",
+        "portrayedBy": "Nora Dale",
+        "occupation": "",
+        "status": "Severed, Alive",
+        "firstAppearance": "The Grim Barbarity of Optics and Design"
+      }
+    },
+    {
+      "slug": "guy_at_venue",
+      "name": "Guy at Venue",
+      "pageUrl": "https://www.severance.wiki/guy_at_venue",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "guy_at_venue.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/guy_at_venue.webp",
+          "sourcePath": "/_media/guy_at_venue.webp",
+          "alt": "Guy at Venue",
+          "title": "Guy at Venue"
+        }
+      ],
+      "profile": {
+        "displayName": "Guy at Venue",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jonathan Iglesias",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "mr_saliba",
+      "name": "Mr. Saliba",
+      "pageUrl": "https://www.severance.wiki/mr_saliba",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "mr_saliba.png",
+          "sourceUrl": "https://www.severance.wiki/_media/mr_saliba.png?w=800&h=800&tok=5df443",
+          "sourcePath": "/_media/mr_saliba.png?w=800&h=800&tok=5df443",
+          "alt": "Mr. Saliba",
+          "title": "Mr. Saliba"
+        }
+      ],
+      "profile": {
+        "displayName": "Mr. Saliba",
+        "alsoKnownAs": "",
+        "portrayedBy": "Adrian Martinez",
+        "occupation": "Unknown at Great Doors",
+        "status": "Alive",
+        "firstAppearance": "Goodbye, Mrs. Selvig"
+      }
+    },
+    {
+      "slug": "steven",
+      "name": "Steven",
+      "pageUrl": "https://www.severance.wiki/steven",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "steven.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/steven.webp",
+          "sourcePath": "/_media/steven.webp",
+          "alt": "Steven (right) and Natalie (left) on GNC News",
+          "title": "Steven (right) and Natalie (left) on GNC News"
+        }
+      ],
+      "profile": {
+        "displayName": "Steven",
+        "alsoKnownAs": "",
+        "portrayedBy": "Michael Cruz Kayne",
+        "occupation": "Anchor on GNC News",
+        "status": "Alive",
+        "firstAppearance": "In Perpetuity"
+      }
+    },
+    {
+      "slug": "waiter",
+      "name": "Waiter",
+      "pageUrl": "https://www.severance.wiki/waiter",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "waiter.png",
+          "sourceUrl": "https://www.severance.wiki/_media/waiter.png",
+          "sourcePath": "/_media/waiter.png",
+          "alt": "The Waiter (right) serves Mark (left) and Alexa (middle)",
+          "title": "The Waiter (right) serves Mark (left) and Alexa (middle)"
+        }
+      ],
+      "profile": {
+        "displayName": "Gerhardt's Waiter",
+        "alsoKnownAs": "",
+        "portrayedBy": "Griffin Stanton-Ameisen",
+        "occupation": "Waiter",
+        "status": "Alive",
+        "firstAppearance": "Hide and Seek"
+      }
+    },
+    {
+      "slug": "waitress",
+      "name": "Waitress",
+      "pageUrl": "https://www.severance.wiki/waitress",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "waitress.png",
+          "sourceUrl": "https://www.severance.wiki/_media/waitress.png?w=800&h=800&tok=5fe85b",
+          "sourcePath": "/_media/waitress.png?w=800&h=800&tok=5fe85b",
+          "alt": "Waitress (left) as she serves Mark (middle) and Devon (not seen)",
+          "title": "Waitress (left) as she serves Mark (middle) and Devon (not seen)"
+        }
+      ],
+      "profile": {
+        "displayName": "Pip's Waitress",
+        "alsoKnownAs": "",
+        "portrayedBy": "Jules Forsberg-Lary",
+        "occupation": "Waitress at Pip's",
+        "status": "Alive",
+        "firstAppearance": "Goodbye, Mrs. Selvig"
+      }
+    },
+    {
+      "slug": "weather_channel_announcer",
+      "name": "Weather Channel Announcer",
+      "pageUrl": "https://www.severance.wiki/weather_channel_announcer",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "weather_channel.png",
+          "sourceUrl": "https://www.severance.wiki/_media/weather_channel.png",
+          "sourcePath": "/_media/weather_channel.png",
+          "alt": "Mark awakens in the middle of the Weather Channel morning broadcast",
+          "title": "Mark awakens in the middle of the Weather Channel morning broadcast"
+        }
+      ],
+      "profile": {
+        "displayName": "Weather Channel Announcer",
+        "alsoKnownAs": "",
+        "portrayedBy": "Alexandra Ferrara",
+        "occupation": "Weather Channel Announcer",
+        "status": "Alive",
+        "firstAppearance": "In Perpetuity"
+      }
+    },
+    {
+      "slug": "wmc_activist_1",
+      "name": "WMC Activist 1",
+      "pageUrl": "https://www.severance.wiki/wmc_activist_1",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "wmc_activist_1.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/wmc_activist_1.webp",
+          "sourcePath": "/_media/wmc_activist_1.webp",
+          "alt": "WMC Activist 1",
+          "title": "WMC Activist 1"
+        }
+      ],
+      "profile": {
+        "displayName": "WMC Activist 1",
+        "alsoKnownAs": "",
+        "portrayedBy": "Hudson Flynn",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Half Loop"
+      }
+    },
+    {
+      "slug": "woe",
+      "name": "Woe",
+      "pageUrl": "https://www.severance.wiki/woe",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "woe.png",
+          "sourceUrl": "https://www.severance.wiki/_media/woe.png?w=800&h=800&tok=762561",
+          "sourcePath": "/_media/woe.png?w=800&h=800&tok=762561",
+          "alt": "Woe",
+          "title": "Woe"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e4_irv-dream-woe.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e4_irv-dream-woe.webp",
+          "sourcePath": "/_media/s2e4_irv-dream-woe.webp",
+          "alt": "Woe appears in Irving's dream",
+          "title": "Woe appears in Irving's dream"
+        },
+        {
+          "role": "gallery",
+          "filename": "s1e8_woe_dancer.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s1e8_woe_dancer.webp",
+          "sourcePath": "/_media/s1e8_woe_dancer.webp",
+          "alt": "Bride (dancer) representing woe",
+          "title": "Bride (dancer) representing woe"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e8_paper-mache-tempers2.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e8_paper-mache-tempers2.webp",
+          "sourcePath": "/_media/s2e8_paper-mache-tempers2.webp",
+          "alt": "Papier-mâché heads of The Four Tempers",
+          "title": "Papier-mâché heads of The Four Tempers"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_exaltedwoe.png",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_exaltedwoe.png",
+          "sourcePath": "/_media/s2e10_exaltedwoe.png",
+          "alt": "Woe (wide shot)",
+          "title": "Woe (wide shot)"
+        },
+        {
+          "role": "gallery",
+          "filename": "s2e10_exalted_woe.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/s2e10_exalted_woe.webp",
+          "sourcePath": "/_media/s2e10_exalted_woe.webp",
+          "alt": "Woe (close-up)",
+          "title": "Woe (close-up)"
+        }
+      ],
+      "profile": {
+        "displayName": "Woe",
+        "alsoKnownAs": "",
+        "portrayedBy": "Faith Vaughn (dream)\nSamantha Easton Farrow (dancer)",
+        "occupation": "",
+        "status": "",
+        "firstAppearance": "Half Loop"
+      }
+    }
+  ],
+  "updatedAt": "2026-04-27T14:34:24.600Z"
+}

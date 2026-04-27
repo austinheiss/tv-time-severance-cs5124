@@ -32,3 +32,4 @@ env/
 ENV/
 
 .python-version
+.asset-work/

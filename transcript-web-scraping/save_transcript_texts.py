@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 import pandas as pd
 import re
 from pathlib import Path
@@ -10,8 +9,8 @@ transcript_links = df_links["Transcript Link"].tolist()
 
 num_episodes_season_1 = 9
 
-output_dir_s1 = Path("data/s1-transcripts")
-output_dir_s2 = Path("data/s2-transcripts")
+output_dir_s1 = Path("data/transcripts/s1-transcripts")
+output_dir_s2 = Path("data/transcripts/s2-transcripts")
 output_dir_s1.mkdir(parents=True, exist_ok=True)
 output_dir_s2.mkdir(parents=True, exist_ok=True)
 
@@ -61,6 +60,5 @@ for idx, link in enumerate(transcript_links):
 	output_file = output_dir /f"s{season}-transcripts" / f"s{season}_e{episode_num:02d}_transcript.csv"
 	df_transcript.to_csv(output_file, index=False)
 	print(f"Saved {output_file} ({len(df_transcript)} rows)")
-
 
 

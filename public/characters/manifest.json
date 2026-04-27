@@ -547,7 +547,7 @@
         }
       ],
       "profile": {
-        "displayName": "Gemma Scout",
+        "displayName": "Ms. Casey",
         "alsoKnownAs": "Ms. Casey, Nan",
         "portrayedBy": "Dichen Lachman",
         "occupation": "Former Wellness Director/Test Subject",
@@ -1673,6 +1673,29 @@
         "occupation": "",
         "status": "Unknown",
         "firstAppearance": "In Perpetuity (referenced)"
+      }
+    },
+    {
+      "slug": "devon_scout-hale",
+      "name": "Devon Scout-Hale",
+      "pageUrl": "https://www.severance.wiki/devon_scout-hale",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "devon.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/devon.webp?w=800&h=800&tok=72865f",
+          "sourcePath": "/_media/devon.webp?w=800&h=800&tok=72865f",
+          "alt": "Devon Scout-Hale",
+          "title": "Devon Scout-Hale"
+        }
+      ],
+      "profile": {
+        "displayName": "Devon Scout-Hale",
+        "alsoKnownAs": "Milord, Persephone",
+        "portrayedBy": "Jen Tullock",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
       }
     },
     {

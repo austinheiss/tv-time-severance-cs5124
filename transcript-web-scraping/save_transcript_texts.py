@@ -57,8 +57,7 @@ for idx, link in enumerate(transcript_links):
 		episode_num = idx - num_episodes_season_1 + 1
 		output_dir = output_dir_s2
 
-	output_file = output_dir /f"s{season}-transcripts" / f"s{season}_e{episode_num:02d}_transcript.csv"
+	output_file = output_dir / f"s{season}_e{episode_num:02d}_transcript.csv"
 	df_transcript.to_csv(output_file, index=False)
 	print(f"Saved {output_file} ({len(df_transcript)} rows)")
-
 

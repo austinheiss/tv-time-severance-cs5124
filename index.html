@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Severance Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+<main class="page">
+  <section class="show-strip" aria-label="Series overview">
+    <div>
+      <h1 class="series-title"><img src="public/branding/severance-logo.svg" alt="Severance"></h1>
+      <p class="dek">A psychological thriller set at Lumon Industries, where employees undergo a procedure that separates their work and personal memories.</p>
+    </div>
+    <div class="metric-block">
+      <p class="metric-label">Seasons</p>
+      <p class="metric-value" id="season-count">2</p>
+    </div>
+    <div class="metric-block">
+      <p class="metric-label">Episodes</p>
+      <p class="metric-value" id="episode-count">19</p>
+    </div>
+    <div class="metric-block">
+      <p class="metric-label">Genre</p>
+      <p class="metric-sub"><span class="metric-strong">Psychological Thriller</span><br>Drama, Sci-Fi</p>
+    </div>
+  </section>
+
+  <section class="dashboard" aria-label="Character dashboard">
+    <div class="panel ranking-panel">
+      <div class="panel-head">
+        <div>
+          <h2>Speaking Frequency</h2>
+          <p class="section-note">Top 15 characters ranked by total words spoken.</p>
+        </div>
+        <div class="tabs" aria-label="Season filter">
+          <button class="tab active" type="button" data-season="all">All</button>
+          <button class="tab" type="button" data-season="1">Season 1</button>
+          <button class="tab" type="button" data-season="2">Season 2</button>
+        </div>
+      </div>
+      <svg class="ranking-svg" id="ranking-chart" role="img" aria-label="Ranked characters by total words spoken"></svg>
+    </div>
+
+    <aside class="panel selector-panel" aria-label="Selected character">
+      <p class="selected-title">Selected Character</p>
+      <div class="selected-profile">
+        <div class="avatar" id="selected-avatar" aria-hidden="true"></div>
+        <div>
+          <h2 class="selected-name" id="selected-name">Mark Scout</h2>
+          <p class="selected-role" id="selected-role">Macrodata Refinement</p>
+        </div>
+      </div>
+      <div class="detail-list" id="detail-list"></div>
+    </aside>
+  </section>
+
+  <section class="panel heatmap-panel" aria-label="Episode participation">
+    <h2>Episode Participation</h2>
+    <p class="section-note">Words spoken by top 15 characters per episode. Darker color indicates more words.</p>
+    <svg class="heatmap-svg" id="heatmap-chart" role="img" aria-label="Words spoken by character per episode"></svg>
+    <div class="legend">
+      <span>Fewer words</span>
+      <span class="legend-swatch" aria-hidden="true"></span>
+      <span>More words</span>
+    </div>
+  </section>
+</main>
+<div class="tooltip" id="tooltip"></div>
+</body>
+</html>

@@ -37,7 +37,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
           "sourcePath": "/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
           "alt": "Dylan George",
-          "title": "Dylan George"
+          "title": "Dylan George",
+          "localUrl": "public/characters/images/dylan_g.png"
         },
         {
           "role": "gallery",
@@ -107,7 +108,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/helly_r.gif?w=800&h=800&tok=4fca47",
           "sourcePath": "/_media/helly_r.gif?w=800&h=800&tok=4fca47",
           "alt": "Helly Riggs",
-          "title": "Helly Riggs"
+          "title": "Helly Riggs",
+          "localUrl": "public/characters/images/helly_r.png"
         }
       ],
       "profile": {
@@ -130,7 +132,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/irving_b.webp?w=800&h=800&tok=145cfb",
           "sourcePath": "/_media/irving_b.webp?w=800&h=800&tok=145cfb",
           "alt": "",
-          "title": ""
+          "title": "",
+          "localUrl": "public/characters/images/irving_b.png"
         }
       ],
       "profile": {
@@ -153,7 +156,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
           "sourcePath": "/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
           "alt": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) ",
-          "title": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) "
+          "title": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) ",
+          "localUrl": "public/characters/images/marks_desk.png"
         },
         {
           "role": "gallery",
@@ -247,7 +251,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/petey.webp?w=300&tok=0a2de4",
           "sourcePath": "/_media/petey.webp?w=300&tok=0a2de4",
           "alt": "Peter Kilmer",
-          "title": "Peter Kilmer"
+          "title": "Peter Kilmer",
+          "localUrl": "public/characters/images/petey.png"
         }
       ],
       "profile": {
@@ -270,7 +275,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/burt_goodman.webp",
           "sourcePath": "/_media/burt_goodman.webp",
           "alt": "Burt Goodman",
-          "title": "Burt Goodman"
+          "title": "Burt Goodman",
+          "localUrl": "public/characters/images/burt_goodman.png"
         }
       ],
       "profile": {
@@ -519,7 +525,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/gemma_casey.webp",
           "sourcePath": "/_media/gemma_casey.webp",
           "alt": "Gemma Scout",
-          "title": "Gemma Scout"
+          "title": "Gemma Scout",
+          "localUrl": "public/characters/images/gemma_casey.png"
         },
         {
           "role": "gallery",
@@ -547,7 +554,7 @@
         }
       ],
       "profile": {
-        "displayName": "Gemma Scout",
+        "displayName": "Ms. Casey",
         "alsoKnownAs": "Ms. Casey, Nan",
         "portrayedBy": "Dichen Lachman",
         "occupation": "Former Wellness Director/Test Subject",
@@ -612,7 +619,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/harmony_cobel.webp?w=800&h=800&tok=a46fc1",
           "sourcePath": "/_media/harmony_cobel.webp?w=800&h=800&tok=a46fc1",
           "alt": "Harmony Cobel",
-          "title": "Harmony Cobel"
+          "title": "Harmony Cobel",
+          "localUrl": "public/characters/images/harmony_cobel.png"
         },
         {
           "role": "gallery",
@@ -659,7 +667,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/drummond_bowtie.png?w=800&h=800&tok=b826f0",
           "sourcePath": "/_media/drummond_bowtie.png?w=800&h=800&tok=b826f0",
           "alt": "Mr. Drummond",
-          "title": "Mr. Drummond"
+          "title": "Mr. Drummond",
+          "localUrl": "public/characters/images/drummond_bowtie.png"
         }
       ],
       "profile": {
@@ -682,7 +691,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/natalie.webp?w=250&tok=a3d18a",
           "sourcePath": "/_media/natalie.webp?w=250&tok=a3d18a",
           "alt": "Natalie Kalen",
-          "title": "Natalie Kalen"
+          "title": "Natalie Kalen",
+          "localUrl": "public/characters/images/natalie.png"
         }
       ],
       "profile": {
@@ -705,7 +715,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/seth_milchick.webp",
           "sourcePath": "/_media/seth_milchick.webp",
           "alt": "Seth Milchick",
-          "title": "Seth Milchick"
+          "title": "Seth Milchick",
+          "localUrl": "public/characters/images/seth_milchick.png"
         }
       ],
       "profile": {
@@ -836,7 +847,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/helly_r.gif?w=800&h=800&tok=4fca47",
           "sourcePath": "/_media/helly_r.gif?w=800&h=800&tok=4fca47",
           "alt": "Helly Riggs",
-          "title": "Helly Riggs"
+          "title": "Helly Riggs",
+          "localUrl": "public/characters/images/helly_r.png"
         }
       ],
       "profile": {
@@ -1323,7 +1335,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/regabhi.webp",
           "sourcePath": "/_media/regabhi.webp",
           "alt": "Asal Reghabi",
-          "title": "Asal Reghabi"
+          "title": "Asal Reghabi",
+          "localUrl": "public/characters/images/regabhi.png"
         }
       ],
       "profile": {
@@ -1676,6 +1689,30 @@
       }
     },
     {
+      "slug": "devon_scout-hale",
+      "name": "Devon Scout-Hale",
+      "pageUrl": "https://www.severance.wiki/devon_scout-hale",
+      "assets": [
+        {
+          "role": "primary",
+          "filename": "devon.webp",
+          "sourceUrl": "https://www.severance.wiki/_media/devon.webp?w=800&h=800&tok=72865f",
+          "sourcePath": "/_media/devon.webp?w=800&h=800&tok=72865f",
+          "alt": "Devon Scout-Hale",
+          "title": "Devon Scout-Hale",
+          "localUrl": "public/characters/images/devon.png"
+        }
+      ],
+      "profile": {
+        "displayName": "Devon Scout-Hale",
+        "alsoKnownAs": "Milord, Persephone",
+        "portrayedBy": "Jen Tullock",
+        "occupation": "",
+        "status": "Alive",
+        "firstAppearance": "Good News About Hell"
+      }
+    },
+    {
       "slug": "eleanor",
       "name": "Eleanor Scout-Hale",
       "pageUrl": "https://www.severance.wiki/eleanor",
@@ -1732,7 +1769,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/gemma_casey.webp",
           "sourcePath": "/_media/gemma_casey.webp",
           "alt": "Gemma Scout",
-          "title": "Gemma Scout"
+          "title": "Gemma Scout",
+          "localUrl": "public/characters/images/gemma_casey.png"
         },
         {
           "role": "gallery",
@@ -1779,7 +1817,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
           "sourcePath": "/_media/marks_desk.webp?w=450&h=250&tok=1c7ebc",
           "alt": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) ",
-          "title": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) "
+          "title": "Adam Scott as Mark Scout (Credit: Atsushi Nishijima) ",
+          "localUrl": "public/characters/images/marks_desk.png"
         },
         {
           "role": "gallery",
@@ -1842,7 +1881,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/ricken_face_cover.webp",
           "sourcePath": "/_media/ricken_face_cover.webp",
           "alt": "Ricken Hale",
-          "title": "Ricken Hale"
+          "title": "Ricken Hale",
+          "localUrl": "public/characters/images/ricken_face_cover.png"
         },
         {
           "role": "gallery",
@@ -1966,7 +2006,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
           "sourcePath": "/_media/dylan_g.webp?w=800&h=800&tok=0bc9f2",
           "alt": "Dylan George",
-          "title": "Dylan George"
+          "title": "Dylan George",
+          "localUrl": "public/characters/images/dylan_g.png"
         },
         {
           "role": "gallery",
@@ -2136,7 +2177,8 @@
           "sourceUrl": "https://www.severance.wiki/_media/burt_goodman.webp",
           "sourcePath": "/_media/burt_goodman.webp",
           "alt": "Burt Goodman",
-          "title": "Burt Goodman"
+          "title": "Burt Goodman",
+          "localUrl": "public/characters/images/burt_goodman.png"
         }
       ],
       "profile": {

@@ -16,7 +16,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
     const outerRadius = Math.min(width, height) * 0.5 - 60;
     const innerRadius = outerRadius - 10;
 
-    // console.log(visibleRows);
+    console.log(visibleRows);
     // const chord = d3.chord()
     //     .padAngle(10 / innerRadius)
     //     .sortSubgroups(d3.descending)

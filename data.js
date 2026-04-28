@@ -153,6 +153,7 @@ async function loadEpisodeRows(currentEpisode) {
       canonical,
       words: wordCount(row.text),
       text: row.text,
+      talking_to: row.talking_to,
       lines: canonical ? 1 : 0
     };
   }).filter(row => row.canonical && row.words > 0);

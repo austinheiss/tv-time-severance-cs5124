@@ -50,11 +50,23 @@
       <div class="selected-profile">
         <div class="avatar" id="selected-avatar" aria-hidden="true"></div>
         <div>
-          <h2 class="selected-name" id="selected-name">Mark Scout</h2>
+          <h2 class="selected-name"><a class="selected-name-link" id="selected-name-link" href="https://www.severance.wiki/list_of_characters" target="_blank" rel="noopener noreferrer">Mark Scout</a></h2>
           <p class="selected-role" id="selected-role">Macrodata Refinement</p>
         </div>
       </div>
       <div class="detail-list" id="detail-list"></div>
+      <div class="spoken-block">
+        <p class="spoken-title">Most Spoken Words</p>
+        <svg class="word-cloud" id="word-cloud" role="img" aria-label="Most spoken words in light bulb layout"></svg>
+      </div>
+      <div class="spoken-block">
+        <p class="spoken-title" id="top-phrase-label">Most Spoken Phrase</p>
+        <p class="spoken-value" id="top-phrase-value">n/a</p>
+      </div>
+      <div class="spoken-block">
+        <p class="spoken-title">Frequent Phrases</p>
+        <svg class="phrase-chart" id="phrase-chart" role="img" aria-label="Most frequent phrases for selected character"></svg>
+      </div>
     </aside>
   </section>
 

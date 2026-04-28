@@ -1,4 +1,4 @@
-import { displayName, factsFor, imageFor, roleFor } from "./data.js?v=character-assets";
+import { displayName, factsFor, imageFor, pageUrlFor, roleFor } from "./data.js";
 
 const { d3 } = window;
 export const DISPLAYED_CHARACTER_COUNT = 15;
@@ -8,7 +8,9 @@ export function renderDetails({ characters, selectedCharacter, visibleEpisodes, 
   if (!selected) return;
 
   renderAvatar(selected.character);
-  d3.select("#selected-name").text(displayName(selected.character));
+  d3.select("#selected-name-link")
+    .text(displayName(selected.character))
+    .attr("href", pageUrlFor(selected.character) || "https://www.severance.wiki/list_of_characters");
   d3.select("#selected-role").text(roleFor(selected.character));
 
   const facts = factsFor(selected.character);
@@ -29,6 +31,14 @@ export function renderDetails({ characters, selectedCharacter, visibleEpisodes, 
   rows.merge(enter).select(".detail-label").text(d => d.label);
   rows.merge(enter).select(".detail-value").text(d => d.value);
   rows.exit().remove();
+
+  renderWordCloud(selected);
+  renderPhraseChart(selected, formatNumber);
+  const phraseLabel = selected.topSpokenPhrase?.kind === "phrase" ? "Most Spoken Phrase" : "Most Spoken Word";
+  const phraseText = selected.topSpokenPhrase?.text || "n/a";
+  const phraseCount = selected.topSpokenPhrase?.count || 0;
+  d3.select("#top-phrase-label").text(phraseLabel);
+  d3.select("#top-phrase-value").text(`${phraseText} (${formatNumber(phraseCount)})`);
 }
 
 function renderAvatar(character) {
@@ -46,6 +56,188 @@ function renderAvatar(character) {
   avatar.classed("avatar-peter-kilmer", character === "Peter Kilmer");
   avatar.classed("avatar-ms-casey", character === "Ms. Casey");
   avatar.classed("avatar-gemma-scout", character === "Gemma Scout");
+}
+
+function renderWordCloud(selected) {
+  const svg = d3.select("#word-cloud");
+  const words = selected.wordCloud || [];
+  const width = Math.max(280, svg.node()?.getBoundingClientRect().width || 320);
+  const height = 238;
+  const cx = width / 2;
+  const cy = 100;
+  const maxRadius = Math.min(width * 0.38, 104);
+
+  const maxCount = d3.max(words, d => d.count) || 1;
+  const minCount = d3.min(words, d => d.count) || 1;
+  const size = d3.scaleLinear().domain([minCount, maxCount]).range([12, 38]);
+  const sortedWords = words.slice().sort((a, b) => d3.descending(a.count, b.count));
+
+  svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
+
+  const bulbOutline = [
+    `M ${cx} ${24}`,
+    `C ${cx - maxRadius} ${24}, ${cx - maxRadius - 16} ${152}, ${cx - 16} ${166}`,
+    `L ${cx - 22} ${192}`,
+    `L ${cx + 22} ${192}`,
+    `L ${cx + 16} ${166}`,
+    `C ${cx + maxRadius + 16} ${152}, ${cx + maxRadius} ${24}, ${cx} ${24}`
+  ].join(" ");
+
+  const frame = svg.selectAll(".word-cloud-frame").data([0]);
+  frame.enter().append("path").attr("class", "word-cloud-frame");
+  frame.attr("d", bulbOutline);
+
+  const placements = layoutBulbWords(sortedWords, size, cx, cy, maxRadius);
+
+  const tokens = svg.selectAll(".word-cloud-token").data(placements, d => d.word);
+  const tokenEnter = tokens.enter()
+    .append("text")
+    .attr("class", "word-cloud-token")
+    .attr("text-anchor", "middle")
+    .attr("dominant-baseline", "middle");
+  tokenEnter.merge(tokens)
+    .attr("x", d => d.x)
+    .attr("y", d => d.y)
+    .style("font-size", d => `${d.fontSize}px`)
+    .style("font-weight", d => (d.count === maxCount ? 780 : 580))
+    .text(d => d.word);
+  tokens.exit().remove();
+}
+
+function layoutBulbWords(words, sizeScale, cx, cy, radius) {
+  if (!words.length) return [];
+  const placed = [];
+  const center = words[0];
+  const centerFont = Math.round(sizeScale(center.count));
+  placed.push(createPlacement(center, cx, cy, centerFont));
+
+  for (let index = 1; index < words.length; index += 1) {
+    const word = words[index];
+    const fontSize = Math.round(sizeScale(word.count));
+    const progress = index / Math.max(words.length - 1, 1);
+    const targetRadius = 20 + progress * (radius + 18);
+    const angleStart = index * 2.399963229728653;
+    let accepted = null;
+
+    for (let step = 0; step < 140; step += 1) {
+      const angle = angleStart + step * 0.46;
+      const radial = targetRadius + step * 0.95;
+      const x = cx + Math.cos(angle) * radial;
+      const y = cy + Math.sin(angle) * radial * 0.95;
+      const candidate = createPlacement(word, x, y, fontSize);
+      if (isInsideBulb(candidate, cx, cy, radius) && !overlapsAny(candidate, placed)) {
+        accepted = candidate;
+        break;
+      }
+    }
+
+    placed.push(accepted || createPlacement(word, cx, cy + radius + 20 + index * 2, fontSize));
+  }
+  return placed;
+}
+
+function createPlacement(wordDatum, x, y, fontSize) {
+  const width = Math.max(fontSize * 0.56 * wordDatum.word.length, fontSize * 1.1);
+  const height = fontSize;
+  return {
+    word: wordDatum.word,
+    count: wordDatum.count,
+    x,
+    y,
+    fontSize,
+    left: x - width / 2,
+    right: x + width / 2,
+    top: y - height / 2,
+    bottom: y + height / 2
+  };
+}
+
+function isInsideBulb(candidate, cx, cy, radius) {
+  const points = [
+    [candidate.left, candidate.top],
+    [candidate.right, candidate.top],
+    [candidate.left, candidate.bottom],
+    [candidate.right, candidate.bottom]
+  ];
+  return points.every(([x, y]) => pointInsideBulb(x, y, cx, cy, radius));
+}
+
+function pointInsideBulb(x, y, cx, cy, radius) {
+  const dx = x - cx;
+  const dy = y - cy;
+  const globe = (dx * dx) / (radius * radius) + (dy * dy) / ((radius + 20) * (radius + 20)) <= 1;
+  if (globe) return true;
+  const neckTop = cy + radius - 10;
+  const neckBottom = neckTop + 48;
+  const neckHalfWidth = 28;
+  return y >= neckTop && y <= neckBottom && Math.abs(dx) <= neckHalfWidth;
+}
+
+function overlapsAny(candidate, placed) {
+  return placed.some(existing =>
+    candidate.left < existing.right + 4 &&
+    candidate.right > existing.left - 4 &&
+    candidate.top < existing.bottom + 4 &&
+    candidate.bottom > existing.top - 4
+  );
+}
+
+function renderPhraseChart(selected, formatNumber) {
+  const svg = d3.select("#phrase-chart");
+  const phrases = (selected.topPhrases || []).slice(0, 6);
+  const width = Math.max(280, svg.node()?.getBoundingClientRect().width || 320);
+  const margin = { top: 6, right: 64, bottom: 6, left: 8 };
+  const rowHeight = 27;
+  const height = Math.max(44, margin.top + margin.bottom + phrases.length * rowHeight);
+
+  svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
+  svg.selectAll("*").remove();
+  if (!phrases.length) {
+    svg.append("text")
+      .attr("class", "phrase-empty")
+      .attr("x", width / 2)
+      .attr("y", 26)
+      .attr("text-anchor", "middle")
+      .text("No repeated phrases in this filter");
+    return;
+  }
+
+  const x = d3.scaleLinear()
+    .domain([0, d3.max(phrases, d => d.count) || 1])
+    .range([margin.left + 150, width - margin.right]);
+
+  const rows = svg.selectAll(".phrase-row")
+    .data(phrases)
+    .enter()
+    .append("g")
+    .attr("class", "phrase-row")
+    .attr("transform", (_, i) => `translate(0, ${margin.top + i * rowHeight})`);
+
+  rows.append("text")
+    .attr("class", "phrase-label")
+    .attr("x", margin.left)
+    .attr("y", 16)
+    .text(d => d.phrase);
+
+  rows.append("rect")
+    .attr("class", "phrase-bar-bg")
+    .attr("x", margin.left + 150)
+    .attr("y", 5)
+    .attr("width", width - margin.left - margin.right - 150)
+    .attr("height", 12);
+
+  rows.append("rect")
+    .attr("class", "phrase-bar")
+    .attr("x", margin.left + 150)
+    .attr("y", 5)
+    .attr("width", d => Math.max(2, x(d.count) - (margin.left + 150)))
+    .attr("height", 12);
+
+  rows.append("text")
+    .attr("class", "phrase-count")
+    .attr("x", width - margin.right + 6)
+    .attr("y", 16)
+    .text(d => formatNumber(d.count));
 }
 
 export function renderRanking({ characters, selectedCharacter, visibleEpisodes, formatNumber, onSelect }) {

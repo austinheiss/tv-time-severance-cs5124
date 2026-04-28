@@ -3,6 +3,13 @@ const { d3 } = window;
 const DATA_ROOT = "data";
 const CHARACTER_MANIFEST_PATH = "public/characters/manifest.json?v=character-assets";
 const WORD_PATTERN = /[A-Za-z0-9]+(?:['\u2019][A-Za-z0-9]+)?/g;
+const STOP_WORDS = new Set([
+  "a", "an", "and", "are", "as", "at", "be", "been", "but", "by", "for", "from",
+  "had", "has", "have", "he", "her", "his", "i", "if", "in", "is", "it", "its",
+  "just", "me", "my", "no", "not", "of", "on", "or", "our", "she", "so", "that",
+  "the", "their", "them", "there", "they", "this", "to", "too", "us", "was", "we",
+  "were", "what", "when", "who", "why", "will", "with", "you", "your"
+]);
 
 const characterInfo = new Map();
 const characterProfiles = new Map();
@@ -112,6 +119,7 @@ function normalizeProfile(character) {
     occupation: cleanSpeaker(character.profile?.occupation),
     status: cleanSpeaker(character.profile?.status),
     firstAppearance: cleanSpeaker(character.profile?.firstAppearance),
+    pageUrl: character.pageUrl || "",
     imageUrl: primaryAsset?.localUrl || primaryAsset?.sourceUrl || "",
     imageAlt: primaryAsset?.alt || character.profile?.displayName || character.name || ""
   };
@@ -209,18 +217,25 @@ export function imageFor(character) {
   };
 }
 
+export function pageUrlFor(character) {
+  return profileFor(character)?.pageUrl || "";
+}
+
 export function summarizeRows(rows) {
   return d3.rollups(
     rows,
     values => {
       const character = values[0].canonical;
+      const lexicalStats = summarizeLexicalStats(values);
       return {
         character,
         display: displayName(character),
         words: d3.sum(values, d => d.words),
         lines: d3.sum(values, d => d.lines),
         episodes: new Set(values.map(d => d.episodeId)),
-        episodeWords: d3.rollup(values, v => d3.sum(v, d => d.words), d => d.episodeId)
+        episodeWords: d3.rollup(values, v => d3.sum(v, d => d.words), d => d.episodeId),
+        wordCloud: lexicalStats.wordCloud,
+        topSpokenPhrase: lexicalStats.topSpokenPhrase
       };
     },
     d => d.canonical
@@ -228,4 +243,53 @@ export function summarizeRows(rows) {
     .map(([, value]) => value)
     .sort((a, b) => d3.descending(a.words, b.words))
     .map((d, index) => ({ ...d, rank: index + 1 }));
+}
+
+function summarizeLexicalStats(values) {
+  const wordCounts = new Map();
+  const phraseCounts = new Map();
+
+  for (const row of values) {
+    const words = normalizedWords(row.text).filter(word => !STOP_WORDS.has(word));
+    for (const word of words) {
+      wordCounts.set(word, (wordCounts.get(word) || 0) + 1);
+    }
+    for (let index = 0; index < words.length - 1; index += 1) {
+      const phrase = `${words[index]} ${words[index + 1]}`;
+      phraseCounts.set(phrase, (phraseCounts.get(phrase) || 0) + 1);
+    }
+  }
+
+  const topWords = sortedCounts(wordCounts)
+    .slice(0, 18)
+    .map(([word, count]) => ({ word, count }));
+  const topPhrases = sortedCounts(phraseCounts)
+    .filter(([, count]) => count >= 2)
+    .slice(0, 8)
+    .map(([phrase, count]) => ({ phrase, count }));
+  const topPhrase = sortedCounts(phraseCounts)[0];
+  const topWord = topWords[0];
+  const topSpokenPhrase = topPhrase && topPhrase[1] >= 3
+    ? { text: topPhrase[0], count: topPhrase[1], kind: "phrase" }
+    : topWord
+      ? { text: topWord.word, count: topWord.count, kind: "word" }
+      : { text: "n/a", count: 0, kind: "word" };
+
+  return {
+    wordCloud: topWords,
+    topPhrases,
+    topSpokenPhrase
+  };
+}
+
+function normalizedWords(text) {
+  const matches = String(text || "").toLowerCase().match(WORD_PATTERN);
+  return matches ? matches : [];
+}
+
+function sortedCounts(countMap) {
+  return Array.from(countMap.entries()).sort((left, right) => {
+    const delta = right[1] - left[1];
+    return delta !== 0 ? delta : left[0].localeCompare(right[0]);
+  });
 }

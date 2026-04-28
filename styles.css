@@ -314,6 +314,19 @@ svg {
   letter-spacing: 0;
 }
 
+.selected-name-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.selected-name-link:hover,
+.selected-name-link:focus-visible {
+  color: #155d59;
+  border-bottom-color: #155d59;
+}
+
 .selected-role {
   margin: 0;
   color: var(--teal);
@@ -345,6 +358,71 @@ svg {
   line-height: 1.15;
   text-align: right;
   overflow-wrap: anywhere;
+}
+
+.spoken-block {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  margin-top: 10px;
+}
+
+.spoken-title {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.spoken-value {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 650;
+}
+
+.word-cloud {
+  width: 100%;
+  height: 238px;
+  margin-top: 2px;
+}
+
+.word-cloud-frame {
+  fill: #f8fbfb;
+  stroke: #d4dddd;
+  stroke-width: 1.5;
+}
+
+.word-cloud-token {
+  color: #1a5351;
+  fill: #1a5351;
+  text-transform: lowercase;
+}
+
+.phrase-chart {
+  width: 100%;
+  min-height: 44px;
+}
+
+.phrase-label {
+  fill: #1f282c;
+  font-size: 12px;
+}
+
+.phrase-bar-bg {
+  fill: #eaf0f0;
+}
+
+.phrase-bar {
+  fill: #2f827d;
+}
+
+.phrase-count {
+  fill: #536066;
+  font-size: 12px;
+}
+
+.phrase-empty {
+  fill: #697278;
+  font-size: 13px;
 }
 
 .heatmap-panel {

@@ -1,0 +1,312 @@
+,timestamp,speaker,text,talking_to
+0,00:00:51,Nurse,All set.,Gemma
+1,00:00:54,Gemma,Thanks.,Nurse
+2,00:01:04,Mark,What do you got there?,Gemma
+3,00:01:06,Mark,Sorry. What do you got there?,Gemma
+4,00:01:09,Gemma,Themes of religious conversion in Tolstoy's The Death of Ivan Ilyich.,Mark
+5,00:01:13,Mark,"Oh, my God. Spoiler alert, please.",Gemma
+6,00:01:15,Gemma,What about you? Are you reading…,Mark
+7,00:01:17,Mark,"Me? Well… It's… Oh, yeah, this is a real treat. “All Quiet on the Western Blunt: Drug Use by Enlisted Soldiers during World War I.”",Gemma
+8,00:01:28,Gemma,"No, stop.",Mark
+9,00:01:28,Mark,"No, that's what it is.",Gemma
+10,00:01:31,Gemma,Kid's a genius. You should flunk every other child.,Mark
+11,00:01:33,Mark,I couldn't agree more.,Gemma
+12,00:01:39,Mark,I'm sorry. Who are you?,Gemma
+13,00:01:43,Gemma,Gemma.,Mark
+14,00:01:48,Mark,All right. Mark.,Gemma
+15,00:01:53,Gemma,"Nice to meet you, Mark.",Mark
+16,00:01:53,Mark,You too.,Gemma
+17,00:02:48,Nurse,"Gemma, where did you go?",Reghabi
+18,00:03:33,Reghabi,"He'll be okay. There might be some deficits. Hopefully, nothing long term.",Nurse
+19,00:03:39,Devon,"Are you a doctor? Do we need an ambulance? Can you answer one of my questions, please? Do we need an ambulance?",Reghabi
+20,00:03:46,Reghabi,No. He's gonna sleep for a while.,Devon
+21,00:03:51,Devon,Okay. How long?,Reghabi
+22,00:03:52,Reghabi,Hard to say. We'll need some equipment from downstairs. Are you clumsy?,Devon
+23,00:03:57,Devon,What? Why do you have equipment in Mark's basement?,Reghabi
+24,00:04:00,Reghabi,Your brother's reintegrating.,Devon
+25,00:04:03,Devon,"No, he's not.",Reghabi
+26,00:04:05,Reghabi,I know that was troubling.,Devon
+27,00:04:06,Devon,"Okay. I can tell that you're smarter than me, so forgive me if I say this, like, super plainly, but if you give one solitary thought to messing with my brother again, I will throw you off a fucking bridge.",Reghabi
+28,00:04:16,Reghabi,Devon–,Devon
+29,00:04:16,Devon,We don't do that again.,Reghabi
+30,00:04:18,Reghabi,We'll discuss it later.,Devon
+31,00:04:18,Devon,"Nope! No. It's settled fucking law, lady, okay? Just accept it. The end.",Reghabi
+32,00:04:27,Reghabi,It's what he wants.,Devon
+33,00:04:29,Devon,What he wants is to know whether Gemma's alive or not.,Reghabi
+34,00:04:31,Reghabi,She is.,Devon
+35,00:04:35,Devon,Please don't mess with me.,Reghabi
+36,00:04:36,Reghabi,She is alive.,Devon
+37,00:06:42,Nurse,"You've eaten today, honey?",Gemma
+38,00:06:45,Gemma,Yes.,Nurse
+39,00:06:49,Nurse,Done your reading?,Gemma
+40,00:06:51,Gemma,Fifty pages.,Nurse
+41,00:06:55,Nurse,Calisthenics?,Gemma
+42,00:06:58,Gemma,Yes.,Nurse
+43,00:07:04,Nurse,"If you were caught in a mudslide, would you be more afraid of suffocating or drowning?",Gemma
+44,00:07:14,Gemma,Drowning.,Nurse
+45,00:07:40,Gemma,How many rooms today?,Nurse
+46,00:07:43,Nurse,Six.,Gemma
+47,00:08:05,Gemma,Shit.,Nurse
+48,00:09:15,Nurse,Ready?,Gemma
+49,00:10:06,Mauer,There she is.,Gemma
+50,00:10:10,Gemma,Could I please get a break? Just for a little while.,Mauer
+51,00:10:13,Mauer,But it's been six weeks.,Gemma
+52,00:10:15,Gemma,I was just here.,Mauer
+53,00:10:22,Mauer,"I know. Nobody likes the dentist. I should have been an accountant like my mom wanted. Please, have a seat. Excellent. Now, let's see how we're doing. Open wide, please.",Gemma
+54,00:11:28,Gemma,How long was I in there?,Mauer
+55,00:11:30,Nurse,Two hours.,Devon
+56,00:12:00,Devon,"Okay. Oh, bud. I need you back, m'lady. Please come back.",Nurse
+57,00:13:01,Mark,Hey.,Gemma
+58,00:13:01,Gemma,Hey.,Mark
+59,00:13:01,Mark,"Oh, bless you.",Gemma
+60,00:13:06,Gemma,Excuse me.,Mark
+61,00:13:07,Mark,Hi.,Gemma
+62,00:13:07,Gemma,Hey.,Mark
+63,00:13:09,Mark,That was fun last night.,Gemma
+64,00:13:11,Gemma,It was. I'm sorry. I have a lecture at 3:00 on Hadji Murad and my notes are all over the place.,Mark
+65,00:13:19,Mark,No. That's… It's okay. I just… I brought you something.,Gemma
+66,00:13:25,Mark,It's an ant farm. Last night you said you liked ants. So…,Gemma
+67,00:13:33,Gemma,I said I liked… I like plants.,Mark
+68,00:13:36,Mark,Plants.,Gemma
+69,00:13:38,Gemma,I hate ants.,Mark
+70,00:13:38,Mark,"Oh, shit.",Gemma
+71,00:13:42,Gemma,But I… I love farms.,Mark
+72,00:13:42,Mark,Good. I'm so fucking behind.,Gemma
+73,00:13:49,Gemma,I'm not even here.,Mark
+74,00:13:51,Mark,You're not here? Okay. What are you doing? What are you doing? What are you doing?,Gemma
+75,00:14:02,Gemma,что это? (Russian: “What's that?”),Mark
+76,00:14:06,Mark,Yeah.,Gemma
+77,00:14:08,Gemma,Really?,Mark
+78,00:14:08,Mark,"Well, I mean, you know, it was on sale.",Gemma
+79,00:14:13,Gemma,"And who's putting it together, Mr. Handyman? You?",Mark
+80,00:14:17,Mark,I happen to be quite handy.,Gemma
+81,00:14:20,Gemma,"No, you're not.",Mark
+82,00:14:21,Mark,What? How dare you.,Gemma
+83,00:14:21,Gemma,Handsy.,Mark
+84,00:14:23,Mark,Handsy? All right. Maybe I am kinda handsy. Yeah?,Gemma
+85,00:14:28,Gemma,I like it.,Mark
+86,00:15:28,Ricken,Yeah. Well…,Devon
+87,00:15:29,Devon,This is what I was hoping would come up.,Ricken
+88,00:15:31,Mark,What happened?,Ricken
+89,00:15:32,Ricken,"It really, truly wasn't that bad.",Mark
+90,00:15:34,Devon,For you. That's 'cause you can scale walls like a gecko. This… It was like half a mile of just exposed rock face.,Ricken
+91,00:15:40,Ricken,Boulders. Fine.,Devon
+92,00:15:40,Mark,It sounds fun.,Ricken
+93,00:15:41,Ricken,There were a few boulders.,Mark
+94,00:15:43,Devon,"Boulders? Babe, come on. It was like the death zone of Everest.",Gemma
+95,00:15:46,Gemma,Like Chomolungma.,Devon
+96,00:15:47,Mark,Any frozen bodies?,Devon
+97,00:15:49,Devon,"No, I looked. But I do have photo evidence. Look at them.",Mark
+98,00:15:52,Gemma,"Oh, my God. What's wrong with you?",Devon
+99,00:15:52,Devon,Look.,Gemma
+100,00:15:54,Mark,"Yeah, Ricken, what is wrong with you?",Devon
+101,00:15:54,Devon,Yeah.,Mark
+102,00:15:56,Ricken,"Hey, I belayed my first couloir in middle school. So, I…",Devon
+103,00:15:59,Devon,What?,Ricken
+104,00:16:00,Mark,What?,Gemma
+105,00:16:01,Gemma,That sounds painful.,Mark
+106,00:16:01,Mark,We all know what that means.,Gemma
+107,00:16:03,Devon,I'm sorry he said that.,Ricken
+108,00:16:04,Ricken,Outdoorsmanship courses through my veins.,Devon
+109,00:16:06,Devon,I think it's hot.,Ricken
+110,00:16:06,Ricken,I make no apology for it.,Devon
+111,00:16:07,Gemma,"Wait, how did you get down?",Devon
+112,00:16:09,Devon,I scooted on my ass.,Gemma
+113,00:16:09,Mark,Are there photos of that?,Devon
+114,00:16:11,Devon,No. It was a no-photo zone.,Mark
+115,00:16:12,Gemma,A no-photo death zone.,Devon
+116,00:16:14,Devon,Exactly. Thank you.,Gemma
+117,00:16:16,Ricken,You and I will ramble together someday. The two of us. It will be a grand adventure.,Mark
+118,00:16:19,Mark,I feel like we spend a lot of time together.,Ricken
+119,00:16:21,Ricken,"Not enough. No, Mark.",Mark
+120,00:16:21,Mark,Really?,Ricken
+121,00:16:23,Devon,Are you not drinking?,Mark
+122,00:16:23,Mark,What are we gonna do there?,Devon
+123,00:16:25,Ricken,Did you know you can purify urine into…,Devon
+124,00:16:27,Devon,"Oh, fuck right off.",Ricken
+125,00:16:27,Ricken,…drinkable water?,Devon
+126,00:16:28,Mark,Why would I do that?,Ricken
+127,00:16:30,Ricken,To experience the beauty and wonder of nature.,Mark
+128,00:16:32,Mark,But why is it you want to do this so bad?,Ricken
+129,00:16:34,Devon,Okay.,Ricken
+130,00:16:34,Ricken,I want to know you better.,Devon
+131,00:16:36,Mark,Why is it you need to have me come with you…,Gemma
+132,00:18:00,Mark,"Hey, hon. Do you know where I put the keys?",Gemma
+133,00:18:06,Mark,"Are you okay? Oh, baby.",Gemma
+134,00:18:06,Gemma,No.,Mark
+135,00:18:30,Mark,Ms. Casey.,Gemma
+136,00:18:32,Ms. Casey,I'm here to observe Helly R.,Mark
+137,00:18:36,Mark,No one told me.,Ms. Casey
+138,00:18:37,Ms. Casey,"Ms. Cobel's orders. I am to watch her for signs of sadness, and verbally encourage her to forgo further suicide attempts.",Mark
+139,00:19:58,Drummond,Are the severance barriers holding?,Mauer
+140,00:20:01,Mauer,"Yes, the technology is working.",Drummond
+141,00:20:08,Drummond,You like her.,Mauer
+142,00:20:11,Mauer,"She's easy to like. She is fond of me too, of course.",Drummond
+143,00:20:18,Drummond,Didn't she try and break your fingers?,Mauer
+144,00:20:45,Gemma,Hi.,Receptionist
+145,00:20:46,Receptionist,Hi. I'll be right with you.,Gemma
+146,00:20:48,Gemma,Thanks.,Receptionist
+147,00:21:26,Mark,You know… it's the next step for a lot of people. I love you.,Gemma
+148,00:21:39,Gemma,I love you too. I'm sorry.,Mark
+149,00:22:27,Gemma,You ready?,Mark
+150,00:22:28,Mark,Huh?,Gemma
+151,00:22:29,Gemma,It's time.,Mark
+152,00:22:37,Mark,Locked and loaded.,Gemma
+153,00:22:38,Gemma,Third time's the charm.,Mark
+154,00:22:40,Mark,That's what they say.,Gemma
+155,00:22:41,Gemma,I'll write you a thank-you note.,Mark
+156,00:22:43,Mark,You hate writing thank-you notes.,Gemma
+157,00:22:47,Gemma,"Oh, my God. I'm a little nervous.",Mark
+158,00:22:50,Gemma,Baby?,Mark
+159,00:22:50,Mark,Hmm.,Gemma
+160,00:22:51,Gemma,I said I'm a little nervous.,Mark
+161,00:22:53,Mark,"Oh, yeah. Well, you know, it's the final step and, you know, there's a kid that's out there just waiting for us. Just got to reach out and grab her. Right?",Gemma
+162,00:23:07,Gemma,What if it doesn't work?,Mark
+163,00:23:08,Mark,Turn around and bend over.,Gemma
+164,00:23:14,Mark,Sorry. You okay?,Gemma
+165,00:23:42,Mauer,How are you feeling?,Gemma
+166,00:23:46,Gemma,My mouth hurts.,Mauer
+167,00:23:48,Mauer,Which room caused your mouth to hurt?,Gemma
+168,00:23:51,Gemma,The first one.,Mauer
+169,00:23:54,Mauer,Wellington.,Gemma
+170,00:24:03,Mauer,How many rooms did you visit today?,Gemma
+171,00:24:08,Gemma,Six.,Mauer
+172,00:24:10,Mauer,"The Billings room, the Lucknow room, St. Pierre, Cairns, Zurich, and…",Gemma
+173,00:24:18,Gemma,The Wellington room.,Mauer
+174,00:24:19,Mauer,The Wellington. Excellent.,Gemma
+175,00:24:23,Mauer,And what happened in the rooms? You remember nothing?,Gemma
+176,00:24:29,Gemma,Nothing.,Mauer
+177,00:24:38,Mauer,How did you feel in the hall? Did you exit any of the rooms feeling despair? Fervor? Gaiety?,Gemma
+178,00:24:51,Gemma,"There's only one room I haven't been to yet, and today it had a name on it.",Mauer
+179,00:24:59,Mauer,Cold Harbor.,Gemma
+180,00:25:02,Gemma,"So, what happens, once I've been in all the rooms?",Mauer
+181,00:25:12,Mauer,"You will see the world again, and the world will see you.",Gemma
+182,00:25:20,Gemma,"So, I'll see Mark?",Mauer
+183,00:25:25,Mauer,"Mark will benefit from the world you're siring. Kier will take away all his pain, just as Kier has taken away yours.",Gemma
+184,00:25:38,Gemma,Can you please just talk like a normal person?,Mauer
+185,00:25:48,Mauer,"Good night, Gemma. Dream sweet.",Gemma
+186,00:26:14,Mark,"Gemma, coffee's ready!",Devon
+187,00:26:35,Devon,Is he okay?,Mark
+188,00:26:36,Reghabi,He's stable. It was an isolated event. He's journeying now.,Devon
+189,00:26:42,Devon,When will he wake up?,Reghabi
+190,00:26:43,Reghabi,When he's ready to.,Devon
+191,00:26:45,Devon,Great. You really think this is gonna work?,Reghabi
+192,00:26:52,Reghabi,There's no other choice.,Devon
+193,00:27:00,Devon,There's an innie cabin.,Reghabi
+194,00:27:02,Reghabi,Come again?,Devon
+195,00:27:04,Devon,"There… I mean, it's technically… It's a cottage where severed people become their innies, and there was this woman–",Reghabi
+196,00:27:09,Reghabi,Damona Birthing Retreat.,Devon
+197,00:27:12,Devon,"Well, so maybe if we go to the cabin, we could talk to his innie, and he could–",Reghabi
+198,00:27:15,Reghabi,They're two completely different things. This is how you get Gemma out.,Devon
+199,00:27:20,Devon,"Really, this? Because this looks like how you kill my brother.",Reghabi
+200,00:27:24,Reghabi,You two are definitely related.,Devon
+201,00:27:35,Devon,I could call her.,Reghabi
+202,00:27:35,Reghabi,Who?,Devon
+203,00:27:37,Devon,Harmony Cobel.,Reghabi
+204,00:27:39,Reghabi,What? Why would you do that? She runs the severed floor.,Devon
+205,00:27:41,Devon,"Not anymore, she doesn't. She might know how to get in the cabin. And, fuck, she might know how to get to Gemma.",Reghabi
+206,00:27:46,Reghabi,She's Lumon through and through. She was raised by them. She's a soldier.,Devon
+207,00:27:50,Devon,It's a risk. I get that.,Reghabi
+208,00:27:50,Reghabi,A risk?,Devon
+209,00:27:52,Devon,Yeah.,Reghabi
+210,00:27:55,Reghabi,"She will turn you over to them. Both of us. Everything I've done to fight, gone. We resume the treatment as soon as he wakes up.",Devon
+211,00:28:01,Devon,Okay. I have custody of his brain now. You don't. I'm calling her.,Reghabi
+212,00:28:18,Reghabi,"Well, then, I can't be a part of this.",Devon
+213,00:28:18,Devon,What?,Reghabi
+214,00:28:21,Reghabi,If you do that… If you make that choice…,Devon
+215,00:28:24,Devon,"What are you… No, seriously, what are you doing?",Reghabi
+216,00:28:25,Reghabi,Good luck.,Devon
+217,00:28:25,Devon,"You can't leave him like this. No, no, no, I can't do this without you. You… Are you kidding? You're leaving now?",Reghabi
+218,00:28:36,Reghabi,This… This isn't my choice. It's yours.,Devon
+219,00:28:40,Devon,"No, I need you to stay. I can't… I don't know what to do with this. What do I do if he wakes up?",Reghabi
+220,00:28:44,Reghabi,Do not call that woman.,Devon
+221,00:28:46,Devon,"Oh, my God.",Reghabi
+222,00:28:59,Devon,Hey.,Reghabi
+223,00:29:01,Mark,Chi…,Devon
+224,00:29:03,Devon,Mark?,Mark
+225,00:29:03,Mark,Chikha… Chikha…,Devon
+226,00:29:07,Devon,What are you trying to say?,Mark
+227,00:29:11,Mark,Chikhai… Chik…,Devon
+228,00:29:13,Mark,Chikhai bardo?,Devon
+229,00:29:14,Mark,I don't know. It looks like two guys fighting.,Devon
+230,00:29:18,Gemma,"No, it's the same guy fighting himself, defeating his own psyche. Ego death.",Mark
+231,00:29:24,Mark,How do you know it's the same guy?,Gemma
+232,00:29:26,Gemma,"Well, the hair's the same.",Mark
+233,00:29:30,Mark,That thing came in the mail?,Gemma
+234,00:29:32,Gemma,Yeah. It's one of those things where you have to draw a duck or a rabbit or whatever. I think I got onto the mailing list at the clinic.,Mark
+235,00:29:42,Mark,Why are you wasting your time with this?,Gemma
+236,00:29:47,Gemma,Why are you being an asshole?,Mark
+237,00:29:49,Mark,I'm not. I'm just… I don't know. It seems kind of… weird.,Gemma
+238,00:29:56,Gemma,"I'm enjoying this. Or was, until you ruined it.",Mark
+239,00:29:59,Mark,"I think you might be overreacting a little bit, Gemma.",Gemma
+240,00:30:02,Gemma,Don't do that.,Mark
+241,00:30:04,Mark,Do what?,Gemma
+242,00:30:06,Gemma,Tell me how I'm feeling.,Mark
+243,00:30:06,Mark,I have no idea how you're feeling.,Gemma
+244,00:30:09,Gemma,Like shit. Beat to shit.,Mark
+245,00:30:12,Mark,So let's stop.,Gemma
+246,00:31:28,Mauer,It's okay. This is perfectly normal. Let's get you set up with that meal. Bon appétit. Can I get you anything else? Coffee? Tea? Another pillow…,Drummond
+247,00:31:47,Mauer,He's stuck at 96%.,Drummond
+248,00:31:50,Drummond,"The nose bleeds set us back. When he's done, you're gonna have to say goodbye to her.",Mauer
+249,00:32:00,Mauer,I'm aware.,Drummond
+250,00:32:05,Drummond,For Kier.,Mauer
+251,00:32:12,Mauer,For Kier.,Drummond
+252,00:32:19,Drummond,Why are you wearing that stupid sweater?,Mauer
+253,00:32:53,Gemma,"Dear Mr. Tisdale, I cannot thank you enough… for the thoughtful Christmas gift you sent my husband and I this year. We have never owned an electric grouter. And we look forward to the many happy memories it will provide.",Mauer
+254,00:33:49,Mauer,"Come on now, sweetheart. It's the last one.",Gemma
+255,00:34:03,Gemma,Nothing… says… Christmas like… grouting.,Mauer
+256,00:34:16,Mauer,"It's actually a de-grouter, but close enough.",Gemma
+257,00:34:26,Gemma,How much longer do I have to do this?,Mauer
+258,00:34:29,Mauer,"I told you, you're done. But Christmas has a funny way of coming back around each year.",Gemma
+259,00:34:44,Gemma,It's always Christmas.,Mauer
+260,00:34:50,Mauer,Let's go.,Gemma
+261,00:35:03,Mauer,I love you.,Gemma
+262,00:35:10,Mauer,"I said, “I love you.”",Gemma
+263,00:35:18,Gemma,I love you too.,Mauer
+264,00:37:34,Mauer,"Hello, Gemma.",Gemma
+265,00:37:36,Gemma,Dr. Mauer.,Mauer
+266,00:37:38,Mauer,How are you feeling?,Gemma
+267,00:37:42,Gemma,My hand hurts.,Mauer
+268,00:37:45,Mauer,And what room caused your hand to hurt?,Gemma
+269,00:37:52,Gemma,Allentown. I want to go home.,Mauer
+270,00:38:17,Mauer,Your husband remarried last year… and he has a daughter now.,Gemma
+271,00:38:30,Gemma,I don't believe you.,Mauer
+272,00:38:32,Mauer,"You've been gone a long time, Gemma. He's moved on. Maybe you've moved on too. In one of the rooms. What do you think? Do you feel yourself gravitating towards one room or another? Maybe you felt things behind those doors you never felt with Mark. Maybe I've seen it.",Gemma
+273,00:39:08,Mauer,The Death of Ivan Ilyich. Let me guess. He dies at the end.,Gemma
+274,00:40:53,Nurse,Gemma!,Mark
+275,00:41:01,Nurse,Gemma! Stop!,Mark
+276,00:41:04,Nurse,Gemma!,Mark
+277,00:41:22,Mark,Hey.,Nurse
+278,00:41:23,Gemma,You sure you don't want to come?,Mark
+279,00:41:26,Mark,It's charades.,Gemma
+280,00:41:26,Gemma,"That's gonna be, like, 20 minutes of it.",Mark
+281,00:41:29,Mark,"Yeah. But, you know.",Gemma
+282,00:41:32,Gemma,Or I could stay?,Mark
+283,00:41:34,Mark,"No, you should probably go. I mean, this thing's gotta be in tonight anyway, so…",Gemma
+284,00:41:40,Gemma,Okay. Did you get the Denali thing I sent?,Mark
+285,00:41:44,Mark,The… No. I'll look at it. I'll check it out.,Gemma
+286,00:41:49,Gemma,"All right. Well, I'll be back at, like, 10:00.",Mark
+287,00:41:52,Mark,Okay.,Gemma
+288,00:41:54,Gemma,I love you. I said–,Mark
+289,00:42:04,Mark,"Oh, no, I love you too, hon. I'm sorry.",Gemma
+290,00:42:04,Gemma,Bye.,Mark
+291,00:42:05,Mark,See you.,Gemma
+292,00:42:46,Milchick,Ms. Casey.,Ms. Casey
+293,00:42:50,Ms. Casey,Mr. Milchick.,Milchick
+294,00:42:52,Milchick,I'm so sorry.,Ms. Casey
+295,00:42:56,Ms. Casey,What's happening?,Milchick
+296,00:42:57,Milchick,Nothing. Your outie came in for a public art exhibition and found herself in the wrong elevator.,Ms. Casey
+297,00:43:10,Ms. Casey,How long have I been–,Milchick
+298,00:43:12,Milchick,"If you wouldn't mind turning around and heading back in, it would be greatly appreciated.",Ms. Casey
+299,00:43:18,Ms. Casey,But–,Milchick
+300,00:43:18,Milchick,On you go.,Ms. Casey
+301,00:43:36,Ms. Casey,Where's–,Milchick
+302,00:43:36,Milchick,"Thank you, Ms. Casey.",Ms. Casey
+303,00:45:08,Gemma,No.,Nurse
+304,00:46:28,Gemma,Mark.,Nurse
+305,00:46:33,Nurse,Come on.,Gemma
+306,00:46:33,Gemma,Mark.,Nurse
+307,00:47:27,Devon,"Mark? Hey. Hey, hey, hey, hey. Hi. Hey.",Unknown
+308,00:47:50,Devon,Careful. Easy.,Unknown
+309,00:47:59,Devon,"Oh, Mark.",Unknown
+310,00:48:02,Devon,Where'd you go?,Unknown

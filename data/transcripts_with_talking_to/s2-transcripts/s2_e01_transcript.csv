@@ -1,0 +1,337 @@
+,timestamp,speaker,text,talking_to
+0,00:00:10,Mark S,Devon!,Helly
+1,00:00:12,Helly,"No, no, no. Listen, we're not happy. We're miserable.",Mark S
+2,00:00:16,Irving,Burt!,Helly
+3,00:00:18,Helly,They torture us down there!,Irving
+4,00:00:19,Mark S,Devon!,Helly
+5,00:00:21,Helly,We're prisoners!,Mark S
+6,00:00:21,Irving,Burt!,Mark S
+7,00:00:22,Mark S,She's alive!,Irving
+8,00:03:39,Mark W,I suppose you're Mark S.,Mark S
+9,00:03:42,Mark S,I–,Mark W
+10,00:03:42,Mark W,I'm Mark W.,Mark S
+11,00:03:51,Dario R,Perché sta in piedi modo strano?,Mark S
+12,00:03:48,Mark S,Who are you people?,Dario R
+13,00:03:53,Mark W,Would you be open to using a different first name to avoid confusion?,Milchick
+14,00:03:58,Milchick,"Welcome back, Mark S. Been a minute.",Mark W
+15,00:04:14,Mark S,Where are they?,Milchick
+16,00:04:15,Milchick,I think it's best to save any queries till we arrive at the management office.,Mark S
+17,00:04:19,Mark S,Were they fired?,Milchick
+18,00:04:21,Milchick,"You can leave the balloons in the foyer by my old desk. We've much to discuss, and I don't want them distracting you. I assure you, they won't be taken.",Mark S
+19,00:04:29,Mark S,"Mr. Milchick, please.",Milchick
+20,00:04:30,Milchick,What you all did five months ago was one of the most painful moments in the history of this company.,Mark S
+21,00:04:34,Mark S,Five months?,Milchick
+22,00:04:35,Milchick,"I, too, was wounded by it. But we must be cut to heal, mustn't we?",Mark S
+23,00:04:42,Mark S,"Wait, did you say your old office?",Milchick
+24,00:04:44,Milchick,"Mark, this is Miss Huang. Miss Huang, Mark S.",Mark S
+25,00:04:47,Miss Huang,Hello.,Milchick
+26,00:04:49,Milchick,"She'll be happy to mind your balloons while we chat. Right this way, Mark. You can shut it.",Miss Huang
+27,00:05:04,Mark S,Is it normal for a child to–,Milchick
+28,00:05:06,Milchick,Excuse the clutter.,Mark S
+29,00:05:14,Mark S,Okay. What's happening?,Milchick
+30,00:05:17,Milchick,Ms. Cobel is no longer with this company. I now manage the severed floor.,Mark S
+31,00:05:23,Mark S,What about my team?,Milchick
+32,00:05:26,Milchick,"We didn't fire them. Helly R. and Irving B. both successfully made contact with persons on the outside, just as you did. Dylan G.'s outie learned what happened after the fact. The four of you have achieved international fame. As a group, you've become known as the face of severance reform.",Mark S
+33,00:05:47,Mark S,Severance ref–,Milchick
+34,00:05:47,Milchick,"Have a seat, Mark. Shortly before your mutiny, we installed security doors to keep you in MDR. This accompanied a punitive rendition of the Kier hymn performed by Ms. Cobel. Do you recall?",Mark S
+35,00:06:03,Mark S,I do.,Milchick
+36,00:06:10,Milchick,"I locked you in a room like an animal, Mark. As an unsevered man, I'll carry that knowledge the rest of my life. But for the past five months, we've been asking how a sadist like Harmony Cobel could take fertile root in Lumon soil. And what that says about us. We also know Ms. Cobel was at your sister's home when you awoke there.",Mark S
+37,00:06:36,Mark S,Yeah. Why was that?,Milchick
+38,00:06:40,Milchick,We believe she'd developed an erotic fixation on you and had plans to pursue both you and your outie in what might be termed “a throuple.”,Mark S
+39,00:06:50,Mark S,What?,Milchick
+40,00:06:51,Milchick,"Thankfully, she failed at this.",Mark S
+41,00:06:56,Mark S,You still haven't told me where my team is.,Milchick
+42,00:07:02,Milchick,"We tried for weeks to get them back, Mark. None of them agreed. We told them of the reforms, but it wasn't enough.",Mark S
+43,00:07:15,Mark S,Except for me?,Milchick
+44,00:07:20,Milchick,"Your outie insisted on returning. In fact, he begged us to let him back right away.",Mark S
+45,00:07:28,Mark S,"So the others, they refused?",Milchick
+46,00:07:33,Milchick,Yes.,Mark S
+47,00:07:37,Mark S,"Well, I'd like to hear it from them.",Milchick
+48,00:07:46,Milchick,That's not possible. Enjoy your balloons.,Mark S
+49,00:08:19,Mark W,"Yeah. We showed up about an hour before you did. It's a little cramped compared to our old MDR, but I love the green carpet. Ours was a crème brûlée and the keyboards were puce.",Gwendolyn Y
+50,00:08:30,Gwendolyn Y,They were purple.,Mark W
+51,00:08:31,Mark W,"No. They were puce. I know because it makes me nauseous, and I hate sweets. Speaking of which, how much do we see of that Mr. “Milkshake”?",Gwendolyn Y
+52,00:08:38,Mark S,Milchick.,Mark W
+53,00:08:40,Mark W,What?,Mark S
+54,00:08:42,Mark S,"It's Milchick, not milkshake. And I don't know.",Mark W
+55,00:08:46,Dario R,"Marco, where I can find some ink pencils?",Mark S
+56,00:08:51,Mark S,Supply closet.,Dario R
+57,00:08:51,Dario R,[Speaks Italian],Mark S
+58,00:08:58,Mark S,I'll show ya.,Dario R
+59,00:09:05,Gwendolyn Y,"So, did you really see the outie world?",Mark S
+60,00:09:05,Mark S,Yeah.,Gwendolyn Y
+61,00:09:10,Gwendolyn Y,How's the sky?,Mark S
+62,00:09:11,Mark S,I don't know.,Gwendolyn Y
+63,00:09:13,Gwendolyn Y,"What, you didn't see it?",Mark S
+64,00:09:13,Mark S,"Well, I went outside for a second, but I was distracted by my brother-in-law.",Gwendolyn Y
+65,00:09:19,Gwendolyn Y,Seriously? Because we made a list of what we'd most like to see on the outside. And sky was an easy number one. Brothers-in-law weren't even on the list.,Mark S
+66,00:09:28,Dario R,Grazie.,Gwendolyn Y
+67,00:09:30,Gwendolyn Y,Could you tell what state we were in? Because three of us put Wyoming on our input survey. Did you see any buttes?,Dario R
+68,00:09:30,Mark S,No.,Gwendolyn Y
+69,00:09:35,Gwendolyn Y,"Oh, my God. How's wind? Is it just like getting breathed on, kind of?",Mark S
+70,00:09:38,Miss Huang,"Hello, Refiners.",Mark S
+71,00:09:40,Mark S,"Hello, Miss Huang.",Miss Huang
+72,00:09:41,Mark W,"Oh, no. It's the ball game.",Miss Huang
+73,00:09:45,Miss Huang,Let's head to the kitchenette.,Mark W
+74,00:10:01,Miss Huang,"Okay. So, my name is Miss Huang. It's my first day here as deputy manager. I guess something about me is that before this, I was a crossing guard. Mark W.?",Mark W
+75,00:10:27,Mark W,Why are you a child?,Miss Huang
+76,00:10:31,Miss Huang,Because of when I was born.,Mark W
+77,00:10:38,Mark W,"Right. I'm Mark W. I'm from the MDR department of branch 5X, where I worked with Gwendolyn Y. Kind of a fun fact about me is that I thought I'd be permanently retired when my branch shut down. So this is a nice surprise.",Miss Huang
+78,00:10:57,Miss Huang,Mark S.?,Mark W
+79,00:11:01,Mark W,Okay.,Miss Huang
+80,00:11:16,Mark S,I'm Mark S. And I've been here about two years. Something about me… is… that I am lucky enough to have made four new friends today.,Miss Huang
+81,00:11:55,Miss Huang,"That's nice, Mark. But I have to remind you that I'm a supervisor, not a friend.",Mark S
+82,00:12:22,Mark S,Three new friends.,Miss Huang
+83,00:12:29,Miss Huang,Okay. Congratulations to our two Marks. And now…,Mark S
+84,00:13:31,Gwendolyn Y,What's your perpetuity wing like? Do the Eagans move?,Mark S
+85,00:13:31,Mark S,No.,Gwendolyn Y
+86,00:13:36,Gwendolyn Y,Probably because it's an older branch. Ours were animatronic. They even did this little choreographed dance.,Mark S
+87,00:13:36,Mark W,So yours just stand there? That's weird.,Dario R
+88,00:13:45,Dario R,"In my first perpetuity wing, the Eagans were brooms.",Mark W
+89,00:13:48,Gwendolyn Y,Brooms?,Dario R
+90,00:13:50,Dario R,Each with a face made of a plate.,Gwendolyn Y
+91,00:13:50,Mark W,A plate?,Dario R
+92,00:13:52,Dario R,We were very poor.,Mark W
+93,00:13:54,Gwendolyn Y,Did you guys have the CPR dummies?,Dario R
+94,00:13:56,Dario R,Yeah.,Gwendolyn Y
+95,00:13:56,Gwendolyn Y,What were those made of?,Dario R
+96,00:13:58,Dario R,Brooms.,Gwendolyn Y
+97,00:13:58,Mark W,Did you have an elevator?,Dario R
+98,00:14:01,Dario R,"We had– How do you say, um…  a rope.",Mark W
+99,00:14:04,Gwendolyn Y,Jesus.,Mark S
+100,00:14:22,Mark S,I'm heading out. You good?,Gwendolyn Y
+101,00:14:24,Mark W,Yep. Just about to close out.,Mark S
+102,00:14:26,Mark S,Good. Thank you.,Mark W
+103,00:14:30,Mark W,"You know, my old team was a bunch of dirtbags. We never hit quota. Not once. But it seems like you really liked yours. So, I'm sorry. Good night, Mark.",Mark S
+104,00:14:59,Mark S,Good night.,Mark W
+105,00:15:36,Mark S,"Hey, everybody.",Mark W
+106,00:15:38,Milchick,"“Dear Outie, I don't know if this will reach you, but I'm writing to alert you of the heinous conditions in the severed office to which you have transferred me. The branch is run by a shambolic rube who goes by Milkshake.”",Mark S
+107,00:15:54,Mark S,"Oh, my God.",Milchick
+108,00:15:55,Milchick,"“A man whose stupidity is rivaled only by that of the nine core principles. If you must continue to send me here, please consider strapping a bomb to me, so that I may explode both Milkshake and the very spirit of Kier Eagan. Wrathfully, your innie, Mark W.”",Mark S
+109,00:16:17,Mark S,"Oh, my God. That's very serious.",Milchick
+110,00:16:22,Milchick,Is it earnest? Do you really think I'm a shambolic rube?,Mark S
+111,00:16:34,Mark S,"Wait, you think I wrote this note?",Milchick
+112,00:16:34,Dario R,"[in Italian] It was found, you bad liar.",Gwendolyn Y
+113,00:16:37,Gwendolyn Y,Were you going to frame all of us or just Mark W.?,Dario R
+114,00:16:40,Mark W,"Clever way to secure the name for yourself, I suppose?",Milchick
+115,00:16:45,Milchick,I don't know why you hate this team.,Mark W
+116,00:16:45,Mark S,I don't hate this team.,Milchick
+117,00:16:49,Milchick,You didn't even disguise your own handwriting.,Mark S
+118,00:16:56,Mark S,You know what? I don't even know who this team is. I told you. I want my team. Which part of that don't you understand?,Milchick
+119,00:17:11,Milchick,"Mark S., at this time, I revoke your status as Department Chief, which will be transferred to your intended victim, Mark W.",Mark S
+120,00:17:22,Mark W,I accept.,Milchick
+121,00:17:24,Milchick,You will be relegated to the office and must check in regularly as to your progress.,Mark W
+122,00:17:32,Gwendolyn Y,"Do you even have a brother-in-law, asshole?",Milchick
+123,00:17:39,Milchick,What's funny?,Gwendolyn Y
+124,00:17:44,Mark S,"You don't know what I did to the kitchenette yet, do you?",Milchick
+125,00:18:02,Milchick,Goddamn it.,Mark S
+126,00:18:10,Miss Huang,"Hey! You're definitely not supposed to do that. Mr. Milchick, I've got Mark S. in your office. He's got the speaker.",Mark S
+127,00:18:27,Mark S,"Hello? Is anyone there? Is the Board on? It's Mark S. from Macrodata Refinement. Okay. Well, if you're there, please listen. Now, I know that you want to do the right thing for severed people, which is why I need to see my team again.",Miss Huang
+128,00:18:27,Milchick,Mark!,Mark S
+129,00:18:42,Mark S,"If we truly are the face of severance reform, as you say, then they deserve a chance.",Milchick
+130,00:18:45,Milchick,Mark!,Mark S
+131,00:18:49,Mark S,"Please. They're my friends! You can't just make them disappear! Please! Look, Mr. Milchick, I only went to the Board because I cannot–",Milchick
+132,00:19:14,Milchick,The Board does not converse with innies. It is clear your outie's fame has gone to your innie's head.,Mark S
+133,00:19:22,Mark S,"No, my innie just wants his coworkers back so we can serve Kier together. Are you firing me?",Milchick
+134,00:19:42,Milchick,On you go.,Mark S
+135,00:19:50,Mark S,Why can't you just bring them back?,Milchick
+136,00:19:54,Milchick,"Goodbye, Mark S.",Mark S
+137,00:19:56,Mark S,Wait!,Milchick
+138,00:20:50,Mark S,Dylan!,Milchick
+139,00:20:50,Dylan G,Mark. Did it work?,Mark S
+140,00:20:51,Mark S,It worked.,Dylan G
+141,00:20:52,Dylan G,Where are the others?,Mark S
+142,00:20:52,Mark S,I don't know.,Dylan G
+143,00:20:54,Dylan G,Milchick was– I didn't think I was coming back.,Mark S
+144,00:20:56,Mark S,I've been back a couple days already.,Dylan G
+145,00:20:56,Dylan G,What?,Mark S
+146,00:20:58,Mark S,Yeah. And they had a whole new team.,Dylan G
+147,00:21:00,Dylan G,Cobel just replaced us?,Mark S
+148,00:21:04,Dylan G,"Okay, so the man who just tackled me and cut up my best belt is our boss now? Fuck me.",Mark S
+149,00:21:07,Mark S,Wait. He tackled you?,Dylan G
+150,00:21:09,Dylan G,"Yeah, bad. Which– I mean, fair, I tackled the man first, but I didn't fuck with his belt. “Kier pardons his betrayers”?",Mark S
+151,00:21:16,Irving B,Burt!,Dylan G
+152,00:21:24,Dylan G,"Dude, are you okay?",Irving B
+153,00:21:45,Mark S,"Irving, what happened?",Dylan G
+154,00:21:46,Dylan G,"The fuck? Irv! Dude, what's wrong? You poor up there?",Mark S
+155,00:21:54,Mark S,"Come on. Helly! Oh, my God. Are you okay?",Dylan G
+156,00:22:07,Helly R,I'm okay. Did you wake up?,Mark S
+157,00:22:09,Mark S,"Yeah, it was crazy.",Helly R
+158,00:22:09,Helly R,Same.,Mark S
+159,00:22:11,Mark S,"Oh, my God. I was so worried about you.",Helly R
+160,00:22:13,Helly R,How long has it been?,Mark S
+161,00:22:13,Mark S,"Five months, maybe more.",Helly R
+162,00:22:16,Helly R,Where's everybody else?,Mark S
+163,00:22:17,Mark S,Come on. They're gone.,Helly R
+164,00:22:26,Helly R,Irving?,Mark S
+165,00:22:28,Dylan G,He won't come out.,Mark S
+166,00:22:32,Mark S,"Hey, Irv?",Dylan G
+167,00:22:34,Irving B,"I'm sorry, Mark. I just need a moment, please.",Mark S
+168,00:22:37,Mark S,Okay. Take your time.,Irving B
+169,00:22:39,Dylan G,"Okay, so what is going on? We're not in trouble?",Mark S
+170,00:22:41,Mark S,"I don't think so. I mean, Milchick said our message got out. He said we're famous.",Dylan G
+171,00:22:45,Dylan G,"All of us equally or one of us is, like, the star?",Mark S
+172,00:22:47,Mark S,"I don't know. But then he tried to fire me, I think.",Dylan G
+173,00:22:50,Dylan G,Why?,Mark S
+174,00:22:52,Mark S,"Well, because I sort of sabotaged the new people.",Dylan G
+175,00:22:55,Helly R,New people?,Dylan G
+176,00:22:55,Dylan G,"So, what the fuck happened up there?",Helly R
+177,00:22:58,Mark S,"Well, look, Milchick is probably coming.",Dylan G
+178,00:23:00,Dylan G,Good. I owe him a fucking belt cut. Now tell me.,Mark S
+179,00:23:03,Mark S,"What if they're waiting for us to tell each other what happened because they don't know what happened? I mean, what if they're listening, Dylan?",Dylan G
+180,00:23:09,Helly R,"Wait, what happened to the security camera?",Irving B
+181,00:23:13,Irving B,"I– I'm sorry, I was… just–",Helly R
+182,00:23:23,Dylan G,Are you okay?,Miss Huang
+183,00:23:25,Miss Huang,"Hi, everyone. I'm Miss Huang. Mr. Milchick's waiting for you in the break room.",Dylan G
+184,00:23:41,Dylan G,"What the fuck is going on? Why is she, like, eight?",Miss Huang
+185,00:23:43,Mark S,I don't know.,Helly R
+186,00:23:45,Helly R,"Wait, so they replaced us?",Mark S
+187,00:23:46,Mark S,For a couple days.,Helly R
+188,00:23:48,Dylan G,Who was me?,Mark S
+189,00:23:49,Mark S,"They weren't, like, specific counterparts. They were, I don't know, weird.",Dylan G
+190,00:23:53,Dylan G,"Okay. Well, I don't think you should feel bad at all.",Mark S
+191,00:23:55,Mark S,Feel bad?,Dylan G
+192,00:23:55,Dylan G,"Yeah, for ending their lives. Fuck 'em.",Mark S
+193,00:23:58,Mark S,"Well, I wasn't trying to–",Dylan G
+194,00:24:00,Dylan G,"No, dude, I'm saying don't feel bad. Like, I'm sure they deserved it.",Mark S
+195,00:25:28,Milchick,"Macrodata Refinement. Welcome back. Please, take a seat. Irving, if you wouldn't mind being in back. Tall glass of water.",Mark S
+196,00:25:45,Mark S,I guess the Board reconsidered my terms.,Milchick
+197,00:25:49,Milchick,Guess so. What you're about to see will be shown to every innie who sets foot in this building after today. I hope it will give you a sense of Lumon's feelings.,Mark S
+198,00:26:22,Lumon Building,"Hi. You probably don't recognize me from this angle. I'm the Lumon Administrative Building, branch 501. And you're sitting in me right now. The name's a mouthful, or as I say, a “doorful.” So you can just call me Lumon. I've gone through a lot of changes since my siring here in 1870. But one thing I've always had is a love for my workers, both unsevered and severed. Not to brag, but my basement floor is one of the premier severed workspaces in the 206 countries from which Lumon operates. Hey, no running in my halls! That tickles. But what makes a building truly happy? This question came to light when four MDR workers, dissatisfied with their severed lives, conspired to mount what Lumon historians will forever call the Macrodat Uprising. Under my literal nose unfolded a human drama of danger and intrigue. Righteous anger.",Irving B (voice)
+199,00:27:38,Irving B (voice),Let's burn this place to the ground.,Lumon Building
+200,00:27:46,Lumon Building,Inspiration.,Irving B (voice)
+201,00:27:48,Mark S (voice),Why are we down here still working in the dark?,Lumon Building
+202,00:27:56,Lumon Building,And love.,Mark S (voice)
+203,00:28:01,Dylan G,What the shit?,Lumon Building
+204,00:28:05,Lumon Building,"The Macrodat Uprising yielded bounteous reforms. These include tasty new snacks, like fruit leather, cut beans, Christmas mints, and salsa. Not sold yet? The incentives were also reformed and now range from hall passes to pineapple bobbing… to our brand-new playful mirror room. You know, it's funny. I've sat by this reflective pool my whole life, yet it took the quiet courage of four MDR heroes to show me who I really am.",Dylan G
+205,00:28:59,Water Tower,They made quite a splash.,Lumon Building
+206,00:29:02,Lumon Building,"They sure did, Water Tower. And I thank Kier for them. I thank Kier for the Macrodat Uprising.",Water Tower
+207,00:29:31,Milchick,"I know we have our differences… but I want you to know that I truly respect each and every one of you. And I don't wanna be your jailer. By end of day, each of you will choose whether you want to remain here. Not your outies, but you. If you start work on your file, I'll assume you want to stay. If not, I'll send you to the surface. No ill will. Maybe I'll even buy you a drink at a bistro one day. Like the rest of the severed floor, the break room has no cameras or microphones. Privacy shouldn't mean packing into a supply closet like so many sardines. I truly hope you all will choose to stay and enjoy what you've helped build. A new quarter. A fresh start. For all of us.",Helly R
+208,00:30:52,Helly R,What the hell was that?,Milchick
+209,00:30:53,Dylan G,Massive-ass head game is what that was. So what the hell did you guys see up there?,Mark S
+210,00:31:00,Mark S,Well…,Dylan G
+211,00:31:01,Helly R,He said there were no microphones in here.,Dylan G
+212,00:31:03,Dylan G,"Yeah, he says a lot of shit, so just fucking whisper it.",Helly R
+213,00:31:05,Mark S,"Okay. So, I was at a party at my sister's house for Ricken Hale.",Helly R
+214,00:31:12,Helly R,"Wait, what?",Mark S
+215,00:31:13,Dylan G,You know Ricken Hale?,Mark S
+216,00:31:15,Mark S,He's my outie's brother-in-law.,Dylan G
+217,00:31:17,Dylan G,What?,Mark S
+218,00:31:18,Mark S,"And for some reason, we both know Cobel.",Dylan G
+219,00:31:23,Dylan G,That's insane.,Mark S
+220,00:31:25,Mark S,"Yeah. Well, there's something else. Just before I switched back, I found a wedding photo. Now, I guess my outie's wife died a few years ago.",Dylan G
+221,00:31:36,Dylan G,"Oh, shit.",Mark S
+222,00:31:38,Mark S,"Which, apparently, is part of why I decided to get severed. Except… the woman in the photo was Ms. Casey.",Dylan G
+223,00:31:55,Irving B,Ms. Casey is your wife?,Mark S
+224,00:31:57,Mark S,Is my outie's wife.,Irving B
+225,00:31:58,Dylan G,But she's dead.,Mark S
+226,00:32:00,Mark S,"No, I know, but it was her.",Dylan G
+227,00:32:07,Irving B,Then she's down here.,Mark S
+228,00:32:09,Mark S,No. I went to Wellness. It's gone.,Irving B
+229,00:32:13,Dylan G,"What do you mean, gone?",Mark S
+230,00:32:14,Mark S,"I mean, it's gone.",Dylan G
+231,00:32:18,Helly R,"Oh, my God. Mark, are you okay?",Mark S
+232,00:32:23,Mark S,"Yeah. Well, I don't know. What about you? What did you see?",Helly R
+233,00:32:33,Helly R,I saw the inside of a really fucking boring apartment.,Mark S
+234,00:32:41,Mark S,"So, you live by yourself?",Helly R
+235,00:32:44,Helly R,"Yeah. I was watching some nature show on TV, wearing sweatpants and a T-shirt.",Mark S
+236,00:32:52,Dylan G,"What kind of T-shirt? Did it feature, like, a band or pocket?",Helly R
+237,00:32:56,Helly R,It was like a “save the gorillas” shirt.,Dylan G
+238,00:32:59,Dylan G,Cool.,Helly R
+239,00:33:00,Helly R,I guess.,Dylan G
+240,00:33:04,Irving B,And then what?,Helly R
+241,00:33:06,Helly R,"Then I went outside and found a guy. He looked like a gardener. Told him everything. I think he kind of thought it was bullshit. But he said that his brother was a cop and that he would tell him everything. I don't know. Sorry, guys. I really tried.",Irving B
+242,00:33:28,Irving B,A gardener?,Helly R
+243,00:33:32,Helly R,Yeah.,Irving B
+244,00:33:34,Irving B,A night gardener?,Helly R
+245,00:33:37,Helly R,"I think so. I mean, maybe he has a different job during the day.",Irving B
+246,00:33:43,Mark S,"What about you, Irv?",Irving B
+247,00:33:49,Irving B,Do you suppose he's serious? About letting us leave?,Mark S
+248,00:34:02,Mark S,"Irv, what did you see?",Irving B
+249,00:34:07,Irving B,It's not our world up there. That's what I saw.,Mark S
+250,00:34:15,Dylan G,"Come on, man. You can tell us.",Helly R
+251,00:34:23,Helly R,"Yeah, it's okay. Even if it's bad.",Dylan G
+252,00:35:03,Dylan G,Irv.,Helly R
+253,00:35:04,Irving B,I just wanna walk for a bit.,Dylan G
+254,00:35:09,Dylan G,I'll talk to him.,Irving B
+255,00:35:09,Helly R,"No, no. We should all go.",Dylan G
+256,00:35:11,Dylan G,"No. He's fine, okay? Let me talk him down. You go back to camp. I'll get you if I need you.",Helly R
+257,00:35:15,Mark S,Are you sure? You–,Helly R
+258,00:35:15,Helly R,But–,Mark S
+259,00:35:30,Mark S,"Hey, Irv's gonna be okay, right?",Helly R
+260,00:35:33,Helly R,Yeah. Dylan's on it. And we have till the end of the day.,Mark S
+261,00:35:39,Mark S,Yeah.,Helly R
+262,00:35:48,Helly R,Did you guys look happy in the wedding photo?,Mark S
+263,00:35:54,Mark S,"Yeah, we did. You know, I never, like– Ms. Casey and I never felt that way.",Helly R
+264,00:36:06,Helly R,"Okay. So, what are you gonna do?",Mark S
+265,00:36:13,Mark S,"Well… I gotta get her out of here. Right? I mean, if she's my wife…",Helly R
+266,00:36:25,Helly R,"Right. Of course. I mean, assuming she's still here. Though technically, strictly speaking, she's not your wife. I'm pretty sure your outie bought the ring.",Mark S
+267,00:36:38,Mark S,"Sure. Except, you know, we're the same-ish person. So, it's mushy.",Helly R
+268,00:36:49,Helly R,It's mushy? Is that what it is? Mushy? Okay.,Mark S
+269,00:36:49,Mark S,"It's… yeah. Listen, Helly—",Helly R
+270,00:36:54,Helly R,"We're not the same, actually. Us and the outies, we're not. And speaking for myself, I don't think we owe them shit. But Ms. Casey is– Well, she's one of us. So, if you wanna help your outie and find out what happened to her… I'll help.",Mark S
+271,00:37:26,Mark S,So you're staying?,Helly R
+272,00:37:32,Helly R,I think I'm staying.,Mark S
+273,00:37:47,Dylan G,Irv. Hold up.,Irving B
+274,00:37:47,Irving B,"Leave me alone, Dylan.",Dylan G
+275,00:37:49,Dylan G,Oka– Dude. Is it– You can't leave until the end of the day.,Irving B
+276,00:37:56,Irving B,Are you sure?,Dylan G
+277,00:37:58,Dylan G,Irv.,Irving B
+278,00:37:59,Irving B,I failed at the objective.,Dylan G
+279,00:38:03,Dylan G,What?,Irving B
+280,00:38:04,Irving B,I went to go find Burt.,Dylan G
+281,00:38:08,Dylan G,Okay. Did you see him?,Irving B
+282,00:38:11,Irving B,"He's married, or, at least, he's with someone. I saw them through the window.",Dylan G
+283,00:38:21,Dylan G,Shit.,Irving B
+284,00:38:23,Irving B,I should be happy he's happy.,Dylan G
+285,00:38:26,Dylan G,"Yeah. But seems like you're probably not, right?",Irving B
+286,00:38:33,Irving B,"The last time I was happy was when all I knew was MDR. When I was good at my job and not trying to be happy. I'm going to leave, Dylan.",Dylan G
+287,00:38:46,Dylan G,It is not leaving. So stop fucking calling it that.,Irving B
+288,00:38:48,Irving B,"I know, you want– I know–",Dylan G
+289,00:38:48,Dylan G,Just fucking try.,Irving B
+290,00:39:01,Irving B,"You're a good friend, Dylan. Before I went to Burt's, I woke up in my apartment.",Dylan G
+291,00:39:13,Dylan G,What?,Irving B
+292,00:39:16,Irving B,I was standing in front of some kind of easel.,Dylan G
+293,00:39:19,Dylan G,Fuck. There's easels up there?,Irving B
+294,00:39:21,Irving B,Yeah. My outie was working on a painting of a hallway. A black hallway.,Dylan G
+295,00:39:26,Dylan G,Like the break room one?,Irving B
+296,00:39:28,Irving B,"No, it was different. Darker. There was an elevator at the end with a downward arrow. He painted dozens of them.",Dylan G
+297,00:39:36,Dylan G,Fuck. Why?,Irving B
+298,00:39:37,Irving B,I don't know. And I wanted you to know before I left.,Dylan G
+299,00:39:42,Dylan G,"Okay. Well, you're not. You– No.",Irving B
+300,00:39:44,Irving B,Stop it. Listen to me.,Dylan G
+301,00:39:46,Dylan G,"Look, I'm sorry that outie Burt has a hot husband or whatever. But he is not the point. Innie Burt is the guy you fell for, and I know because I encouraged the courtship.",Irving B
+302,00:39:58,Irving B,I– I want it to be over.,Dylan G
+303,00:40:02,Dylan G,Okay. So then after you find the black hallway or–,Irving B
+304,00:40:06,Irving B,I want the pain to be over. If he's gone and I'm gone…,Dylan G
+305,00:40:14,Dylan G,Stop saying that.,Irving B
+306,00:40:15,Irving B,"…then somehow, we'll be together.",Dylan G
+307,00:40:17,Dylan G,He wouldn't want that.,Irving B
+308,00:40:18,Irving B,How do you know?,Dylan G
+309,00:40:22,Dylan G,"Because I don't want that. Because I would be sad, and I would be less productive, and I'm really good at what I do here, whatever it is. And you're part of what makes me good at it. So please, do not go.",Irving B
+310,00:40:44,Irving B,Dylan. I'm your favorite perk.,Dylan G
+311,00:40:57,Dylan G,"Don't bring them into this. All I'm saying is, if Burt was still here, he would be telling you to stick around and figure out what the fuck this is.",Irving B
+312,00:41:07,Miss Huang,Dylan G.? Mr. Milchick would like to see you.,Irving B
+313,00:41:26,Irving B,Right.,Miss Huang
+314,00:41:54,Milchick,"I know, but they said it would be corrected by now. It should be Mr. Milchick. M-R-period-space-M-I-L-C-H-I-C-K. Well, I sympathize…",Miss Huang
+315,00:41:54,Miss Huang,Mr. Milchick–,Milchick
+316,00:42:09,Milchick,"…but could you please see that it's taken care of? Yes. Thank you. If someone calls about my welcome screen, I need you to put that call through immediately.",Miss Huang
+317,00:42:19,Miss Huang,"Yes, sir.",Milchick
+318,00:42:22,Dylan G,You wanted to see me?,Milchick
+319,00:42:25,Milchick,"I did. Thank you, Miss Huang.",Dylan G
+320,00:42:38,Dylan G,You gonna apologize about the belt?,Milchick
+321,00:42:49,Milchick,Your wife's name is Gretchen.,Dylan G
+322,00:42:55,Dylan G,What?,Milchick
+323,00:42:57,Milchick,"She wanted you to know. Come with me. And I do apologize, Dylan, for not being a better listener. For not hearing your needs. Take a look. These are blueprints for a new renovation, of which I chose not to inform your colleagues. It's called the Outie Family Visitation Suite.",Dylan G
+324,00:43:44,Dylan G,Are you saying I could see my family here?,Milchick
+325,00:43:48,Milchick,"If you take the name of the room at face value, I'd say yes.",Dylan G
+326,00:43:56,Dylan G,Holy fuck.,Milchick
+327,00:43:58,Milchick,"The holiest. Sadly, everyone else in your department is single. As such, I'm asking that you keep this between us…",Dylan G
+328,00:44:07,Dylan G,Are you–,Milchick
+329,00:44:07,Milchick,…only to avoid resentment. I'd hate for your friends to turn against you after all you've done for them.,Dylan G
+330,00:45:46,Mark S,You okay?,Dylan G
+331,00:45:48,Dylan G,I'm okay.,Mark S
+332,00:45:49,Mark S,Where's Irv?,Dylan G
+333,00:45:54,Irving B,Right here.,Dylan G
+334,00:46:04,Dylan G,Irv. You okay?,Irving B
+335,00:46:08,Irving B,I'm okay.,Dylan G

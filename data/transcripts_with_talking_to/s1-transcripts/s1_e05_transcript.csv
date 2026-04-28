@@ -1,0 +1,422 @@
+,timestamp,speaker,text,talking_to
+0,00:00:50,Mark,Helly leave?,Dylan
+1,00:00:51,Dylan,Yeah.,Mark
+2,00:00:58,Mark,Maybe you should get out of here.,Dylan
+3,00:01:01,Dylan,"I know. Just wrapping up. Sorry, I love the work.",Mark
+4,00:01:29,Mark,Jesus. Help! Help!,Dylan
+5,00:01:41,Graner,Goddamn it!,Mark
+6,00:01:46,Mark,"Oh… Oh, my God.",Graner
+7,00:01:59,Mark,Is she okay?,Graner
+8,00:02:03,Mark,Helly?,Graner
+9,00:02:06,Graner,"Mark, get in the elevator.
+Mark: Helly? Helly!",Mark
+10,00:02:08,Graner,Get in the elevator!,Mark
+11,00:02:17,Mark,Is she okay?,Graner
+12,00:02:35,Mark,"Judd.
+Judd: Mr. Scout, you have a good evening.",Graner
+13,00:02:37,Mark,Will do. Same to you.,Graner
+14,00:04:41,Mark,Is she alive?,Graner
+15,00:04:44,Cobel,"Have a seat, Mark.",Mark
+16,00:04:59,Cobel,"She’s in the hospital. She has severe bruising but, thankfully, no permanent damage.",Mark
+17,00:05:06,Mark,"Okay. Okay, so, you… You’re letting her go?",Cobel
+18,00:05:11,Cobel,Helly’s Outie has no intention of resigning…,Mark
+19,00:05:14,Mark,She almost died. She doesn’t wanna be here.,Cobel
+20,00:05:16,Cobel,And she will be back at her desk in a few days.,Mark
+21,00:05:18,Mark,Is that enough time?,Cobel
+22,00:05:22,Cobel,"This happened on your watch, Mark S. And you can thank Kier himself it went the way it did.",Mark
+23,00:05:35,Cobel,Have a productive day.,Mark
+24,00:06:09,Ricken (voiceover),\\What is it to fail?,Graner
+25,00:06:12,Ricken (voiceover),"\\My failure to break into the literary world in my 20s was devastating, yet it taught me a vital lesson. That it was not me who was wrong, but literature itself. And that to truly find my place in that world, I would first need to break it entirely. And so I did.",Graner
+26,00:06:33,Ricken (voiceover),"\\A society with festering workers cannot flourish, just as a man with rotting toes cannot skip.",Graner
+27,00:06:43,Ricken (voiceover),"\\What separates man from machine is that machines cannot think for themselves. Also, they are made of metal, whereas man is made of skin.",Graner
+28,00:06:53,Ricken (voiceover),"\\If you are a soldier, do not fight for my freedom. Fight for the freedom of the soldier fighting next to you. This will make the war more inspiring for you both.",Graner
+29,00:07:06,Ricken (voiceover),\\A good person will follow the rules. A great person will follow himself.,Graner
+30,00:07:12,Ricken (voiceover),\\Bullies are nothing but Bull and Lies.,Graner
+31,00:07:16,Ricken (voiceover),\\At the center of “Industry” is “Dust.”,Graner
+32,00:07:21,Ricken (voiceover),\\They cannot crucify you if your hand is in a fist.,Graner
+33,00:07:27,Ricken (voiceover),"\\Should you find yourself contorting to fit a system, dear reader, stop and ask if it’s truly you that must change or the system.",Graner
+34,00:07:42,Graner,Ran the diagnostics.,Ricken (voiceover)
+35,00:07:44,Cobel,And?,Graner
+36,00:07:46,Graner,"Full synaptic coupling. Petey Kilmer’s memory was reintegrated. You were right, Harmony.",Cobel
+37,00:07:55,Graner,We should celebrate.,Cobel
+38,00:08:01,Graner,"I figure you’ll take a beat before telling the Board, especially after what happened with Helly R.",Cobel
+39,00:08:09,Graner,Jesus. You haven’t told them.,Cobel
+40,00:08:14,Cobel,Comb the chip data for source signatures.,Graner
+41,00:08:17,Graner,"It’s saved, so you can keep it. A gift.",Cobel
+42,00:08:25,Cobel,Please find out who did this. I’d like to deliver everything to the Board at once.,Graner
+43,00:08:41,Mark,"Oh, shit.",Ricken (voicemail)
+44,00:08:42,Ricken (voicemail),"\\Hi, Mark, it’s Ricken. Listen, I know you’re still in, um, severed Mark form, but, uh, Devon’s at 4 centimeters, so, this baby is officially coming. Uh, we’re headed to the birthing retreat now, so, please come.",Mark
+45,00:08:55,Ricken (voicemail),"\\Mark, Ricken again. We’re at the retreat, and the child is continuing toward the birth canal. So, it would be really great if you were here. I don’t know if they let you have your phone down there… Oh, actually, if this is Mark’s work self, please tell him Ricken said to come quickly.",Mark
+46,00:09:12,Ricken (voicemail),"\\Mark, we’re still here. Wondering if you’re lost. We are in cabin six, which is through the gate and at the end of the row. It’s, um, one of the more affordably sized units, but you should be able to find it. Please do come soon.",Mark
+47,00:09:35,Alexa,"Oh, hey.",Mark
+48,00:09:37,Mark,Hey. Hey.,Alexa
+49,00:09:40,Alexa,Did you forget that I was gonna be here?,Mark
+50,00:09:45,Mark,"Slightly.
+Alexa: Mmm.",Alexa
+51,00:09:49,Mark,"Look, I’m, uh, sorry about the other night. I…",Alexa
+52,00:09:53,Alexa,"Yeah, no, it’s fine.",Mark
+53,00:09:56,Mark,Yeah.,Alexa
+54,00:09:59,Alexa,"She’s doing great, by the way.
+Mark: Yeah?",Mark
+55,00:10:01,Alexa,"Yeah.
+Mark: Okay.",Mark
+56,00:10:01,Alexa,"The contractions are about 20 minutes apart, so, we still have some time.",Mark
+57,00:10:07,Alexa,"Ricken is doing this thing where he cries over her. So, I’m…I’m giving them some privacy.",Mark
+58,00:10:19,Mark,Sounds good.,Alexa
+59,00:10:24,Mark,"Hey, thank you for, uh, you know, taking care of her.",Alexa
+60,00:10:29,Alexa,Yeah. Of course.,Mark
+61,00:10:39,Ricken,"Babe, I just don’t wanna be like my father.",Devon
+62,00:10:42,Devon,"I know, baby. I think it’s good you’re getting it out now. It’s okay.",Ricken
+63,00:10:49,Mark,Hey. I’m looking for baby camp?,Ricken
+64,00:10:51,Ricken,"Ooh. The uncle-to-be. Welcome, Mark.",Mark
+65,00:10:55,Devon,Yay! I’m so glad you’re here. I didn’t know if they were gonna wake you up from work or whatever.,Mark
+66,00:11:00,Mark,"Oh, no, I just saw the message when I got off. Sorry.",Devon
+67,00:11:02,Devon,"No, it’s been pretty boring so far.",Mark
+68,00:11:05,Mark,"All right. Well, uh, glad to be here in this cozy nook.",Devon
+69,00:11:09,Mark,"Wow.
+Devon: Dude, did you see the one next door?",Devon
+70,00:11:11,Mark,"Yeah.
+Ricken: It’s, like, psychotically expensive.",Devon
+71,00:11:14,Devon,It’s like a freakin’ lodge. I hate whoever’s in there.,Mark
+72,00:11:16,Ricken,It’s just fat cats making fat kittens.,Devon
+73,00:11:19,Devon,Yeah.,Ricken
+74,00:11:21,Mark,"Oh, shit.",Ricken
+75,00:11:23,Ricken,It’s a contraction.,Mark
+76,00:11:24,Devon,"Fuck.
+Ricken: Mark, say a secret quickly.",Mark
+77,00:11:27,Devon,"He doesn’t have to, babe.",Mark
+78,00:11:29,Mark,"What?
+Ricken: The fetus is drawn to clear air.",Devon
+79,00:11:32,Ricken,Purging secrets can create a soul void that speeds the labor.,Mark
+80,00:11:35,Mark,"Okay, and we want that?",Ricken
+81,00:11:37,Ricken,"Oh, we do.
+Devon: Hey, baby, not right now.",Mark
+82,00:11:39,Ricken,"It’s fine, I’ll start. Um, Mark…I love you, and I feel hurt that you haven’t called me to thank me for the book yet.",Mark
+83,00:11:47,Ricken,"There. Good.
+Mark: The book?",Mark
+84,00:11:50,Devon,We left a copy of his new book on your doorstep.,Ricken
+85,00:11:53,Ricken,Five days ago. Five full days.,Devon
+86,00:11:55,Mark,"Okay, well, I definitely haven’t seen that. I mean, it must’ve been stolen or something. I…",Ricken
+87,00:12:00,Ricken,What? That was an advanced copy.,Mark
+88,00:12:04,Ricken,"Oh, my God. Oh, my God. Oh!",Mark
+89,00:12:08,Mark,"Are you okay?
+Ricken: Oh, my God.",Ricken
+90,00:12:10,Devon,"I’m okay.
+Ricken: Whew!",Ricken
+91,00:12:11,Ricken,It’s fine. It’s all fine. Ooh.,Devon
+92,00:12:16,Ricken,"Okay, okay. I’m okay. Are you okay?",Devon
+93,00:12:20,Devon,Okay.,Ricken
+94,00:12:22,Devon,"I’m good.
+Ricken: Yeah?",Ricken
+95,00:12:24,Devon,"Yeah, I’m gonna go get coffee.
+Ricken: Really?",Ricken
+96,00:12:27,Devon,Yeah. I think. I’m gonna get going.,Ricken
+97,00:12:29,Ricken,"Are you sure? Um…
+Devon: Thank you. Oh, thanks, bud.",Devon
+98,00:12:34,Devon,"All right. I’ll be back.
+Ricken: Yeah.",Ricken
+99,00:12:35,Ricken,Okay. Be careful.,Devon
+100,00:12:45,Ricken,"Well, this is good. We can finish setting up the room.",Devon
+101,00:12:47,Ricken,Um… Oh.,Devon
+102,00:12:53,Ricken,"Mark, would you help me hang the kelp?",Devon
+103,00:12:56,Mark,Hang the kelp? Why?,Ricken
+104,00:12:59,Ricken,Do you really want me to explain it?,Mark
+105,00:13:13,Devon,Hi. Hi. Excuse me? Sir? Sir… Hey.,Gabby
+106,00:13:32,Devon,"What the fuck, man? Oh, my Go…",Gabby
+107,00:13:37,Devon,"Hi, I’m so sorry. I’m another pregnant lady. I’m from over there. I just came out on a coffee run, and I got distracted by your beautiful coffee, and I was wondering if there’s any chance you could hook me up.",Gabby
+108,00:13:50,Gabby,"Um, okay.",Devon
+109,00:13:52,Devon,Yeah? Yes. Thank you. Thank Christ.,Gabby
+110,00:13:59,Devon,Hi. Thank you so much. I’m gonna squeeze right past you. Ooh. I’m Devon.,Gabby
+111,00:14:11,Gabby,Gabby.,Devon
+112,00:14:12,Devon,Thank you for narcotics. My husband is driving me fucking crazy. My brother’s… depressing me.,Gabby
+113,00:14:24,Gabby,Is it your first?,Devon
+114,00:14:26,Devon,Yeah. Yours?,Gabby
+115,00:14:28,Gabby,My third. I’m naming him William.,Devon
+116,00:14:32,Devon,Three kiddos. I’m so fucking scared of ruining one child. How do you handle it?,Gabby
+117,00:14:39,Gabby,"Lotta help, I guess.
+Devon: Yeah.",Devon
+118,00:14:42,Devon,"Holy shit, by the way, how about this cabin? It’s so nice. Are you rich?",Gabby
+119,00:14:54,Ricken,"Because really…if the thief reads the book, it will have been worth it. In fact, I bet you he turns himself in afterward.",Mark
+120,00:15:05,Ricken,"Listen, I know the last time you were in a medical facility was for Gemma.",Mark
+121,00:15:11,Mark,"Oh, is that what this is? A medical facility?",Ricken
+122,00:15:16,Ricken,"Of course, the baby’s middle name could’ve been so lovely a tribute to her, but…I understand you were unable to be comfortable with it.",Mark
+123,00:15:25,Mark,"Your kid deserves her own name without some…big, feely baggage.",Ricken
+124,00:15:40,Devon,Yes. Ooh.,Mark
+125,00:15:52,Devon,Psst. I got coffee.,Mark
+126,00:15:58,Mark,"Toll, please.",Devon
+127,00:16:02,Devon,"I made friends with the richest lady in baby camp. She was…quiet, but she was nice. Very cute. I should send you up there.",Mark
+128,00:16:14,Mark,I’d imagine she’s spoken for.,Devon
+129,00:16:18,Devon,I bet Alexa would give you another shot.,Mark
+130,00:16:23,Mark,I bet she wouldn’t.,Devon
+131,00:16:25,Devon,"I bet you could ask her.
+Mark: Oh. Okay.",Mark
+132,00:16:29,Devon,"Ah.
+Mark: You okay? Do you want me to go get her?",Mark
+133,00:16:33,Devon,"No, no, no. Hold on, can I squeeze your hand?",Mark
+134,00:16:36,Mark,Yeah. There we go. All right.,Devon
+135,00:16:43,Mark,"Need me to tell a secret?
+Devon: Yeah, go ahead.",Devon
+136,00:16:46,Devon,Give me your dark shit.,Mark
+137,00:16:47,Mark,"Well, so, uh…",Devon
+138,00:16:52,Mark,Um…I kinda think Lumon might be up to something.,Devon
+139,00:17:05,Devon,"What do you mean? Like, with your paychecks?",Mark
+140,00:17:08,Mark,"No, I’ve just been hearing stuff. Just around.",Devon
+141,00:17:14,Devon,Who’ve you been talking to?,Mark
+142,00:17:17,Mark,So… Um…,Devon
+143,00:17:23,Devon,What?,Mark
+144,00:17:26,Mark,Do you remember the businessman?,Devon
+145,00:17:29,Ricken,Oh.,Devon
+146,00:17:32,Devon,Holy fucking pit of hell!,Ricken
+147,00:17:35,Ricken,"Okay. Darling, you okay?",Devon
+148,00:17:37,Devon,"Why do people do this?
+Mark: Uh, I’ll go get Alexa.",Ricken
+149,00:17:39,Ricken,"Great.
+Devon: Don’t touch me, baby.",Devon
+150,00:17:42,Ricken,"Okay.
+Devon: Ah!",Devon
+151,00:17:45,Alexa,"One more big push.
+Ricken: Oh, my God.",Devon
+152,00:17:47,Alexa,"She’s right here. She’s right here. You’re doing so great.
+Devon: Ah!",Devon
+153,00:17:50,Devon,"It hurt… It hurts.
+Alexa: I know it hurts but she’s right here.",Alexa
+154,00:17:54,Alexa,"I can see her. She’s crowning. Okay?
+Devon: Oh, my God.",Devon
+155,00:17:57,Alexa,"All right, now. You know, I can see her. Here she comes.",Devon
+156,00:18:15,,Whew.,
+157,00:18:24,Devon,"Oh, my God.
+Alexa: She’s coming.",
+158,00:18:26,Ricken,"Oh, my God. Oh, my God.",Devon
+159,00:18:31,Devon,Oh!,Ricken
+160,00:18:33,Ricken,"Thank you. Oh, she did great. I’m gonna pass out.",Devon
+161,00:18:36,Milchick,She was in Outie form at the time she woke up.,Mark
+162,00:18:39,Milchick,"So, this will be Innie Helly’s first conscious experience since the hanging.",Mark
+163,00:18:46,Milchick,"When she sees you, it’s important your eyes be kind.",Mark
+164,00:18:52,Milchick,Do you know how to make your eyes kind?,Mark
+165,00:18:58,Mark,Um…,Milchick
+166,00:19:39,Mark,You’re okay. You’re okay. It’s all right.,Milchick
+167,00:19:58,Mark,"So, they locked away the extension cords and other dangerous items so, you know, you should be safe. And if you wanna focus on looking for happy numbers for a while, that’s fine.",Milchick
+168,00:20:22,Mark,Yeah.,Milchick
+169,00:20:30,Mark,Do you wanna talk about it?,Milchick
+170,00:20:46,Irving,We should hide inspirational handbook quotes around the office for her to stumble upon.,Dylan
+171,00:20:54,Dylan,"She just needs to start earning perks, dude. I’d end my life if I didn’t have any finger traps yet. You know, what one of us should do is lend her our trap until she has one of her own. Yeah, but not me though ’cause I already contributed the idea. It’s only fair.",Irving
+172,00:21:11,Mark,Ms. Casey.,Ms. Casey
+173,00:21:14,Ms. Casey,I’m here to observe Helly R.,Mark
+174,00:21:16,Mark,"Oh. Uh, no one told me.",Ms. Casey
+175,00:21:19,Ms. Casey,"Ms. Cobel’s orders. I am to watch her for signs of sadness, and verbally encourage her to forgo further suicide attempts.",Mark
+176,00:21:27,Ms. Casey,"Upon request, I can also perform a hug.",Mark
+177,00:21:31,Dylan,"You know I’ve been, uh, exhibiting signs of sadness. Could I get one of those?",Ms. Casey
+178,00:21:34,Ms. Casey,No.,Dylan
+179,00:22:03,Helly,Did you get all that?,Ms. Casey
+180,00:22:09,Ms. Casey,Are you upset?,Helly
+181,00:22:11,Helly,No. I’m peachy.,Ms. Casey
+182,00:22:17,Ms. Casey,"If you’re upset, you can request a…",Helly
+183,00:22:19,Helly,A hug. I know. I’m good.,Ms. Casey
+184,00:23:15,Mark,Irv.,Irving
+185,00:23:20,Mark,"We lose you again there, buddy?",Irving
+186,00:23:26,Mark,Irv?,Irving
+187,00:23:28,Irving,I have to go to O&D. Something’s come up. And I… I’d like to seek Burt’s counsel.,Mark
+188,00:23:40,Mark,"Well… Okay, fine. Just make a copy of that map in case we have to come find you.",Irving
+189,00:24:12,Irving,"Oh, God.",Mark
+190,00:24:25,Milchick,"Oh, no. I’m sorry, Irving. We must have sent this print job here by mistake. You weren’t supposed to see this.",Irving
+191,00:24:32,Irving,What are these?,Milchick
+192,00:24:34,Milchick,Nothing. A joke for Ms. Cobel.,Irving
+193,00:24:39,Irving,"It’s the O&D coup, isn’t it? The one that Dylan talks about, huh? Did that actually happen, Mr. Milchick?",Milchick
+194,00:24:52,Milchick,Of course not. Nothing like that could happen here.,Irving
+195,00:25:00,Dylan,It’s proof. It is ironclad proof.,Irving
+196,00:25:02,Irving,Milchick says it didn’t happen. And why would one department physically attack another? Lumon wouldn’t just then give them all the other department’s resources.,Dylan
+197,00:25:10,Dylan,"Does O&D know that? Are we even sure about it? Because with seven people, there is a lot that they could do to us.",Irving
+198,00:25:18,Irving,"I could ask…
+Dylan: Your new friend,",Dylan
+199,00:25:20,Dylan,who lied to you about the size of his department? How do we know what else he isn’t being kosher about?,Irving
+200,00:25:39,Cobel,You ran a 266 on Irving B.?,Milchick
+201,00:25:44,Milchick,Yeah. Just now.,Cobel
+202,00:25:48,Cobel,Huh.,Milchick
+203,00:25:51,Milchick,I thought it might dissuade him from spending so much time with Burt G.,Cobel
+204,00:25:58,Milchick,I’m sorry. Should I have consulted you?,Cobel
+205,00:26:03,Cobel,"No, no. Good initiative.",Milchick
+206,00:26:09,Milchick,I saw Ms. Casey down there. You’re having her watch Helly R.,Cobel
+207,00:26:16,Cobel,I am.,Milchick
+208,00:26:18,Milchick,May I ask why?,Cobel
+209,00:26:20,Cobel,“The light of discovery shines truer upon a virgin meadow than a beaten path.”,Milchick
+210,00:26:33,Cobel,I’m trying something new with Ms. Casey. Keep it between us.,Milchick
+211,00:26:47,Milchick,Right.,Cobel
+212,00:27:37,Ms. Casey,Helly R.,Helly
+213,00:27:39,Helly,"Hi, Ms. Casey.",Ms. Casey
+214,00:27:42,Ms. Casey,Please describe for me your time in the restroom.,Helly
+215,00:27:45,Mark,"Oh, no. I’m so sorry, Ms. Casey. I just… I-I… Ugh. I turned and…",Dylan
+216,00:27:52,Dylan,Bet you’re drunk. What’d your mouth taste like when you got in today?,Mark
+217,00:27:57,Ms. Casey,"Helly R., you have to come with me to distribution supply.",Mark
+218,00:28:00,Mark,"That’s okay. I can watch Helly R. While you’re gone. It’s only a few minutes, right?",Ms. Casey
+219,00:28:05,Ms. Casey,"Distribution supply is eight minutes, round trip.",Mark
+220,00:28:21,Dylan,"You know, I go to distribution supply all the time, so, I could, uh… If you…",Helly
+221,00:28:28,Helly,"Well, that’s one less horrible thing. For eight minutes anyway.",Dylan
+222,00:28:35,Mark,"Helly, I just realized I haven’t shown you where we keep the extra pen caps. It’s not far. Do you mind?",Helly
+223,00:28:43,Helly,"I’m good, thanks.",Mark
+224,00:28:46,Mark,"Nah, you’re right. We shouldn’t go anywhere without Ms. Casey.",Helly
+225,00:28:58,Dylan,"Careful out there, boss. Weird energy about.",Helly
+226,00:29:31,Helly,"So, where are all these pen caps at?",Dylan
+227,00:29:35,Mark,"How are you doing, Helly?",Helly
+228,00:29:37,Helly,Jesus. Did you make up the pen caps to ask me that?,Mark
+229,00:29:40,Mark,"Well, I just wanted to talk.",Helly
+230,00:29:44,Helly,"I’m really bad, Mark. Thanks for noticing.",Mark
+231,00:29:50,Mark,Oh. Come here.,Helly
+232,00:29:59,Mark,Come on.,Helly
+233,00:30:14,Mark,Here.,Helly
+234,00:30:18,Helly,Petey’s map.,Mark
+235,00:30:20,Mark,"Yeah. Since you’ve been gone, I’ve been trying to recreate it on my lunch breaks.",Helly
+236,00:30:24,Mark,"And…I thought maybe if we work on it together, we can… You know.",Helly
+237,00:30:33,Helly,I’m not your new Petey.,Mark
+238,00:30:47,Mark,Helly.,Helly
+239,00:30:51,Ms. Casey,Helly R.?,Irving
+240,00:30:54,Irving,"Mark took her to look at pen caps.
+Ms. Casey: Where?",Ms. Casey
+241,00:30:58,Ms. Casey,"Now?
+Dylan: They’re fine.",Irving
+242,00:30:59,Irving,Just at the end of the storage wing.,Ms. Casey
+243,00:31:08,Ms. Casey,Burt G. Is in the conference room.,Irving
+244,00:31:26,Irving,Burt.,Ms. Casey
+245,00:31:29,Burt,Irving.,Irving
+246,00:31:33,Irving,What are you doing here?,Burt
+247,00:31:35,Burt,"Oh. You know, I was turned around.",Irving
+248,00:31:40,Burt,"Actually, I…I was looking for you. I hadn’t heard from you.",Irving
+249,00:31:51,Irving,"Well, I…",Burt
+250,00:31:52,Irving,"Dylan! Oh, my God! What are…
+Burt: Irving.",Burt
+251,00:31:55,Irving,What are you doing?,Burt
+252,00:31:56,Dylan,"He was coming at you.
+Irving: Let him out!",Burt
+253,00:31:57,Dylan,"Out? Why the fuck is he here?
+Irving: Let him out!",Burt
+254,00:31:59,Burt,"What’s wrong with you?
+Dylan: You saw that painting.",Dylan
+255,00:32:01,Dylan,You want to get disemboweled today?,Burt
+256,00:32:03,Dylan,"Hey, where’s your friends? Plural. As in, the six fucking people you’ve been hiding from us.",Burt
+257,00:32:07,Irving,"Oh, my word. I… I… I…",Burt
+258,00:32:09,Irving,I need a manager!,Burt
+259,00:32:11,Burt,"Irving, wait. Don’t go.",Irving
+260,00:32:12,Irving,"I… We…
+Dylan: I know what you’re up to.",Burt
+261,00:32:14,Burt,"What is wrong with you? Open the door.
+Irving: Manager!",Irving
+262,00:32:17,Burt,Open the door.,Irving
+263,00:32:18,Irving,"We need a manager. We need a manager.
+Burt: Irving!",Burt
+264,00:32:21,Burt,Irving!,Irving
+265,00:32:24,Mark,Helly?,Helly
+266,00:32:31,Mark,Helly.,Helly
+267,00:32:35,Mark,Helly.,Helly
+268,00:32:39,Helly,Where the fuck are we?,Mark
+269,00:32:43,Mark,"Look, don’t you want to at least…",Helly
+270,00:32:46,Helly,"I told her I wanted out, and she told me I wasn’t a person. My own self told me that.",Mark
+271,00:32:51,Mark,"Yeah, and… and that’s horrible. But don’t focus on her. What do you want? In here?",Helly
+272,00:33:01,Helly,What I want is for her to wake up while the life drains out of her and to know it was me who did it.,Mark
+273,00:33:19,Burt,"If I could just explain…
+Dylan: Save it, marauder.",Irving
+274,00:33:21,Irving,I checked the whole storage wing. No sign of him or Helly.,Burt
+275,00:33:24,Dylan,Shit. O&D has probably killed them already.,Burt
+276,00:33:26,Burt,"Irving, what?",Dylan
+277,00:33:28,Irving,Our department chief and new hire have gone missing. Do you know where they are?,Burt
+278,00:33:33,Burt,"No, I j… I just came to see you.",Irving
+279,00:33:35,Irving,And the rest of your department?,Burt
+280,00:33:37,Burt,"They’re back in O&D, Irving. I know I said it was just Felicia and me…",Irving
+281,00:33:40,Irving,"If you came here to see me, then why are you in the conference room? Why not come right to the office?",Burt
+282,00:33:45,Burt,"I didn’t know why you hadn’t been back, and I didn’t wanna scare you again. Like with the hand thing.",Irving
+283,00:33:51,Irving,You didn’t scare me.,Burt
+284,00:33:52,Burt,"Or embarrass you. Look, I was working out a joke.",Irving
+285,00:33:56,Irving,"A joke?
+Burt: To say when I got in.",Burt
+286,00:33:57,Dylan,Prove it. Tell it.,Burt
+287,00:33:59,Burt,I hadn’t worked it out yet.,Dylan
+288,00:34:03,Irving,Why did you lie about the number of people in your department?,Burt
+289,00:34:10,Burt,Because…we don’t trust your guys.,Irving
+290,00:34:16,Dylan,"You? The king of fucks don’t trust us?
+Burt: I do.",Burt
+291,00:34:18,Burt,"But people just talk about MDR. Stupid old stories, jokes even.",Dylan
+292,00:34:24,Irving,What do you mean?,Burt
+293,00:34:25,Burt,"I… It’s literally silly. Like, they say you all have pouches.",Irving
+294,00:34:32,Irving,"Pouches? Like to c-carry young?
+Burt: Yes.",Burt
+295,00:34:36,Burt,"According to some, you each have a larval offspring that will jump out and attack if we get too close.",Irving
+296,00:34:43,Dylan,That’s fucking psycho.,Burt
+297,00:34:44,Burt,"I mean, it’s a joke of course, but I don’t know.",Dylan
+298,00:34:47,Burt,"The sentiment, you know, somehow holds. People are weird.",Dylan
+299,00:34:50,Irving,"Yeah.
+Burt: Though, I’d be remiss not to say",Burt
+300,00:34:53,Burt,"that in this theory, the larva eventually eats and replaces you.",Irving
+301,00:35:00,Irving,"Oh.
+Burt: Which, Irving, would solve the mystery…",Burt
+302,00:35:05,Burt,Of your youthful energy.,Irving
+303,00:35:14,Irving,Irv. Irv?,Burt
+304,00:35:17,Irving,"Excuse me.
+Burt: Where are you going?",Burt
+305,00:35:19,Irving,Yes?,Burt
+306,00:35:21,Dylan,Are you sweet on this guy?,Irving
+307,00:35:25,Irving,You disapprove?,Dylan
+308,00:35:26,Dylan,I do. I do disapprove.,Irving
+309,00:35:29,Irving,"Uh, certainly the handbook forbids taking heart to other employees.",Dylan
+310,00:35:32,Dylan,"Rat-fuck the handbook. This guy’s O and goddamn D, who are duplicitous snakes to a one. It’s not safe.",Irving
+311,00:36:33,Goat Wrangler,They’re not ready. You can’t take them yet. They’re not ready. It isn’t time!,Helly
+312,00:36:44,Helly,"Oh, we don’t…
+Goat Wrangler: Get the hell out of here.",Goat Wrangler
+313,00:36:47,Goat Wrangler,Go!,Helly
+314,00:36:55,Burt,“The Grim Barbarity of Optics and Design”?,Irving
+315,00:36:58,Irving,That’s what it said. Mm-hmm.,Burt
+316,00:37:01,Burt,There’s definitely no painting by that name. What kind of barbarities were we enacting?,Irving
+317,00:37:06,Irving,"It doesn’t matter. I don’t think it was real. I mean, I’ll have to confer with my larva, of course.",Burt
+318,00:37:17,Burt,"I’m… I’m sorry you had to do this.
+Irving: It’s all right.",Irving
+319,00:37:23,Irving,"I mean, you know that relationships beyond the, uh, platonic are frowned upon anyway.",Burt
+320,00:37:33,Burt,Is that what we are?,Irving
+321,00:37:38,Irving,"Well, uh, Burt G., at this time I, uh, formally release you from MDR’s supervision.",Burt
+322,00:37:49,Irving,"As Kier said, “Be ever merry.”",Burt
+323,00:37:55,Burt,"Would you like to come in? There is something in the storeroom I’d like to show you. And Dylan, of course.",Irving
+324,00:38:10,Irving,The Courtship of Kier and Imogen.,Burt
+325,00:38:14,Burt,He met his wife while a stewman in an ether factory.,Irving
+326,00:38:20,Dylan,Damn dumb being here.,Burt
+327,00:38:23,Burt,She was a swab girl.,Dylan
+328,00:38:25,Irving,The handbook just says they were bonded by the spirit of industry.,Burt
+329,00:38:30,Burt,"I know, but if this interpretation is correct…",Irving
+330,00:38:34,Irving,they met as colleagues. Took heart to each other as colleagues.,Burt
+331,00:38:38,Burt,"Mmm.
+Irving: Hmm.",Irving
+332,00:38:47,Irving,Makes you wonder how something could be wrong if Kier…,Burt
+333,00:38:52,Dylan,"Get away from him! You lying fuck!
+Burt: Dylan, what?",Irving
+334,00:38:55,Irving,"Dylan!
+Dylan: He claims he doesn’t know",Dylan
+335,00:38:56,Dylan,"about this painting, meanwhile, it’s sitting on his shelf.",Irving
+336,00:38:59,Burt,"That isn’t.
+Irving: Irv, we need to go. Now.",Irving
+337,00:39:02,Irving,It’s not the same.,Burt
+338,00:39:04,Dylan,"What?
+Irving: Look.",Irving
+339,00:39:05,Irving,"Look at the badges the raiders are wearing. That’s not O&D, Dylan. It’s us.",Dylan
+340,00:39:13,Burt,This one’s never gone into the hallway rotation. It’s calledThe Macrodata Refinement Calamity.,Dylan
+341,00:39:19,Dylan,"Okay, but we’ve never done anything like that.",Burt
+342,00:39:21,Dylan,Why the hell would there be two versions of the same painting?,Burt
+343,00:39:37,Helly,"I mean, what if the goats are the numbers? Like, we’re deciding which goats live and which ones… Oh, God.",Mark
+344,00:39:43,Mark,I doubt it’s that.,Helly
+345,00:39:44,Mark,"Look, um… I know you don’t wanna be here. But…I’m glad you are.",Helly
+346,00:39:55,Mark,And I’m sorry that this is the best I can do right now.,Helly
+347,00:40:03,Helly,"If you give me the map, I’ll clean it up. Your drawing is shit.",Mark
+348,00:40:15,Mark,"Oh. Hi, uh, Ms. Casey. We were just heading back from our mental health walk.",Helly
+349,00:40:21,Ms. Casey,You’re both unhurt?,Helly
+350,00:40:24,Helly,We… We are.,Ms. Casey
+351,00:40:26,Ms. Casey,I’m glad. I was scared.,Helly
+352,00:40:30,Mark,I’m sorry.,Ms. Casey
+353,00:40:33,Ms. Casey,I forgive you.,Mark
+354,00:40:38,Ms. Casey,"Okay, then.",Mark
+355,00:40:59,Graner,You aware what MDR is up to right now?,Cobel
+356,00:41:02,Cobel,I thought that’s what you were paid for.,Graner
+357,00:41:05,Graner,You’re not stopping it?,Cobel
+358,00:41:07,Cobel,“The surest way to tame a prisoner is to let him believe he’s free.”,Graner
+359,00:41:12,Graner,There’s a Kier quote for everything.,Cobel
+360,00:41:14,Graner,How many more departments are you gonna let them find?,Cobel
+361,00:41:16,Cobel,I’ll have a word with Mark.,Graner
+362,00:41:18,Graner,I would be careful. Upstairs wouldn’t look kindly on this.,Cobel
+363,00:41:23,Cobel,"Yes, Daddy.",Graner
+364,00:41:27,Cobel,You can talk to me when you figure out who hacked Kilmer’s chip.,Graner
+365,00:41:41,Burt,"Excuse me, everyone. I wanna introduce you all to Irving and Dylan.",Unknown
+366,00:41:49,Burt,They’re from MDR.,Unknown
+367,00:41:53,Burt,And they’re friends.,Unknown

@@ -1,4 +1,4 @@
-import { displayName, factsFor, imageFor, roleFor } from "./data.js";
+import { displayName, factsFor, imageFor, roleFor } from "./data.js?v=character-assets";
 
 const { d3 } = window;
 const DISPLAYED_CHARACTER_COUNT = 15;
@@ -43,6 +43,9 @@ function renderAvatar(character) {
   avatar.classed("avatar-mark-scout", character === "Mark Scout");
   avatar.classed("avatar-seth-milchick", character === "Seth Milchick");
   avatar.classed("avatar-asal-reghabi", character === "Asal Reghabi");
+  avatar.classed("avatar-peter-kilmer", character === "Peter Kilmer");
+  avatar.classed("avatar-ms-casey", character === "Ms. Casey");
+  avatar.classed("avatar-gemma-scout", character === "Gemma Scout");
 }
 
 export function renderRanking({ characters, selectedCharacter, visibleEpisodes, formatNumber, onSelect }) {

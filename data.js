@@ -1,7 +1,7 @@
 const { d3 } = window;
 
 const DATA_ROOT = "data";
-const CHARACTER_MANIFEST_PATH = "public/characters/manifest.json";
+const CHARACTER_MANIFEST_PATH = "public/characters/manifest.json?v=character-assets";
 const WORD_PATTERN = /[A-Za-z0-9]+(?:['\u2019][A-Za-z0-9]+)?/g;
 
 const characterInfo = new Map();
@@ -112,7 +112,7 @@ function normalizeProfile(character) {
     occupation: cleanSpeaker(character.profile?.occupation),
     status: cleanSpeaker(character.profile?.status),
     firstAppearance: cleanSpeaker(character.profile?.firstAppearance),
-    imageUrl: primaryAsset?.sourceUrl || "",
+    imageUrl: primaryAsset?.localUrl || primaryAsset?.sourceUrl || "",
     imageAlt: primaryAsset?.alt || character.profile?.displayName || character.name || ""
   };
 }

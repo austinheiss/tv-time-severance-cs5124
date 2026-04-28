@@ -1,7 +1,7 @@
 import { displayName, factsFor, imageFor, roleFor } from "./data.js?v=character-assets";
 
 const { d3 } = window;
-const DISPLAYED_CHARACTER_COUNT = 15;
+export const DISPLAYED_CHARACTER_COUNT = 15;
 
 export function renderDetails({ characters, selectedCharacter, visibleEpisodes, formatNumber }) {
   const selected = characters.find(d => d.character === selectedCharacter) || characters[0];

@@ -1,0 +1,491 @@
+,timestamp,speaker,text,talking_to
+0,00:00:13,Mark,Devon!,Helly
+1,00:00:16,Helly,"No. Listen, we're not happy, we're miserable.",Mark
+2,00:00:19,Irving,Burt!,Helly
+3,00:00:21,Helly,They torture us down there!,Irving
+4,00:00:21,Mark,Devon!,Helly
+5,00:00:24,Helly,We're prisoners!,Mark
+6,00:00:25,Irving,Burt!,Mark
+7,00:00:27,Mark,She's alive!,Irving
+8,00:00:35,Patton,Yeah. Okay.,Devon
+9,00:00:35,Patton,Okay.,Devon
+10,00:00:37,Devon,Mark? Here. Will you take her for a second?,Patton
+11,00:00:39,Ricken,It's okay. I got her. Yeah.,Devon
+12,00:00:39,Devon,Be careful with her.,Ricken
+13,00:00:41,Devon,Don't go far though.,Ricken
+14,00:00:41,Ricken,I won't.,Devon
+15,00:00:44,Devon,Mark.,Ricken
+16,00:00:49,Devon,"So, this is you now?",Ricken
+17,00:00:52,Mark,Yeah.,Devon
+18,00:00:53,Devon,Are you okay?,Mark
+19,00:00:54,Mark,Yeah.,Devon
+20,00:00:56,Devon,Are you sure?,Mark
+21,00:00:56,Mark,Yeah.,Devon
+22,00:01:00,Devon,What's my name?,Mark
+23,00:01:04,Mark,Persephone.,Devon
+24,00:01:07,Devon,Can you spell that?,Mark
+25,00:01:08,Mark,Never.,Devon
+26,00:01:08,Devon,Okay.,Mark
+27,00:01:11,Ricken,Babe…,Devon
+28,00:01:12,Devon,Okay.,Ricken
+29,00:01:12,Ricken,…need help with this diaper.,Devon
+30,00:01:15,Ricken,"Oh, boy.",Devon
+31,00:01:16,Ricken,I think she wants mommy.,Devon
+32,00:02:15,Jame,Fetid moppet.,Helly
+33,00:02:21,Helly,Father.,Jame
+34,00:02:33,Helly,We'll have someone from the floor liaise with the outies.,Jame
+35,00:02:36,Drummond,We need to find out who they talked to. Promptly.,Helly
+36,00:03:26,Helly,I need you to go see all of them.,Drummond
+37,00:03:28,Helly,Find out every word they said and who they said it to.,Drummond
+38,00:03:31,Milchick,And shall I fire them?,Helly
+39,00:03:33,Helly,Let Kier guide your hand.,Milchick
+40,00:03:35,Milchick,Of course.,Helly
+41,00:04:17,Helly,"Please, sit.",Milchick
+42,00:04:23,Helly,We've commandeered the footage taken by guests.,Milchick
+43,00:04:25,Helly,Natalie is already doing outreach to media.,Milchick
+44,00:04:28,Helly,And the severed employees who were involved are being dealt with.,Milchick
+45,00:04:42,Helly,Thank you for acting so quickly.,Milchick
+46,00:04:45,Helly,You saved us from disaster.,Milchick
+47,00:04:47,Cobel,Will Mr. Eagan be joining?,Helly
+48,00:04:49,Helly,Just me.,Cobel
+49,00:04:53,Helly,I personally owe you a debt of gratitude.,Cobel
+50,00:04:58,Cobel,It cost me dearly.,Helly
+51,00:05:02,Helly,It did.,Cobel
+52,00:05:05,Helly,"And still, you proved your loyalty tonight.",Cobel
+53,00:05:10,Helly,Which is why we'd like to ask you back.,Cobel
+54,00:05:22,Cobel,An apology is warranted.,Helly
+55,00:05:33,Helly,I apologize.,Cobel
+56,00:05:37,Helly,My father apologizes.,Cobel
+57,00:05:41,Helly,The Board apologizes.,Cobel
+58,00:05:44,Helly,We've treated you poorly.,Cobel
+59,00:05:48,Helly,I'm sorry.,Cobel
+60,00:05:56,Cobel,I welcome your contrition.,Helly
+61,00:06:01,Helly,I'm so glad.,Cobel
+62,00:06:06,Cobel,There's much damage to control.,Helly
+63,00:06:10,Cobel,"I recommend we start by scouring the feed,",Helly
+64,00:06:13,Cobel,and I need to interview Dylan G. to see how he gained access to the–,Helly
+65,00:06:17,Helly,We have something else in mind.,Cobel
+66,00:06:23,Helly,We'd like to offer you a promotion.,Cobel
+67,00:06:31,Helly,Severance Advisory Council.,Cobel
+68,00:06:44,Cobel,I never heard of such a thing.,Helly
+69,00:06:48,Helly,It's a brand-new initiative. You'd be spearheading its formation.,Cobel
+70,00:06:53,Helly,Your expertise is greatly valued.,Cobel
+71,00:07:02,Cobel,Which is why I should be running the severed floor.,Helly
+72,00:07:12,Helly,Mr. Milchick has been promoted to floor manager.,Cobel
+73,00:07:23,Cobel,You don't value me.,Helly
+74,00:07:29,Cobel,You fear me.,Helly
+75,00:07:34,Helly,We fear no one.,Cobel
+76,00:07:44,Helly,"And if we didn't hold you in such high esteem,",Cobel
+77,00:07:46,Helly,we wouldn't be making this generous offer.,Cobel
+78,00:07:57,Cobel,I'll put some thought to it.,Helly
+79,00:08:06,Helly,"Thank you for coming in, Harmony. Mr. Drummond will see you out.",Cobel
+80,00:08:12,Cobel,I don't need an escort.,Helly
+81,00:08:44,Camera Woman,Ready?,Helly
+82,00:08:54,Helly,"Earlier this evening,",Camera Woman
+83,00:08:55,Helly,at an event where I was excited to share my status as a severed individual,Camera Woman
+84,00:08:59,Helly,"with a group of friends and allies,",Camera Woman
+85,00:09:02,Helly,I made the poor decision to consume alcohol,Camera Woman
+86,00:09:04,Helly,while on a non-Lumon medication for an arm rash.,Camera Woman
+87,00:09:08,Helly,"This had an inebriating effect,",Camera Woman
+88,00:09:10,Helly,which caused me to say some deeply regrettable things.,Camera Woman
+89,00:09:16,Irving,Mr. Milchick.,Milchick
+90,00:09:16,Milchick,Apologies for the hour.,Irving
+91,00:09:19,Irving,Is everything all right?,Milchick
+92,00:09:21,Milchick,"How's your night been, Mr. Bailiff?",Irving
+93,00:09:25,Irving,Fine. They're showing Barber of Seville[1]on TV.,Milchick
+94,00:09:29,Irving,So I've just been here.,Milchick
+95,00:09:31,Milchick,Wonderful. And you're feeling well?,Irving
+96,00:09:35,Irving,"Oh, God. What did I eat in there?",Milchick
+97,00:09:39,Milchick,We just need to know if anything of note occurred.,Irving
+98,00:09:43,Milchick,Anything at all.,Irving
+99,00:09:46,Irving,"Why don't you tell me what's going on, Mr. Milchick?",Milchick
+100,00:09:50,Helly,"In the moment, I thought I was being funny.",Milchick
+101,00:09:52,Helly,"But in the hours since this outburst,",Milchick
+102,00:09:54,Helly,I've been reminded just how seriously my family's company,Milchick
+103,00:09:58,Helly,affects the lives of real people around the world.,Milchick
+104,00:10:06,Milchick,"You know, your innie is a friend of mine.",Helly
+105,00:10:10,Milchick,I feel confident he'd approve of me saying so.,Helly
+106,00:10:15,Milchick,"And he's a man of principle, which is rare.",Helly
+107,00:10:20,Milchick,Which is what makes this so difficult.,Helly
+108,00:10:25,Irving,You're firing me?,Helly
+109,00:10:28,Helly,"When Lumon falters,",Irving
+110,00:10:29,Helly,it's our cherished workers and their families who suffer first.,Irving
+111,00:10:34,Helly,"So for the fear and insecurity this has caused, I must sincerely atone.",Irving
+112,00:10:39,Milchick,You were involved in a physical altercation,Dylan
+113,00:10:41,Milchick,with another employee this evening.,Dylan
+114,00:10:43,Milchick,It was brief but violent.,Dylan
+115,00:10:45,Milchick,And I regret to say that you were the aggressor.,Dylan
+116,00:10:47,Dylan,Wait–,Milchick
+117,00:10:47,Milchick,"As such,",Dylan
+118,00:10:49,Milchick,"I'm afraid we've no choice but to terminate your employment,",Dylan
+119,00:10:52,Milchick,effective immediately.,Dylan
+120,00:10:54,Helly,Distrust of Lumon has been sadly endemic since its founding.,Irving
+121,00:10:58,Helly,My words provided more fuel for a pernicious hate and derision.,Irving
+122,00:11:03,Irving,You can't just do that. What happened?,Helly
+123,00:11:05,Irving,Did I break something? Or I can pay. I have cash upstairs.,Helly
+124,00:11:10,Helly,When I said my innie was being tortured…,Irving
+125,00:11:14,Dylan,What am I supposed to tell my wife?,Helly
+126,00:11:16,Helly,This was a joke and a lie.,Dylan
+127,00:11:19,Milchick,I'm sorry.,Helly
+128,00:11:25,Helly,I'm committed to this company with every part of me.,Milchick
+129,00:11:36,Helly,But I'm also human.,Milchick
+130,00:11:41,Helly,Just like my innie…,Milchick
+131,00:11:44,Helly,and just like you.,Milchick
+132,00:13:19,Ricken,"Well, that was more drama than I planned.",Rebeck
+133,00:13:20,Rebeck,I guess so.,Ricken
+134,00:13:22,Ricken,I'll let you know if we do another reading.,Rebeck
+135,00:13:23,Rebeck,"Yes, please do.",Ricken
+136,00:13:26,Rebeck,"And don't punish the baby, Ricken. This wasn't its fault.",Ricken
+137,00:13:30,Ricken,"Of course. Good night, Rebeck.",Rebeck
+138,00:13:35,Devon,I'm not the only one who heard you say it.,Mark
+139,00:13:37,Devon,It's not like I made this up.,Mark
+140,00:13:37,Mark,"Right. You know, I'm just–",Devon
+141,00:13:39,Ricken,We can reschedule the reading to next month. It's fine.,Mark
+142,00:13:41,Ricken,I just have to decide if I'm going to restart,Mark
+143,00:13:43,Ricken,with chapter 1.,Mark
+144,00:13:43,Mark,So what?,Ricken
+145,00:13:44,Devon,"So you said, “She's alive.”",Ricken
+146,00:13:46,Ricken,If I may–,Devon
+147,00:13:46,Devon,I'm trying to help you.,Ricken
+148,00:13:49,Ricken,"If I may, I really did feel it was clear you were referencing the baby.",Devon
+149,00:13:53,Ricken,Patton had just saved her.,Devon
+150,00:13:53,Devon,"Well, he found her, yeah.",Ricken
+151,00:13:55,Ricken,And I think that your workie was excited.,Devon
+152,00:13:59,Ricken,"I have to say, Mark, he really is a jewel.",Devon
+153,00:14:01,Mark,"Guys, obviously I was referencing the baby.",Ricken
+154,00:14:05,Ricken,Yeah.,Mark
+155,00:14:08,Mark,Okay?,Ricken
+156,00:14:08,Devon,Yes.,Ricken
+157,00:14:09,Devon,No. Yeah. I agre… I think Ricken is right.,Ricken
+158,00:14:11,Ricken,I agree.,Devon
+159,00:14:12,Devon,"I… Babe, will you take her for a second?",Ricken
+160,00:14:14,Ricken,Yep.,Devon
+161,00:14:15,Devon,So let's Occam's razor this shit.,Ricken
+162,00:14:17,Devon,"You're looking for Eleanor,",Ricken
+163,00:14:19,Devon,"you find this picture, which obviously is of interest to you,",Ricken
+164,00:14:22,Devon,so you pick it up.,Ricken
+165,00:14:22,Mark,Right.,Devon
+166,00:14:23,Devon,And then when Patton found Eleanor–,Mark
+167,00:14:26,Ricken,"Saved her, I'd still say.",Devon
+168,00:14:26,Devon,"Okay, whatever, yes.",Ricken
+169,00:14:28,Devon,You still had it with you.,Ricken
+170,00:14:28,Mark,Yeah.,Devon
+171,00:14:31,Devon,Yeah. I think it's the only thing that makes sense.,Mark
+172,00:14:35,Mark,Okay. And Eleanor was in the study because…,Devon
+173,00:14:38,Devon,Because Mrs. Selvig left her in there.,Mark
+174,00:14:40,Devon,"Or Cobel, whatever the fuck.",Mark
+175,00:14:40,Mark,Right.,Devon
+176,00:14:41,Ricken,Perhaps “Cobelvig” would be a helpful nomenclature.,Devon
+177,00:14:45,Devon,And assuming that “She's alive” really was about the baby–,Ricken
+178,00:14:47,Mark,"I mean, you don't think it was?",Devon
+179,00:14:49,Devon,I do think it was.,Mark
+180,00:14:49,Mark,Then why are you saying it like that?,Devon
+181,00:14:52,Devon,"I don't… Sorry, I'm just exhausted.",Mark
+182,00:14:53,Devon,"It's been a weird fucking night, Mark.",Mark
+183,00:14:53,Mark,"Oh, my God.",Devon
+184,00:14:56,Devon,Why are you getting aggressive,Mark
+185,00:14:57,Devon,with me right now?,Mark
+186,00:14:57,Mark,"Oh, my God! Th–",Devon
+187,00:14:58,Ricken,"Okay, guys. Okay.",Devon
+188,00:14:58,Devon,Whatever.,Ricken
+189,00:15:01,Ricken,"Let's deal with what we know to be true, all right?",Devon
+190,00:15:04,Ricken,Mark's workie went to great lengths to awaken himself to alert us to abuses.,Devon
+191,00:15:10,Ricken,He was inspired by my book.,Devon
+192,00:15:12,Ricken,He found great meaning in it. Profundity.,Devon
+193,00:15:17,Ricken,"Goddamn it, Rebeck.",Devon
+194,00:15:19,Ricken,"Honey, can– Got her?",Devon
+195,00:15:19,Devon,Yeah.,Ricken
+196,00:15:25,Mark,What the fuck are you even saying?,Devon
+197,00:15:26,Devon,Why are you being a dick to me? I'm trying to help you.,Mark
+198,00:15:28,Mark,I'm just trying to get–,Devon
+199,00:15:28,Milchick,"Good evening, Dr. Hale.",Ricken
+200,00:15:31,Ricken,Good evening.,Milchick
+201,00:15:31,Milchick,Seth Milchick from Lumon.,Ricken
+202,00:15:34,Milchick,Is Mark Scout here by chance?,Ricken
+203,00:15:38,Ricken,"Yes, he is.",Milchick
+204,00:15:41,Ricken,Come in.,Milchick
+205,00:15:44,Milchick,Thank you.,Ricken
+206,00:15:50,Milchick,Mr. Scout.,Ricken
+207,00:15:54,Milchick,I imagine you have a few questions.,Ricken
+208,00:15:57,Mark,You could say that.,Milchick
+209,00:16:00,Milchick,May I sit with you?,Mark
+210,00:16:03,Ricken,Right this way.,Milchick
+211,00:16:10,Milchick,You must be Devon.,Ricken
+212,00:16:25,Milchick,Okay. So…,Ricken
+213,00:16:26,Ricken,That is a magnificent helmet.,Milchick
+214,00:16:31,Milchick,Thank you.,Ricken
+215,00:16:34,Milchick,What happened tonight is what we call the “overtime contingency.”,Ricken
+216,00:16:38,Milchick,It's a safeguard we employ,Ricken
+217,00:16:39,Milchick,if we ever need to access your work personage off company grounds.,Ricken
+218,00:16:44,Mark,"Yeah, you never told me about this.",Milchick
+219,00:16:46,Milchick,OTC disclosure can be found in your start paperwork.,Mark
+220,00:16:50,Milchick,"It seems the tech was commandeered by one of your office mates,",Mark
+221,00:16:54,Milchick,allowing him to wake the rest of you for a period of 39 minutes.,Mark
+222,00:16:58,Milchick,Innie Mark was here in this house.,Mark
+223,00:17:05,Devon,I know. I talked to him.,Milchick
+224,00:17:08,Milchick,What did he say to you?,Devon
+225,00:17:11,Devon,"If I tell you, are you gonna punish him for it?",Milchick
+226,00:17:13,Milchick,We have no punishments at Lumon.,Devon
+227,00:17:16,Devon,Uh-huh.,Milchick
+228,00:17:20,Milchick,"We're more concerned about how you're doing, Mr. Scout.",Devon
+229,00:17:24,Milchick,I can only imagine how violated you feel by his actions.,Devon
+230,00:17:28,Devon,"Yes, speaking of violations…",Milchick
+231,00:17:28,Milchick,You–,Devon
+232,00:17:29,Devon,…just wondering how common it is,Milchick
+233,00:17:31,Devon,for your managers to commit fucking lactation fraud,Milchick
+234,00:17:33,Devon,against their employees' families.,Milchick
+235,00:17:38,Devon,Pretty common?,Milchick
+236,00:17:40,Milchick,Ms. Cobel.,Devon
+237,00:17:41,Devon,Yeah.,Milchick
+238,00:17:43,Milchick,What we learned tonight is that she is quite severely unwell.,Devon
+239,00:17:49,Mark,Yeah. She lives next door to me.,Milchick
+240,00:17:51,Mark,"I, like, know her.",Milchick
+241,00:17:54,Milchick,And her behavior at Lumon,Mark
+242,00:17:55,Milchick,seems to be the source of your innie's distress.,Mark
+243,00:18:00,Milchick,She will never descend to that floor again.,Mark
+244,00:18:03,Milchick,Nor bedevil you out here any further.,Mark
+245,00:18:07,Milchick,You have my word.,Mark
+246,00:18:12,Milchick,But we do need to know what we're dealing with.,Mark
+247,00:18:16,Milchick,Is there anything? Anything you can tell me?,Mark
+248,00:18:23,Mark,I mean–,Milchick
+249,00:18:28,Mark,"No, I mean, we're very tired.",Milchick
+250,00:18:31,Devon,"Yes, we are.",Mark
+251,00:18:32,Mark,I think we've just said all there is to say.,Devon
+252,00:18:43,Milchick,Okay. Of course. I'll circle back.,Mark
+253,00:18:49,Milchick,"In the meantime, I hope to see you Monday.",Mark
+254,00:18:52,Mark,"Yeah. I don't know, man.",Milchick
+255,00:18:59,Milchick,What your innie did tonight was completely unauthorized.,Mark
+256,00:19:05,Milchick,It was also very brave.,Mark
+257,00:19:11,Milchick,I'd hate to reward his courage with nonexistence.,Mark
+258,00:21:25,Helly,You think we're about to meet our spouses?,Mark
+259,00:21:28,Mark,Maybe.,Helly
+260,00:21:29,Helly,Maybe it's each other.,Mark
+261,00:21:32,Helly,That'd be a hoot.,Mark
+262,00:21:34,Mark,"Yeah, like, mid-argument over car wash coupons.",Helly
+263,00:21:40,Helly,"“Honey, you're cutting them wrong!”",Mark
+264,00:21:47,Helly,Okay.,Mark
+265,00:21:47,Mark,All right.,Helly
+266,00:22:10,Helly,In case we don't come back.,Mark
+267,00:22:15,Helly,"Or, I don't know, in case we do?",Mark
+268,00:22:45,Helly,In case we don't come back.,Mark
+269,00:22:47,Helly,"Or, I don't know, in case we do?",Mark
+270,00:24:16,Dylan,You got this.,Mr. Saliba
+271,00:24:18,Dylan,No pressure. Be cool.,Mr. Saliba
+272,00:24:22,Dylan,You are so awesome. Smile.,Mr. Saliba
+273,00:24:39,Dylan,May I ask about benefits?,Mr. Saliba
+274,00:24:42,Mr. Saliba,There's a coffee maker.,Dylan
+275,00:24:45,Dylan,I meant health care benefits.,Mr. Saliba
+276,00:24:49,Mr. Saliba,"Sure. Yes, of course. For you. Your family.",Dylan
+277,00:24:52,Dylan,"Okay, great. Yeah, you know,",Mr. Saliba
+278,00:24:55,Dylan,"I think this is gonna be a really great fit for me, Mr. Saliba.",Mr. Saliba
+279,00:24:58,Dylan,"You know, ever since I was a kid,",Mr. Saliba
+280,00:25:00,Dylan,I've always felt like doors had–,Mr. Saliba
+281,00:25:00,Mr. Saliba,How old?,Dylan
+282,00:25:03,Dylan,Sorry?,Mr. Saliba
+283,00:25:05,Mr. Saliba,How old were you when you knew you loved doors?,Dylan
+284,00:25:10,Dylan,Five.,Mr. Saliba
+285,00:25:14,Mr. Saliba,"If you could be any kind of door, what would it be?",Dylan
+286,00:25:21,Dylan,Pocket.,Mr. Saliba
+287,00:25:23,Mr. Saliba,Interesting. Tell me more.,Dylan
+288,00:25:23,Dylan,Yes.,Mr. Saliba
+289,00:25:27,Dylan,"Well, you're, you know, doing your door thing and then",Mr. Saliba
+290,00:25:33,Dylan,"when you're not needed, you can just–",Mr. Saliba
+291,00:25:35,Mr. Saliba,Just tuck yourself away.,Dylan
+292,00:25:39,Mr. Saliba,Flat finish or eggshell?,Dylan
+293,00:25:43,Dylan,Semi-gloss.,Mr. Saliba
+294,00:25:46,Mr. Saliba,That's hot.,Dylan
+295,00:25:50,Mr. Saliba,"You remind me of me, Dylan.",Dylan
+296,00:25:53,Mr. Saliba,You like kickball?,Dylan
+297,00:25:56,Dylan,"As a skill? Or, like, do I follow it professionally? I–",Mr. Saliba
+298,00:26:02,Mr. Saliba,Yeah.,Dylan
+299,00:26:03,Mr. Saliba,We play on Fridays. There's a fun prize if you win.,Dylan
+300,00:26:06,Dylan,You mean a door prize.,Mr. Saliba
+301,00:26:15,Dylan,Sorry.,Mr. Saliba
+302,00:26:16,Mr. Saliba,A lot of short-term employment. And then Lumon.,Dylan
+303,00:26:20,Dylan,Yes.,Mr. Saliba
+304,00:26:20,Mr. Saliba,And they make their doors in-house.,Dylan
+305,00:26:23,Mr. Saliba,It's fucking hubris.,Dylan
+306,00:26:28,Dylan,Yeah.,Mr. Saliba
+307,00:26:30,Dylan,"I was a severed employee, so…",Mr. Saliba
+308,00:26:35,Mr. Saliba,You're a severed?,Dylan
+309,00:26:38,Dylan,"Yes. Yeah, I was. But you know,",Mr. Saliba
+310,00:26:41,Dylan,it's just me here and…,Mr. Saliba
+311,00:26:45,Mr. Saliba,"Well, Mr. George, thanks for coming in.",Dylan
+312,00:26:47,Dylan,What?,Mr. Saliba
+313,00:26:48,Mr. Saliba,We'll consider your application thoroughly.,Dylan
+314,00:26:51,Dylan,That's it? Just because I'm severed?,Mr. Saliba
+315,00:26:54,Mr. Saliba,"Like I said, we'll consider your application thoroughly.",Dylan
+316,00:26:56,Dylan,Okay. You're not considering me at all. That's discrimination.,Mr. Saliba
+317,00:26:58,Mr. Saliba,"We need a certain kind of person here, Mr. George,",Dylan
+318,00:27:01,Mr. Saliba,not a certain kind of two people.,Dylan
+319,00:27:02,Mr. Saliba,What do you think this is? A carpet factory?,Dylan
+320,00:27:04,Dylan,What?,Mr. Saliba
+321,00:27:04,Mr. Saliba,"You want to circumcise your brain,",Dylan
+322,00:27:06,Mr. Saliba,that's your business.,Dylan
+323,00:27:07,Mr. Saliba,"But it doesn't mean I have to hire you. And personally, I think it's abhorrent.",Dylan
+324,00:27:35,Dylan,Read the room.,Mr. Saliba
+325,00:27:36,Dylan,I would have picked up the phone if it was good news.,Mr. Saliba
+326,00:27:39,Gretchen,I'm sorry. You'll get the next one.,Dylan
+327,00:27:42,Dylan,Stop being nice.,Gretchen
+328,00:27:50,Dylan,"Hey, do we need more baby wipeys?",Gretchen
+329,00:27:54,Gretchen,I don't think so.,Dylan
+330,00:27:56,Dylan,You know what? I'll get some anyway. I'll be home soon.,Gretchen
+331,00:27:59,Gretchen,"Okay. Bye, hon.",Dylan
+332,00:28:09,Devon,"So, he's your boss?",Mark
+333,00:28:12,Devon,And what about “Cobelvig”? Have you heard from her?,Mark
+334,00:28:15,Mark,I went by there. No one answered the door though.,Devon
+335,00:28:17,Devon,"Fuck. Well, I was just thinking,",Mark
+336,00:28:20,Devon,maybe there was a way we could confirm what your innie meant.,Mark
+337,00:28:25,Mark,Devon. Jesus Christ. Are you serious?,Devon
+338,00:28:27,Devon,I know we're not supposed to contact him,Mark
+339,00:28:29,Devon,"but Danise is a lawyer and apparently,",Mark
+340,00:28:31,Devon,you can petition–,Mark
+341,00:28:31,Mark,I'm quitting.,Devon
+342,00:28:34,Devon,You're quitting?,Mark
+343,00:28:34,Mark,Yeah.,Devon
+344,00:28:38,Devon,Okay. Have you called them already?,Mark
+345,00:28:43,Mark,"No, I was gonna do it tonight.",Devon
+346,00:28:45,Devon,Uh-huh.,Mark
+347,00:28:47,Mark,I'm sorry.,Devon
+348,00:28:49,Mark,Haven't you been trying to get me to quit that place since I got there?,Devon
+349,00:28:52,Mark,I thought I was finally doing what you want.,Devon
+350,00:28:54,Devon,"No. Yes, but don't you think that was strange last night?",Mark
+351,00:28:58,Devon,"I mean, why was he so curious?",Mark
+352,00:29:01,Mark,"Devon, what are you doing? You remember I identified her, right?",Devon
+353,00:29:06,Devon,"Yes, Mark.",Mark
+354,00:29:06,Mark,I saw her body.,Devon
+355,00:29:08,Devon,"Yeah, I know.",Mark
+356,00:29:11,Devon,"My thing is, if we could just get, like, a half-step more confirmation,",Mark
+357,00:29:15,Devon,then it's not gonna be something that continues to haunt us.,Mark
+358,00:29:18,Devon,Do you know what I mean?,Mark
+359,00:29:18,Mark,Us?,Devon
+360,00:29:20,Devon,"Yes. She was my family too, Mark. Fuck.",Mark
+361,00:29:23,Mark,Yeah. But she was my wife.,Devon
+362,00:29:25,Devon,"I know, but you're not the only one her death affected.",Mark
+363,00:29:28,Mark,"Oh, really? It affected you?",Devon
+364,00:29:28,Devon,Yes.,Mark
+365,00:29:29,Mark,Did you have to tell her parents that she was dead?,Devon
+366,00:29:33,Mark,How about her students?,Devon
+367,00:29:34,Mark,How about this.,Devon
+368,00:29:35,Mark,Did your sheets smell like her for weeks afterwards?,Devon
+369,00:29:42,Mark,"You know what? Honestly, if Ricken died and his body burned,",Devon
+370,00:29:46,Mark,I'd be sad for you.,Devon
+371,00:29:46,Devon,Wow.,Mark
+372,00:29:48,Mark,But I wouldn't be affected.,Devon
+373,00:29:51,Mark,This is obscene.,Devon
+374,00:29:52,Devon,I just want to be sure.,Mark
+375,00:29:53,Mark,I am sure!,Devon
+376,00:30:03,Mark,I'll talk to you later.,Devon
+377,00:30:03,Devon,Mark.,Mark
+378,00:30:06,Devon,Mark.,Mark
+379,00:31:24,Irving,Okay.,Mark
+380,00:31:25,Irving,You're not picking up. I get it.,Mark
+381,00:31:28,Irving,I want you to know my innie got the message.,Mark
+382,00:32:27,Mark,Mr. Milchick?,Irving
+383,00:32:30,Milchick,Compliments of the company.,Mark
+384,00:32:34,Milchick,We got off on the wrong foot last night.,Mark
+385,00:32:37,Milchick,Okay to talk a minute?,Mark
+386,00:32:41,Mark,Yeah. Come on in.,Milchick
+387,00:32:45,Milchick,Thank you.,Mark
+388,00:32:53,Milchick,"So, Mr. Scout, I know you're still weighing whether to return to Lumon.",Mark
+389,00:32:58,Mark,Yeah.,Milchick
+390,00:33:00,Milchick,I'd like to ask you a few questions that may inform your decision.,Mark
+391,00:33:04,Milchick,Is that all right?,Mark
+392,00:33:08,Mark,Okay.,Milchick
+393,00:33:08,Milchick,Terrific.,Mark
+394,00:33:11,Milchick,"First, how happy are you with your current financial compensation?",Mark
+395,00:33:17,Milchick,"I ask because our endearment to you is such that a 20% bump is on the table,",Mark
+396,00:33:22,Milchick,should you return.,Mark
+397,00:33:25,Mark,20%. Wow.,Milchick
+398,00:33:28,Milchick,"My second question is whether a full investigation into your innie's claims,",Mark
+399,00:33:33,Milchick,"and regular wellness checks from independent orgs,",Mark
+400,00:33:36,Milchick,would help you feel more excited to return?,Mark
+401,00:33:39,Mark,"Well, I don't know. Is that what they're doing?",Milchick
+402,00:33:42,Milchick,It's the first step of many.,Mark
+403,00:33:48,Milchick,"My third question concerns your late wife, Gemma.",Mark
+404,00:33:57,Mark,What about her?,Milchick
+405,00:33:59,Milchick,"In your intake interview,",Mark
+406,00:34:00,Milchick,you cited her death as a primary motivator for severing.,Mark
+407,00:34:06,Milchick,Do you remember what you said?,Mark
+408,00:34:09,Mark,No.,Milchick
+409,00:34:11,Milchick,"You said since she died, every day feels like a year.",Mark
+410,00:34:17,Milchick,That you felt like you were choking on her ghost.,Mark
+411,00:34:21,Milchick,"Do you still feel that way, Mr. Scout?",Mark
+412,00:34:33,Milchick,The Mark I've come to know at Lumon is happy.,Mark
+413,00:34:37,Milchick,He cares for people and he's funny.,Mark
+414,00:34:43,Milchick,He knows nothing of the pain I see in you right now.,Mark
+415,00:34:51,Milchick,He's found love.,Mark
+416,00:34:53,Mark,Love?,Milchick
+417,00:34:57,Mark,With who?,Milchick
+418,00:34:58,Milchick,The solace you have given him down there will make its way to you.,Mark
+419,00:35:04,Milchick,It just takes time.,Mark
+420,00:35:08,Milchick,"I hope you'll give us that time, Mr. Scout.",Mark
+421,00:36:14,Helly,Are you satisfied with this?,Drummond
+422,00:36:17,Drummond,The sister seems more uppity than he is.,Helly
+423,00:36:22,Natalie,"So, who are you bringing into MDR?",Milchick
+424,00:36:24,Milchick,I've got a floater from overseas and a pair who were laid off from 5X.,Natalie
+425,00:36:29,Drummond,5X?,Milchick
+426,00:36:32,Drummond,Really?,Milchick
+427,00:36:35,Milchick,I had 48 hours to pull this together.,Drummond
+428,00:36:38,Milchick,Hopefully there will be some chemistry.,Drummond
+429,00:36:45,Helly,We don't need chemistry.,Judd
+430,00:36:48,Helly,We need Mark S. back to work.,Judd
+431,00:36:50,Judd,Go on ahead.,Helly
+432,00:36:52,Helly,Long enough to complete Cold Harbor.,Judd
+433,00:36:56,Judd,See you tonight.,Helly
+434,00:36:56,Mark,All right.,Judd
+435,00:37:03,Judd,"Good night, Mr. Scout.",Mark
+436,00:37:03,Mark,"Good night, Judd.",Judd
+437,00:37:06,Judd,"Good morning, Mr. Scout.",Mark
+438,00:37:07,Mark,"Morning, Judd.",Judd
+439,00:37:09,Judd,"Good night, Mr. Scout.",Mark
+440,00:37:09,Mark,"Night, Judd.",Judd
+441,00:37:14,Judd,"Good morning, Mr. Scout.",Mark
+442,00:37:16,Mark,"Good morning, Judd.",Judd
+443,00:37:42,Judd,Mr. Scout.,Mark
+444,00:37:42,Mark,"Good night, Judd.",Judd
+445,00:37:49,Mark,Hello? Is anyone there? Is the Board on?,Judd
+446,00:37:51,Mark,It's Mark S. from Macrodata Refinement.,Judd
+447,00:37:56,Mark,"Okay. Well, if you're there, please listen.",Judd
+448,00:37:58,Mark,"Now, I know that you want to do the right thing for severed people,",Judd
+449,00:38:02,Mark,which is why I need to see my team again.,Judd
+450,00:38:02,Milchick,Mark!,Mark
+451,00:38:05,Mark,"If we truly are the face of severance reform, as you say,",Milchick
+452,00:38:08,Mark,then they deserve a chance.,Milchick
+453,00:38:08,Milchick,Mark!,Mark
+454,00:38:11,Mark,Please. They're my friends! You can't just make them disappear!,Milchick
+455,00:38:19,Milchick,"Of course, I bear full responsibility.",Mark
+456,00:38:22,Drummond,"The Board's gonna give him what he wants,",Dylan
+457,00:38:25,Drummond,including Helly R.,Dylan
+458,00:38:29,Drummond,He won't finish without them.,Dylan
+459,00:38:47,Dylan,Mr. Milchick?,Drummond
+460,00:38:51,Milchick,Mr. George.,Mark W
+461,00:39:16,Mark W,This is unheard of.,Milchick
+462,00:39:18,Lumon Security Officer,"I'm sorry, Mr. Wilkins.",Mark W
+463,00:39:18,Mark W,Three days of work.,Lumon Security Officer
+464,00:39:20,Mark W,I broke a fucking lease in Grand Rapids.,Lumon Security Officer
+465,00:39:22,Mark W,Fucking touch me.,Lumon Security Officer
+466,00:39:24,Mark W,Give me another reason to sue.,Lumon Security Officer
+467,00:39:26,Mark W,"Fuck you, Lumon!",Lumon Security Officer
+468,00:39:33,Mark,"Hey, Judd.",Helly
+469,00:40:59,Helly,"Morning, Judd.",Mark
+470,00:42:17,Mark,Hey!,Helly
+471,00:42:22,Cobel,"Hello, Mark. Just back from work?",Mark
+472,00:42:29,Mark,Where do you think you're going?,Cobel
+473,00:42:32,Cobel,What do you care?,Mark
+474,00:42:35,Mark,What do I care?,Cobel
+475,00:42:38,Mark,What do I c–,Cobel
+476,00:42:41,Mark,Who are you?,Cobel
+477,00:42:43,Cobel,I thought you were quitting.,Mark
+478,00:42:46,Mark,I trusted you.,Cobel
+479,00:42:48,Mark,I told you what I'd gone through these past two years.,Cobel
+480,00:42:53,Mark,You…,Cobel
+481,00:42:59,Mark,You were in my house. You…,Cobel
+482,00:43:02,Mark,I ate your shitty fucking cookies.,Cobel
+483,00:43:07,Cobel,They convinced you to stay?,Mark
+484,00:43:11,Cobel,Was a pineapple involved?,Mark
+485,00:43:17,Cobel,You're so easy to sway.,Mark
+486,00:43:22,Mark,What? So that's it? You're just… You're leaving?,Cobel
+487,00:43:26,Mark,Are you fucking kid–,Cobel
+488,00:43:37,Mark,Why did you do this? What the fuck is this all about?,Cobel
+489,00:44:01,Mark,Do you know something about Gemma?,Cobel

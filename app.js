@@ -1,5 +1,6 @@
 import { episodes, loadTranscriptRows, summarizeRows } from "./data.js?v=character-assets";
 import { renderDetails, renderHeatmap, renderRanking } from "./charts.js?v=character-assets";
+import { renderChord } from "./chord.js"; 
 
 const { d3 } = window;
 const state = {
@@ -20,17 +21,20 @@ loadTranscriptRows().then(({ rows }) => {
 function renderAll() {
   updateSummaries();
   const visibleEpisodes = seasonEpisodes();
+  const visibleRows = filteredRows();
   const renderContext = {
     characters: state.characters,
     selectedCharacter: state.selected,
-    visibleEpisodes,
-    formatNumber,
+    visibleEpisodes: visibleEpisodes,
+    visibleRows: visibleRows,
+    formatNumber: formatNumber,
     onSelect: selectCharacter
   };
 
   renderRanking(renderContext);
   renderDetails(renderContext);
   renderHeatmap({ ...renderContext, tooltip });
+  renderChord({ ...renderContext, tooltip });
   d3.select("#episode-count").text(episodes.length);
 }
 

@@ -297,7 +297,13 @@ svg {
 
 .avatar.has-image.avatar-asal-reghabi {
   background-position: center 38%;
-  background-size: 180%;
+  background-size: 100%;
+}
+
+.avatar.has-image.avatar-peter-kilmer,
+.avatar.has-image.avatar-ms-casey,
+.avatar.has-image.avatar-gemma-scout {
+  background-size: 120%;
 }
 
 

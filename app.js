@@ -1,6 +1,6 @@
-import { episodes, loadTranscriptRows, summarizeRows } from "./data.js";
-import { renderDetails, renderHeatmap, renderRanking } from "./charts.js";
-import { renderChord } from "./chord.js";
+import { episodes, loadTranscriptRows, summarizeRows } from "./data.js?v=character-assets";
+import { renderDetails, renderHeatmap, renderRanking } from "./charts.js?v=character-assets";
+import { renderChord } from "./chord.js"; 
 
 const { d3 } = window;
 const state = {

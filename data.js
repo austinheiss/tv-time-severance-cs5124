@@ -1,15 +1,10 @@
+import { STOP_WORDS } from "./stop-words.js";
+
 const { d3 } = window;
 
 const DATA_ROOT = "data";
 const CHARACTER_MANIFEST_PATH = "public/characters/manifest.json?v=character-assets";
 const WORD_PATTERN = /[A-Za-z0-9]+(?:['\u2019][A-Za-z0-9]+)?/g;
-const STOP_WORDS = new Set([
-  "a", "an", "and", "are", "as", "at", "be", "been", "but", "by", "for", "from",
-  "had", "has", "have", "he", "her", "his", "i", "if", "in", "is", "it", "its",
-  "just", "me", "my", "no", "not", "of", "on", "or", "our", "she", "so", "that",
-  "the", "their", "them", "there", "they", "this", "to", "too", "us", "was", "we",
-  "were", "what", "when", "who", "why", "will", "with", "you", "your"
-]);
 
 const characterInfo = new Map();
 const characterProfiles = new Map();

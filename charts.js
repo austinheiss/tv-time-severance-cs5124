@@ -1,9 +1,11 @@
-import { displayName, factsFor, imageFor, pageUrlFor, roleFor } from "./data.js";
+import { analyzePhraseOwnership, displayName, factsFor, imageFor, pageUrlFor, roleFor } from "./data.js";
 
 const { d3 } = window;
 export const DISPLAYED_CHARACTER_COUNT = 15;
+let phraseOwnershipContext = null;
+let phraseInputBound = false;
 
-export function renderDetails({ characters, selectedCharacter, visibleEpisodes, formatNumber }) {
+export function renderDetails({ characters, selectedCharacter, visibleEpisodes, formatNumber, tooltip }) {
   const selected = characters.find(d => d.character === selectedCharacter) || characters[0];
   if (!selected) return;
 
@@ -32,7 +34,7 @@ export function renderDetails({ characters, selectedCharacter, visibleEpisodes, 
   rows.merge(enter).select(".detail-value").text(d => d.value);
   rows.exit().remove();
 
-  renderWordCloud(selected);
+  renderWordCloud(selected, tooltip);
   renderPhraseChart(selected, formatNumber);
   const phraseLabel = selected.topSpokenPhrase?.kind === "phrase" ? "Most Spoken Phrase" : "Most Spoken Word";
   const phraseText = selected.topSpokenPhrase?.text || "n/a";
@@ -58,7 +60,7 @@ function renderAvatar(character) {
   avatar.classed("avatar-gemma-scout", character === "Gemma Scout");
 }
 
-function renderWordCloud(selected) {
+function renderWordCloud(selected, tooltip) {
   const svg = d3.select("#word-cloud");
   const words = selected.wordCloud || [];
   const width = Math.max(280, svg.node()?.getBoundingClientRect().width || 320);
@@ -100,7 +102,15 @@ function renderWordCloud(selected) {
     .attr("y", d => d.y)
     .style("font-size", d => `${d.fontSize}px`)
     .style("font-weight", d => (d.count === maxCount ? 780 : 580))
-    .text(d => d.word);
+    .text(d => d.word)
+    .on("mouseenter", (event, d) => showTooltip(event, tooltip, `<strong>${d.word}</strong><br>${d3.format(",")(d.count)} mentions`))
+    .on("mousemove", event => moveTooltip(event, tooltip))
+    .on("mouseleave", () => tooltip.style("opacity", 0));
+  tokenEnter.merge(tokens)
+    .selectAll("title")
+    .data(d => [d])
+    .join("title")
+    .text(d => `${d.word}: ${d.count}`);
   tokens.exit().remove();
 }
 
@@ -357,6 +367,148 @@ export function renderHeatmap({ characters, visibleEpisodes, tooltip, formatNumb
         .on("click", () => onSelect(character.character));
     });
   });
+}
+
+export function renderPhraseOwnership(context) {
+  phraseOwnershipContext = context;
+  bindPhraseInput();
+  const query = d3.select("#phrase-query").property("value").trim();
+  const analysis = analyzePhraseOwnership(context.visibleRows, query);
+  renderPhraseMeta(query, analysis, context.visibleEpisodes, context.formatNumber);
+  renderPhraseTimeline(context, query, analysis);
+  renderPhraseOwners(context, query, analysis);
+}
+
+function bindPhraseInput() {
+  if (phraseInputBound) return;
+  d3.select("#phrase-query").on("input", () => {
+    if (phraseOwnershipContext) renderPhraseOwnership(phraseOwnershipContext);
+  });
+  phraseInputBound = true;
+}
+
+function renderPhraseMeta(query, analysis, visibleEpisodes, formatNumber) {
+  const meta = d3.select("#phrase-meta");
+  if (!query) {
+    meta.text("Type a word or phrase to begin.");
+    return;
+  }
+  if (!analysis.totalMentions) {
+    meta.text(`No mentions of "${query}" in this filter.`);
+    return;
+  }
+  const firstEpisode = visibleEpisodes.find(episode => episode.id === analysis.firstEpisodeId);
+  const firstLabel = firstEpisode ? firstEpisode.label : "outside selected episodes";
+  meta.text(`${formatNumber(analysis.totalMentions)} mentions across this filter. First appears in ${firstLabel}.`);
+}
+
+function renderPhraseTimeline({ visibleEpisodes, tooltip, formatNumber }, query, analysis) {
+  const svg = d3.select("#phrase-timeline-chart");
+  const width = Math.max(720, svg.node().getBoundingClientRect().width);
+  const height = 170;
+  const margin = { top: 24, right: 20, bottom: 36, left: 44 };
+  svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
+  svg.selectAll("*").remove();
+
+  svg.append("text").attr("class", "phrase-chart-title").attr("x", margin.left).attr("y", 14).text("Mentions by Episode");
+  if (!query) return;
+
+  const data = visibleEpisodes.map(episode => ({
+    ...episode,
+    count: analysis.byEpisode.get(episode.id) || 0
+  }));
+  const x = d3.scaleBand()
+    .domain(data.map(d => d.id))
+    .range([margin.left, width - margin.right])
+    .padding(0.18);
+  const y = d3.scaleLinear()
+    .domain([0, Math.max(1, d3.max(data, d => d.count) || 1)])
+    .nice()
+    .range([height - margin.bottom, margin.top]);
+
+  svg.append("g")
+    .attr("transform", `translate(0, ${height - margin.bottom})`)
+    .call(d3.axisBottom(x).tickFormat(id => data.find(d => d.id === id)?.label || id).tickSizeOuter(0))
+    .selectAll("text")
+    .attr("class", "phrase-axis-tick")
+    .attr("transform", "rotate(-30)")
+    .style("text-anchor", "end");
+
+  svg.append("g")
+    .attr("transform", `translate(${margin.left}, 0)`)
+    .call(d3.axisLeft(y).ticks(4).tickFormat(d3.format("d")))
+    .selectAll("text")
+    .attr("class", "phrase-axis-tick");
+
+  svg.selectAll(".phrase-episode-bar")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("class", "phrase-episode-bar")
+    .attr("x", d => x(d.id))
+    .attr("y", d => y(d.count))
+    .attr("width", x.bandwidth())
+    .attr("height", d => y(0) - y(d.count))
+    .on("mouseenter", (event, d) => showTooltip(event, tooltip, `<strong>${query}</strong><br>${d.label}: ${formatNumber(d.count)}`))
+    .on("mousemove", event => moveTooltip(event, tooltip))
+    .on("mouseleave", () => tooltip.style("opacity", 0));
+}
+
+function renderPhraseOwners({ tooltip, formatNumber, onSelect }, query, analysis) {
+  const svg = d3.select("#phrase-owner-chart");
+  const width = Math.max(720, svg.node().getBoundingClientRect().width);
+  const margin = { top: 24, right: 30, bottom: 16, left: 210 };
+  const entries = Array.from(analysis.byCharacter.entries())
+    .sort((a, b) => d3.descending(a[1], b[1]))
+    .slice(0, 8)
+    .map(([character, count]) => ({ character, count, label: displayName(character) }));
+  const height = margin.top + margin.bottom + Math.max(1, entries.length) * 30;
+  svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
+  svg.selectAll("*").remove();
+
+  svg.append("text").attr("class", "phrase-chart-title").attr("x", margin.left).attr("y", 14).text("Top Characters Using This Phrase");
+  if (!query || !entries.length) return;
+
+  const x = d3.scaleLinear()
+    .domain([0, d3.max(entries, d => d.count) || 1])
+    .range([margin.left, width - margin.right]);
+  const y = d3.scaleBand()
+    .domain(entries.map(d => d.character))
+    .range([margin.top, height - margin.bottom])
+    .padding(0.25);
+
+  svg.selectAll(".phrase-owner-label")
+    .data(entries)
+    .enter()
+    .append("text")
+    .attr("class", "phrase-owner-label")
+    .attr("x", margin.left - 10)
+    .attr("y", d => (y(d.character) || 0) + y.bandwidth() / 2 + 4)
+    .attr("text-anchor", "end")
+    .text(d => d.label);
+
+  svg.selectAll(".phrase-owner-bar")
+    .data(entries)
+    .enter()
+    .append("rect")
+    .attr("class", "phrase-owner-bar")
+    .attr("x", margin.left)
+    .attr("y", d => y(d.character))
+    .attr("height", y.bandwidth())
+    .attr("width", d => x(d.count) - margin.left)
+    .on("mouseenter", (event, d) => showTooltip(event, tooltip, `<strong>${d.label}</strong><br>${query}: ${formatNumber(d.count)}`))
+    .on("mousemove", event => moveTooltip(event, tooltip))
+    .on("mouseleave", () => tooltip.style("opacity", 0))
+    .on("click", (_, d) => onSelect(d.character));
+
+  svg.selectAll(".phrase-owner-count")
+    .data(entries)
+    .enter()
+    .append("text")
+    .attr("class", "phrase-owner-count")
+    .attr("x", d => x(d.count) + 6)
+    .attr("y", d => (y(d.character) || 0) + y.bandwidth() / 2 + 4)
+    .text(d => formatNumber(d.count));
 }
 
 function clearSvg(svg, width, height) {

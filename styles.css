@@ -327,6 +327,13 @@ svg {
   border-bottom-color: #155d59;
 }
 
+.selected-name-link-icon {
+  font-size: 0.45em;
+  vertical-align: top;
+  margin-left: 5px;
+  opacity: 0.72;
+}
+
 .selected-role {
   margin: 0;
   color: var(--teal);
@@ -423,6 +430,72 @@ svg {
 .phrase-empty {
   fill: #697278;
   font-size: 13px;
+}
+
+.phrase-controls {
+  margin-top: 10px;
+}
+
+.phrase-label-inline {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.phrase-input {
+  width: min(560px, 100%);
+  height: 38px;
+  padding: 8px 10px;
+  border: 1px solid #bfc7cb;
+  border-radius: 5px;
+  font: inherit;
+}
+
+.phrase-meta {
+  margin: 8px 0 0;
+  color: #4c5358;
+  font-size: 13px;
+}
+
+.phrase-timeline-chart {
+  height: 170px;
+}
+
+.phrase-owner-chart {
+  margin-top: 4px;
+}
+
+.phrase-chart-title {
+  fill: #2f3539;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.3px;
+}
+
+.phrase-axis-tick {
+  fill: #5b646a;
+  font-size: 10px;
+}
+
+.phrase-episode-bar {
+  fill: #2f827d;
+}
+
+.phrase-episode-bar:hover,
+.phrase-owner-bar:hover {
+  fill: #0d6a67;
+}
+
+.phrase-owner-label,
+.phrase-owner-count {
+  fill: #2b3236;
+  font-size: 12px;
+}
+
+.phrase-owner-bar {
+  fill: #2f827d;
+  cursor: pointer;
 }
 
 .heatmap-panel {

@@ -221,6 +221,41 @@ export function pageUrlFor(character) {
   return profileFor(character)?.pageUrl || "";
 }
 
+export function analyzePhraseOwnership(rows, query) {
+  const normalizedQuery = normalizedWords(query);
+  if (!normalizedQuery.length) {
+    return {
+      tokenCount: 0,
+      totalMentions: 0,
+      byEpisode: new Map(),
+      byCharacter: new Map(),
+      firstEpisodeId: null
+    };
+  }
+
+  const byEpisode = new Map();
+  const byCharacter = new Map();
+
+  for (const row of rows) {
+    const tokens = normalizedWords(row.text);
+    const mentions = countTokenSequence(tokens, normalizedQuery);
+    if (!mentions) continue;
+
+    byEpisode.set(row.episodeId, (byEpisode.get(row.episodeId) || 0) + mentions);
+    byCharacter.set(row.canonical, (byCharacter.get(row.canonical) || 0) + mentions);
+  }
+
+  const firstEpisodeId = episodes.find(episode => (byEpisode.get(episode.id) || 0) > 0)?.id || null;
+  const totalMentions = d3.sum(Array.from(byEpisode.values()));
+  return {
+    tokenCount: normalizedQuery.length,
+    totalMentions,
+    byEpisode,
+    byCharacter,
+    firstEpisodeId
+  };
+}
+
 export function summarizeRows(rows) {
   return d3.rollups(
     rows,
@@ -292,4 +327,20 @@ function sortedCounts(countMap) {
     const delta = right[1] - left[1];
     return delta !== 0 ? delta : left[0].localeCompare(right[0]);
   });
+}
+
+function countTokenSequence(tokens, sequence) {
+  if (!tokens.length || !sequence.length || sequence.length > tokens.length) return 0;
+  let matches = 0;
+  for (let i = 0; i <= tokens.length - sequence.length; i += 1) {
+    let same = true;
+    for (let j = 0; j < sequence.length; j += 1) {
+      if (tokens[i + j] !== sequence[j]) {
+        same = false;
+        break;
+      }
+    }
+    if (same) matches += 1;
+  }
+  return matches;
 }

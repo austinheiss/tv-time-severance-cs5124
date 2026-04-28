@@ -1,5 +1,5 @@
 import { episodes, loadTranscriptRows, summarizeRows } from "./data.js";
-import { renderDetails, renderHeatmap, renderRanking } from "./charts.js";
+import { renderDetails, renderHeatmap, renderPhraseOwnership, renderRanking } from "./charts.js";
 import { renderChord } from "./chord.js"; 
 
 const { d3 } = window;
@@ -28,13 +28,15 @@ function renderAll() {
     visibleEpisodes: visibleEpisodes,
     visibleRows: visibleRows,
     formatNumber: formatNumber,
+    tooltip: tooltip,
     onSelect: selectCharacter
   };
 
   renderRanking(renderContext);
   renderDetails(renderContext);
-  renderHeatmap({ ...renderContext, tooltip });
-  renderChord({ ...renderContext, tooltip });
+  renderHeatmap(renderContext);
+  renderPhraseOwnership(renderContext);
+  renderChord(renderContext);
   d3.select("#episode-count").text(episodes.length);
 }
 

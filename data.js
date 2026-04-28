@@ -19,7 +19,7 @@ function episode(season, number) {
     id: `s${season}e${padded}`,
     label: `S${season}E${number}`,
     season,
-    path: `${DATA_ROOT}/transcripts/s${season}-transcripts/s${season}_e${padded}_transcript.csv`
+    path: `${DATA_ROOT}/transcripts_with_talking_to/s${season}-transcripts/s${season}_e${padded}_transcript.csv`
   };
 }
 
@@ -152,6 +152,7 @@ async function loadEpisodeRows(currentEpisode) {
       season: currentEpisode.season,
       canonical,
       words: wordCount(row.text),
+      text: row.text,
       lines: canonical ? 1 : 0
     };
   }).filter(row => row.canonical && row.words > 0);

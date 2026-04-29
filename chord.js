@@ -6,29 +6,35 @@ const { d3 } = window;
 
 export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip, formatNumber, onSelect }) {
     const width = 800;
-    const margin = { top: 100, right: 100, bottom: 100, left: 100 };
     const height = 800
-    const topRows = new Set(Array.from(
+
+    // Get the most names of the characters with the most spoken words
+    const topNames = new Set(Array.from(
         characters.slice(0, DISPLAYED_CHARACTER_COUNT),
         (d) => canonicalSpeaker(d.character)
     ));
-    d3.select("#chord-chart").selectAll("*").remove();
-    console.log(topRows)
 
+    // Clear the previouw chart
+    d3.select("#chord-chart").selectAll("*").remove();
+    console.log(topNames)
+
+    // Filter the rows with the dialogue to only include conversations with the aforementioned characters
     const topVisibleRows = visibleRows.filter(
         (d) => (
-            topRows.has(canonicalSpeaker(d.canonical)) & 
-            topRows.has(canonicalSpeaker(d.talking_to))
+            topNames.has(canonicalSpeaker(d.canonical)) & 
+            topNames.has(canonicalSpeaker(d.talking_to))
         )
     )
-    var names = Array.from(topRows);
+    var names = Array.from(topNames);
     const colors = d3.scaleOrdinal(names, d3.schemePaired);
     
+    // Build a matrix where element (i, j) is the number of words character i spoke to character j
     let matrix = buildInteractionMatrix(topVisibleRows).matrix;
 
     const innerRadius = Math.min(width, height) * 0.4;
     const outerRadius = innerRadius + 6;
 
+    // Construct necessary directed chord chart elements
     const chord = d3.chordDirected()
         .padAngle(12 / innerRadius)
         .sortSubgroups(d3.descending)
@@ -54,6 +60,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
         .attr("fill", "none")
         .attr("d", d3.arc()({outerRadius, startAngle: 0, endAngle: 2 * Math.PI}));
 
+    // Add the ribbons (the actual chords)
     const ribbons = svg.append("g")
         .attr("fill-opacity", 0.75)
         .selectAll()
@@ -63,6 +70,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
         .attr("fill", d => colors(names[d.source.index]))
         .style("mix-blend-mode", "multiply")
         .on("mouseenter", function(event, d) {
+            // Hovering over one ribbon fades out all others.
             ribbons.style("opacity", r =>
                 (r === d ? 1 : 0.25)
             );
@@ -82,11 +90,13 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
       .data(chords.groups)
       .join("g");
 
+    // Add the arcs (the arch elements for each character)
     const arcs = g.append("path")
         .attr("d", arc)
         .attr("fill", d => colors(names[d.index]))
         .attr("stroke", "#fff")
         .on("mouseenter", function(event, d) {
+            // Hovering over one arc fades out all plus all the ribbons
             arcs.style("opacity", r =>
                 (r === d ? 1 : 0.25)
             );
@@ -106,6 +116,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
             tooltip.style("opacity", 0)
         });
 
+    // Add the "arc axes" ticks
     const tickStep = d3.tickStep(0, d3.sum(matrix.flat()), 50);
     const groupTick = g.append("g")
         .selectAll()
@@ -124,6 +135,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
         .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
         .text(d => d.value);
 
+    // Add the character names
     g.select("text")
         .attr("font-weight", "bold")
         .text(function(d) {
@@ -136,7 +148,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
 
 
 function buildInteractionMatrix(dialogues) {
-  // Step 1: collect unique character names
+  // Collect the unique character names
   const characters = new Set();
   dialogues.forEach(d => {
     characters.add(canonicalSpeaker(d.canonical));
@@ -146,13 +158,13 @@ function buildInteractionMatrix(dialogues) {
   const charList = Array.from(characters);
   const n = charList.length;
 
-  // Map character -> index
+  // Build a mapping of character name -> index (one of source or target)
   const charToIdx = {};
   charList.forEach((c, i) => {
     charToIdx[canonicalSpeaker(c)] = i;
   });
 
-  // Step 2: initialize matrix (n x n)
+  // Initialize a matrix (n x n) with zeros
   const matrix = Array.from({ length: n }, () =>
     Array(n).fill(0)
   );
@@ -162,10 +174,9 @@ function buildInteractionMatrix(dialogues) {
     const speakerIdx = charToIdx[canonicalSpeaker(d.canonical)];
     const listenerIdx = charToIdx[canonicalSpeaker(d.talking_to)];
 
-    // Count words (simple split on whitespace)
     const wordCount = d.text.trim().split(/\s+/).filter(Boolean).length;
 
-    // (i, j): words character j spoke to character i
+    // For each (i, j), add the amount of words that were spoken
     matrix[listenerIdx][speakerIdx] += wordCount;
   });
 
@@ -174,8 +185,9 @@ function buildInteractionMatrix(dialogues) {
 
 
 function groupTicks(d, step) {
-  const k = (d.endAngle - d.startAngle) / d.value;
-  return d3.range(0, d.value, step).map(value => {
+    // Do some stuff to make the ticks work in a circle
+    const k = (d.endAngle - d.startAngle) / d.value;
+    return d3.range(0, d.value, step).map(value => {
     return {value: value, angle: value * k + d.startAngle};
   });
 }

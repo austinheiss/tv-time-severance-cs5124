@@ -209,8 +209,11 @@ export function renderRanking({ characters, selectedCharacter, visibleEpisodes, 
   const contentWidth = width - contentInset - contentEndInset;
   const topRows = characters.slice(0, DISPLAYED_CHARACTER_COUNT);
   const margin = { top: 48 };
-  const rowHeight = 41;
-  const finalRuleY = margin.top + topRows.length * rowHeight - 22;
+  const rowHeight = 44;
+  const rowRuleOffset = -24;
+  const rowHitY = -21;
+  const bottomRowExtra = 9;
+  const finalRuleY = margin.top + topRows.length * rowHeight + rowRuleOffset + bottomRowExtra;
   const chartHeight = finalRuleY + 2;
   const rankX = contentInset + 18;
   const nameX = contentInset + 68;
@@ -244,8 +247,13 @@ export function renderRanking({ characters, selectedCharacter, visibleEpisodes, 
       .attr("transform", `translate(0, ${margin.top + index * rowHeight})`)
       .on("click", () => onSelect(character.character));
 
-    row.append("rect").attr("class", "row-hit").attr("x", 0).attr("y", -19).attr("width", width).attr("height", rowHeight - 2);
-    row.append("line").attr("class", "row-rule").attr("x1", 0).attr("x2", width).attr("y1", -22).attr("y2", -22);
+    row.append("rect")
+      .attr("class", "row-hit")
+      .attr("x", 0)
+      .attr("y", rowHitY)
+      .attr("width", width)
+      .attr("height", rowHeight - 2 + (index === topRows.length - 1 ? bottomRowExtra : 0));
+    row.append("line").attr("class", "row-rule").attr("x1", 0).attr("x2", width).attr("y1", rowRuleOffset).attr("y2", rowRuleOffset);
     row.append("rect").attr("class", "bar-bg").attr("x", barX).attr("y", -12).attr("width", barWidth).attr("height", 19);
     row.append("rect").attr("class", "bar").attr("x", barX).attr("y", -12).attr("height", 19).attr("width", x(character.words));
     row.append("text").attr("class", "rank-num").attr("x", rankX + 16).attr("y", 5).attr("text-anchor", "middle").text(character.rank);

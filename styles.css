@@ -502,6 +502,10 @@ svg {
   margin-top: 10px;
   min-height: 455px;
 }
+.chord-panel {
+  margin-top: 10px;
+  max-height: 5000px;
+}
 
 .heatmap-header {
   display: flex;

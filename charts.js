@@ -650,11 +650,11 @@ function drawSeasonLabels(svg, episodes, margin, cellWidth, height, selectedSeas
   }
 }
 
-function showTooltip(event, tooltip, content) {
+export function showTooltip(event, tooltip, content) {
   tooltip.style("opacity", 1).html(content);
   moveTooltip(event, tooltip);
 }
 
-function moveTooltip(event, tooltip) {
+export function moveTooltip(event, tooltip) {
   tooltip.style("left", `${event.clientX}px`).style("top", `${event.clientY}px`);
 }

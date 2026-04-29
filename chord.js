@@ -1,34 +1,193 @@
-import { displayName, factsFor, imageFor, roleFor } from "./data.js";
-import{ DISPLAYED_CHARACTER_COUNT } from "./charts.js"
+import { displayName, factsFor, imageFor, roleFor, canonicalSpeaker } from "./data.js";
+import{ DISPLAYED_CHARACTER_COUNT, showTooltip, moveTooltip } from "./charts.js"
 
 const { d3 } = window;
 
 
 export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip, formatNumber, onSelect }) {
-    const svg = d3.select("#chord-chart");
-    const width = Math.max(720, svg.node().getBoundingClientRect().width);
-    const topRows = characters.slice(0, DISPLAYED_CHARACTER_COUNT);
-    const margin = { top: 46, right: 0, bottom: 14, left: 184 };
-    const rowHeight = 27;
-    const cellGap = 2;
-    const height = margin.top + topRows.length * rowHeight + margin.bottom;
-    const maxWords = d3.max(topRows, d => d3.max(Array.from(d.episodeWords.values()))) || 1;
-    const outerRadius = Math.min(width, height) * 0.5 - 60;
-    const innerRadius = outerRadius - 10;
+    const width = 800;
+    const height = 425 
 
-    console.log(visibleRows);
-    // const chord = d3.chord()
-    //     .padAngle(10 / innerRadius)
-    //     .sortSubgroups(d3.descending)
-    //     .sortChords(d3.descending);
+    // Get the most names of the characters with the most spoken words
+    const topNames = new Set(Array.from(
+        characters.slice(0, DISPLAYED_CHARACTER_COUNT),
+        (d) => canonicalSpeaker(d.character)
+    ));
 
-    // const arc = d3.arc()
-    //     .innerRadius(innerRadius)
-    //     .outerRadius(outerRadius);
+    // Clear the previouw chart
+    d3.select("#chord-chart").selectAll("*").remove();
+    console.log(topNames)
 
-    // const ribbon = d3.ribbon()
-    //     .radius(innerRadius - 1)
-    //     .padAngle(1 / innerRadius);
+    // Filter the rows with the dialogue to only include conversations with the aforementioned characters
+    const topVisibleRows = visibleRows.filter(
+        (d) => (
+            topNames.has(canonicalSpeaker(d.canonical)) & 
+            topNames.has(canonicalSpeaker(d.talking_to))
+        )
+    )
+    var names = Array.from(topNames);
+    const colors = d3.scaleOrdinal(names, d3.schemePaired);
+    
+    // Build a matrix where element (i, j) is the number of words character i spoke to character j
+    let matrix = buildInteractionMatrix(topVisibleRows).matrix;
 
-    // const color = d3.scaleOrdinal(names, colors);
+    const innerRadius = Math.min(width, height) * 0.31;
+    const outerRadius = innerRadius + 6;
+
+    // Construct necessary directed chord chart elements
+    const chord = d3.chordDirected()
+        .padAngle(12 / innerRadius)
+        .sortSubgroups(d3.descending)
+        .sortChords(d3.descending);
+
+    const arc = d3.arc()
+        .innerRadius(innerRadius)
+        .outerRadius(outerRadius);
+
+    const ribbon = d3.ribbonArrow()
+        .radius(innerRadius - 0.5)
+        .padAngle(1 / innerRadius);
+
+    const svg = d3.select("#chord-chart")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("viewBox", [-width / 2, -height / 2, width, height])
+        .attr("style", "width: 100%; height: auto; font: 10px sans-serif;");
+
+    const chords = chord(matrix);
+
+    svg.append("path")
+        .attr("fill", "none")
+        .attr("d", d3.arc()({outerRadius, startAngle: 0, endAngle: 2 * Math.PI}));
+
+    // Add the ribbons (the actual chords)
+    const ribbons = svg.append("g")
+        .attr("fill-opacity", 0.75)
+        .selectAll()
+        .data(chords)
+        .join("path")
+        .attr("d", ribbon)
+        .attr("fill", d => colors(names[d.source.index]))
+        .style("mix-blend-mode", "multiply")
+        .on("mouseenter", function(event, d) {
+            // Hovering over one ribbon fades out all others.
+            ribbons.style("opacity", r =>
+                (r === d ? 1 : 0.25)
+            );
+            showTooltip(
+                event,
+                tooltip, 
+                `${names[d.source.index]} said ${d.source.value} words to ${names[d.target.index]}`) 
+        })
+        .on("mousemove", event => moveTooltip(event, tooltip))
+        .on("mouseleave", function() {
+            ribbons.style("opacity", 1);
+            tooltip.style("opacity", 0)
+        });
+
+    const g = svg.append("g")
+      .selectAll()
+      .data(chords.groups)
+      .join("g");
+
+    // Add the arcs (the arch elements for each character)
+    const arcs = g.append("path")
+        .attr("d", arc)
+        .attr("fill", d => colors(names[d.index]))
+        .attr("stroke", "#fff")
+        .on("mouseenter", function(event, d) {
+            // Hovering over one arc fades out all plus all the ribbons
+            arcs.style("opacity", r =>
+                (r === d ? 1 : 0.25)
+            );
+            ribbons.style("opacity", r =>
+                (r === d ? 1 : 0.25)
+            );
+            showTooltip(
+                event,
+                tooltip, 
+                `${names[d.index]} said ${d3.sum(matrix[d.index])} words and was told ${d3.sum(matrix, row => row[d.index])} words`
+            )
+        })
+        .on("mousemove", event => moveTooltip(event, tooltip))
+        .on("mouseleave", function() {
+            arcs.style("opacity", 1);
+            ribbons.style("opacity", 1);
+            tooltip.style("opacity", 0)
+        });
+
+    // Add the "arc axes" ticks
+    const tickStep = d3.tickStep(0, d3.sum(matrix.flat()), 25);
+    const groupTick = g.append("g")
+        .selectAll()
+        .data(d => groupTicks(d, tickStep))
+        .join("g")
+        .attr("transform", d => `rotate(${d.angle * 180 / Math.PI - 90}) translate(${outerRadius},0)`);
+
+    groupTick.append("line")
+        .attr("stroke", "currentColor")
+        .attr("x2", 6);
+
+    groupTick.append("text")
+        .attr("x", 8)
+        .attr("dy", "0.35em")
+        .attr("transform", d => d.angle > Math.PI ? "rotate(180) translate(-16)" : null)
+        .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
+        .text(d => d.value);
+
+    // Add the character names
+    g.select("text")
+        .attr("font-weight", "bold")
+        .text(function(d) {
+            return this.getAttribute("text-anchor") === "end"
+            ? `↑ ${names[d.index]}`
+            : `${names[d.index]} ↓`;
+        });
+}
+
+
+
+function buildInteractionMatrix(dialogues) {
+  // Collect the unique character names
+  const characters = new Set();
+  dialogues.forEach(d => {
+    characters.add(canonicalSpeaker(d.canonical));
+    characters.add(canonicalSpeaker(d.talking_to));
+  });
+
+  const charList = Array.from(characters);
+  const n = charList.length;
+
+  // Build a mapping of character name -> index (one of source or target)
+  const charToIdx = {};
+  charList.forEach((c, i) => {
+    charToIdx[canonicalSpeaker(c)] = i;
+  });
+
+  // Initialize a matrix (n x n) with zeros
+  const matrix = Array.from({ length: n }, () =>
+    Array(n).fill(0)
+  );
+
+  // Step 3: fill matrix
+  dialogues.forEach(d => {
+    const speakerIdx = charToIdx[canonicalSpeaker(d.canonical)];
+    const listenerIdx = charToIdx[canonicalSpeaker(d.talking_to)];
+
+    const wordCount = d.text.trim().split(/\s+/).filter(Boolean).length;
+
+    // For each (i, j), add the amount of words that were spoken
+    matrix[listenerIdx][speakerIdx] += wordCount;
+  });
+
+  return { matrix, charList };
+}
+
+
+function groupTicks(d, step) {
+    // Do some stuff to make the ticks work in a circle
+    const k = (d.endAngle - d.startAngle) / d.value;
+    return d3.range(0, d.value, step).map(value => {
+    return {value: value, angle: value * k + d.startAngle};
+  });
 }

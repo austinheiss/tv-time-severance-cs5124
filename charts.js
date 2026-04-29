@@ -314,7 +314,7 @@ export function renderRanking({ characters, selectedCharacter, visibleEpisodes, 
   });
 }
 
-export function renderHeatmap({ characters, visibleEpisodes, tooltip, formatNumber, onSelect }) {
+export function renderHeatmap({ characters, visibleEpisodes, tooltip, formatNumber, onSelect, selectedHeatmapCharacters = [], onToggleHeatmapCharacter, selectedHeatmapEpisodes = [], onToggleHeatmapEpisode, selectedHeatmapSeason = null, onToggleHeatmapSeason, heatmapBrushMode = false, onBrushSelect }) {
   const svg = d3.select("#heatmap-chart");
   const width = Math.max(720, svg.node().getBoundingClientRect().width);
   const topRows = characters.slice(0, DISPLAYED_CHARACTER_COUNT);
@@ -324,49 +324,128 @@ export function renderHeatmap({ characters, visibleEpisodes, tooltip, formatNumb
   const innerWidth = width - margin.left - margin.right;
   const cellWidth = innerWidth / visibleEpisodes.length;
   const height = margin.top + topRows.length * rowHeight + margin.bottom;
-  const maxWords = d3.max(topRows, d => d3.max(Array.from(d.episodeWords.values()))) || 1;
+  const selectedSet = new Set(selectedHeatmapCharacters.filter(character => topRows.some(row => row.character === character)));
+  const selectedEpisodeSet = new Set(selectedHeatmapEpisodes.filter(episodeId => visibleEpisodes.some(episode => episode.id === episodeId)));
+  const seasonEpisodes = selectedHeatmapSeason ? visibleEpisodes.filter(episode => episode.season === selectedHeatmapSeason) : [];
+  const seasonEpisodeSet = new Set(seasonEpisodes.map(episode => episode.id));
+  const hasHeatmapSelection = selectedSet.size > 0;
+  const hasEpisodeSelection = selectedEpisodeSet.size > 0;
+  const hasSeasonSelection = Boolean(selectedHeatmapSeason);
+  const activeRows = hasHeatmapSelection ? topRows.filter(row => selectedSet.has(row.character)) : topRows;
+  const activeEpisodes = hasSeasonSelection
+    ? seasonEpisodes
+    : (hasEpisodeSelection ? visibleEpisodes.filter(episode => selectedEpisodeSet.has(episode.id)) : visibleEpisodes);
+  const activeValues = activeRows.flatMap(row => activeEpisodes.map(episode => row.episodeWords.get(episode.id) || 0));
+  const maxWords = d3.max(activeValues) || 1;
   const color = d3.scaleSequential()
     .domain([0, maxWords])
     .interpolator(t => d3.interpolateRgb("#eef5f4", "#0d6a67")(Math.pow(t, 0.7)));
 
   clearSvg(svg, width, height);
-  drawSeasonLabels(svg, visibleEpisodes, margin, cellWidth, height);
+  drawSeasonLabels(svg, visibleEpisodes, margin, cellWidth, height, selectedHeatmapSeason, onToggleHeatmapSeason);
 
   visibleEpisodes.forEach((episode, index) => {
+    const episodeSelected = hasSeasonSelection
+      ? seasonEpisodeSet.has(episode.id)
+      : (!hasEpisodeSelection || selectedEpisodeSet.has(episode.id));
     svg.append("text")
       .attr("class", "episode-label")
+      .classed("selected", episodeSelected && (hasEpisodeSelection || hasSeasonSelection))
+      .classed("dimmed", (hasEpisodeSelection || hasSeasonSelection) && !episodeSelected)
       .attr("x", margin.left + index * cellWidth + cellWidth / 2)
       .attr("y", 38)
       .attr("text-anchor", "middle")
+      .style("cursor", "pointer")
+      .on("click", () => onToggleHeatmapEpisode?.(episode.id))
       .text(episode.label);
+
+    svg.append("rect")
+      .attr("class", "heat-column-hit")
+      .attr("x", margin.left + index * cellWidth)
+      .attr("y", margin.top - 6)
+      .attr("width", Math.max(2, cellWidth - cellGap))
+      .attr("height", height - margin.top + 6)
+      .on("click", () => onToggleHeatmapEpisode?.(episode.id));
   });
 
   topRows.forEach((character, index) => {
+    const rowSelected = !hasHeatmapSelection || selectedSet.has(character.character);
     const row = svg.append("g")
       .attr("class", "heat-row")
+      .classed("selected", rowSelected && hasHeatmapSelection)
+      .classed("dimmed", hasHeatmapSelection && !rowSelected)
       .attr("transform", `translate(0, ${margin.top + index * rowHeight})`);
+
+    row.append("rect")
+      .attr("class", "heat-row-hit")
+      .attr("x", 0)
+      .attr("y", 0)
+      .attr("width", margin.left - 12)
+      .attr("height", rowHeight - cellGap)
+      .on("click", () => onToggleHeatmapCharacter?.(character.character));
 
     row.append("text")
       .attr("class", "heat-label")
       .attr("x", 0)
       .attr("y", 18)
+      .style("cursor", "pointer")
+      .on("click", () => onToggleHeatmapCharacter?.(character.character))
       .text(character.display);
 
     visibleEpisodes.forEach((episode, episodeIndex) => {
       const words = character.episodeWords.get(episode.id) || 0;
+      const episodeSelected = hasSeasonSelection
+        ? seasonEpisodeSet.has(episode.id)
+        : (!hasEpisodeSelection || selectedEpisodeSet.has(episode.id));
+      const cellSelected = rowSelected && episodeSelected;
+      const fill = rowSelected
+        ? (episodeSelected
+          ? (words ? color(words) : "#edf2f2")
+          : (words ? "#dbe0e1" : "#eceff0"))
+        : (words ? "#d7ddde" : "#eceff0");
       row.append("rect")
         .attr("class", "heat-cell")
+        .classed("selected-cell", cellSelected && (hasHeatmapSelection || hasEpisodeSelection))
+        .classed("dimmed-cell", (hasHeatmapSelection && !rowSelected) || (hasEpisodeSelection && !episodeSelected))
         .attr("x", margin.left + episodeIndex * cellWidth)
         .attr("y", 0)
         .attr("width", Math.max(2, cellWidth - cellGap))
         .attr("height", rowHeight - cellGap)
-        .attr("fill", words ? color(words) : "#edf2f2")
+        .attr("fill", fill)
         .on("mouseenter", event => showTooltip(event, tooltip, `<strong>${character.display}</strong><br>${episode.label}: ${formatNumber(words)} words`))
         .on("mousemove", event => moveTooltip(event, tooltip))
         .on("mouseleave", () => tooltip.style("opacity", 0))
         .on("click", () => onSelect(character.character));
     });
   });
+
+  if (heatmapBrushMode) {
+    const brush = d3.brush()
+      .extent([
+        [margin.left, margin.top],
+        [margin.left + innerWidth, margin.top + topRows.length * rowHeight]
+      ])
+      .on("end", event => {
+        if (!event.selection) return;
+        const [[x0, y0], [x1, y1]] = event.selection;
+        const brushedCharacters = topRows.slice(
+          Math.max(0, Math.floor((y0 - margin.top) / rowHeight)),
+          Math.min(topRows.length, Math.ceil((y1 - margin.top) / rowHeight))
+        ).map(row => row.character);
+        const brushedEpisodes = visibleEpisodes.slice(
+          Math.max(0, Math.floor((x0 - margin.left) / cellWidth)),
+          Math.min(visibleEpisodes.length, Math.ceil((x1 - margin.left) / cellWidth))
+        ).map(episode => episode.id);
+
+        if (brushedCharacters.length || brushedEpisodes.length) {
+          onBrushSelect?.({ characters: brushedCharacters, episodes: brushedEpisodes });
+        }
+      });
+
+    svg.append("g")
+      .attr("class", "heatmap-brush")
+      .call(brush);
+  }
 }
 
 export function renderPhraseOwnership(context) {
@@ -518,14 +597,48 @@ function clearSvg(svg, width, height) {
     .remove();
 }
 
-function drawSeasonLabels(svg, episodes, margin, cellWidth, height) {
+function drawSeasonLabels(svg, episodes, margin, cellWidth, height, selectedSeason, onToggleSeason) {
   const s1Count = episodes.filter(d => d.season === 1).length;
   const s2Count = episodes.filter(d => d.season === 2).length;
   if (s1Count) {
-    svg.append("text").attr("class", "season-label").attr("x", margin.left + (s1Count * cellWidth) / 2).attr("y", 16).attr("text-anchor", "middle").text("SEASON 1");
+    const s1Selected = selectedSeason === 1;
+    svg.append("rect")
+      .attr("class", "season-hit")
+      .attr("x", margin.left)
+      .attr("y", 0)
+      .attr("width", s1Count * cellWidth)
+      .attr("height", 22)
+      .on("click", () => onToggleSeason?.(1));
+    svg.append("text")
+      .attr("class", "season-label")
+      .classed("selected", s1Selected)
+      .classed("dimmed", selectedSeason && !s1Selected)
+      .attr("x", margin.left + (s1Count * cellWidth) / 2)
+      .attr("y", 16)
+      .attr("text-anchor", "middle")
+      .style("cursor", "pointer")
+      .on("click", () => onToggleSeason?.(1))
+      .text("SEASON 1");
   }
   if (s2Count) {
-    svg.append("text").attr("class", "season-label").attr("x", margin.left + s1Count * cellWidth + (s2Count * cellWidth) / 2).attr("y", 16).attr("text-anchor", "middle").text("SEASON 2");
+    const s2Selected = selectedSeason === 2;
+    svg.append("rect")
+      .attr("class", "season-hit")
+      .attr("x", margin.left + s1Count * cellWidth)
+      .attr("y", 0)
+      .attr("width", s2Count * cellWidth)
+      .attr("height", 22)
+      .on("click", () => onToggleSeason?.(2));
+    svg.append("text")
+      .attr("class", "season-label")
+      .classed("selected", s2Selected)
+      .classed("dimmed", selectedSeason && !s2Selected)
+      .attr("x", margin.left + s1Count * cellWidth + (s2Count * cellWidth) / 2)
+      .attr("y", 16)
+      .attr("text-anchor", "middle")
+      .style("cursor", "pointer")
+      .on("click", () => onToggleSeason?.(2))
+      .text("SEASON 2");
   }
   if (s1Count && s2Count) {
     svg.append("line")

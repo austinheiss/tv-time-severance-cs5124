@@ -71,8 +71,16 @@
   </section>
 
   <section class="panel heatmap-panel" aria-label="Episode participation">
-    <h2>Episode Participation</h2>
-    <p class="section-note">Words spoken by top 15 characters per episode. Darker color indicates more words.</p>
+    <div class="heatmap-header">
+      <div>
+        <h2>Episode Participation</h2>
+        <p class="section-note">Words spoken by top 15 characters per episode. Darker color indicates more words. Click on character names, episode numbers, seasons, or use brush tool to change selections.</p>
+      </div>
+      <div class="heatmap-controls" aria-label="Heatmap selection controls">
+        <button class="heatmap-control" id="heatmap-brush-toggle" type="button" aria-pressed="false">Brush</button>
+        <button class="heatmap-control" id="heatmap-clear-button" type="button">Clear selections</button>
+      </div>
+    </div>
     <svg class="heatmap-svg" id="heatmap-chart" role="img" aria-label="Words spoken by character per episode"></svg>
     <div class="legend">
       <span>Fewer words</span>

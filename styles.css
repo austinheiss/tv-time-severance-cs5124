@@ -503,6 +503,45 @@ svg {
   min-height: 455px;
 }
 
+.heatmap-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.heatmap-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.heatmap-control {
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid #a8afb3;
+  border-radius: 5px;
+  background: #fbfbfb;
+  color: #4e555a;
+  cursor: pointer;
+  transition: background 140ms ease, color 140ms ease, border-color 140ms ease;
+}
+
+.heatmap-control:hover,
+.heatmap-control:focus-visible {
+  background: #eef4f3;
+  color: var(--ink);
+  border-color: #7b8489;
+}
+
+.heatmap-control.active {
+  background: #e7f2f1;
+  color: var(--teal-dark);
+  border-color: #9ecfca;
+  font-weight: 700;
+}
+
 .heatmap-svg {
   height: 300px;
   margin-top: 12px;
@@ -513,6 +552,70 @@ svg {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.5px;
+}
+
+.season-label.selected {
+  fill: var(--ink);
+  font-weight: 800;
+}
+
+.season-label.dimmed {
+  fill: #8a9196;
+}
+
+.season-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.episode-label.selected {
+  fill: var(--ink);
+  font-weight: 800;
+}
+
+.episode-label.dimmed {
+  fill: #8a9196;
+}
+
+.heat-row-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.heat-column-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.heatmap-brush .overlay {
+  cursor: crosshair;
+}
+
+.heatmap-brush .selection {
+  fill: rgba(47, 130, 125, 0.14);
+  stroke: var(--teal-dark);
+  stroke-width: 1;
+}
+
+.heat-row.selected .heat-label {
+  fill: var(--ink);
+  font-weight: 800;
+}
+
+.heat-row.dimmed .heat-label {
+  fill: #8a9196;
+}
+
+.heat-row.dimmed .heat-cell {
+  opacity: 0.92;
+}
+
+.heat-cell.dimmed-cell {
+  opacity: 0.9;
+}
+
+.heat-cell.selected-cell {
+  stroke: #fff;
 }
 
 .heat-cell {

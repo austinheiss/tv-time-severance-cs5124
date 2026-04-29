@@ -25,11 +25,9 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
             topNames.has(canonicalSpeaker(d.talking_to))
         )
     )
-    var names = Array.from(topNames);
-    const colors = d3.scaleOrdinal(names, d3.schemePaired);
-    
     // Build a matrix where element (i, j) is the number of words character i spoke to character j
-    let matrix = buildInteractionMatrix(topVisibleRows).matrix;
+    const { matrix, charList: names } = buildInteractionMatrix(topVisibleRows);
+    const colors = d3.scaleOrdinal(names, d3.schemePaired);
 
     const innerRadius = Math.min(width, height) * 0.31;
     const outerRadius = innerRadius + 6;

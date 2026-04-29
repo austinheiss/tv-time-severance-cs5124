@@ -353,14 +353,19 @@ function renderPhraseMeta(query, analysis, visibleEpisodes, formatNumber) {
 
 function renderPhraseTimeline({ visibleEpisodes, tooltip, formatNumber }, query, analysis) {
   const svg = d3.select("#phrase-timeline-chart");
+  svg.selectAll("*").remove();
+  if (!query) {
+    svg.style("display", "none");
+    return;
+  }
+
+  svg.style("display", null);
   const width = Math.max(720, svg.node().getBoundingClientRect().width);
   const height = 170;
   const margin = { top: 24, right: 20, bottom: 36, left: 44 };
   svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
-  svg.selectAll("*").remove();
 
   svg.append("text").attr("class", "phrase-chart-title").attr("x", margin.left).attr("y", 14).text("Mentions by Episode");
-  if (!query) return;
 
   const data = visibleEpisodes.map(episode => ({
     ...episode,
@@ -405,18 +410,25 @@ function renderPhraseTimeline({ visibleEpisodes, tooltip, formatNumber }, query,
 
 function renderPhraseOwners({ tooltip, formatNumber, onSelect }, query, analysis) {
   const svg = d3.select("#phrase-owner-chart");
+  svg.selectAll("*").remove();
+  if (!query) {
+    svg.style("display", "none");
+    return;
+  }
+
+  svg.style("display", null);
   const width = Math.max(720, svg.node().getBoundingClientRect().width);
   const margin = { top: 24, right: 30, bottom: 16, left: 210 };
+  const labelX = 44;
   const entries = Array.from(analysis.byCharacter.entries())
     .sort((a, b) => d3.descending(a[1], b[1]))
     .slice(0, 8)
     .map(([character, count]) => ({ character, count, label: displayName(character) }));
   const height = margin.top + margin.bottom + Math.max(1, entries.length) * 30;
   svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
-  svg.selectAll("*").remove();
 
-  svg.append("text").attr("class", "phrase-chart-title").attr("x", margin.left).attr("y", 14).text("Top Characters Using This Phrase");
-  if (!query || !entries.length) return;
+  svg.append("text").attr("class", "phrase-chart-title").attr("x", labelX).attr("y", 14).text("Top Characters Using This Phrase");
+  if (!entries.length) return;
 
   const x = d3.scaleLinear()
     .domain([0, d3.max(entries, d => d.count) || 1])
@@ -431,9 +443,9 @@ function renderPhraseOwners({ tooltip, formatNumber, onSelect }, query, analysis
     .enter()
     .append("text")
     .attr("class", "phrase-owner-label")
-    .attr("x", margin.left - 10)
+    .attr("x", labelX)
     .attr("y", d => (y(d.character) || 0) + y.bandwidth() / 2 + 4)
-    .attr("text-anchor", "end")
+    .attr("text-anchor", "start")
     .text(d => d.label);
 
   svg.selectAll(".phrase-owner-bar")

@@ -35,7 +35,6 @@ export function renderDetails({ characters, selectedCharacter, visibleEpisodes, 
   rows.exit().remove();
 
   renderWordCloud(selected, tooltip);
-  renderPhraseChart(selected, formatNumber);
   const phraseLabel = selected.topSpokenPhrase?.kind === "phrase" ? "Most Spoken Phrase" : "Most Spoken Word";
   const phraseText = selected.topSpokenPhrase?.text || "n/a";
   const phraseCount = selected.topSpokenPhrase?.count || 0;
@@ -190,64 +189,6 @@ function overlapsAny(candidate, placed) {
     candidate.top < existing.bottom + 4 &&
     candidate.bottom > existing.top - 4
   );
-}
-
-function renderPhraseChart(selected, formatNumber) {
-  const svg = d3.select("#phrase-chart");
-  const phrases = (selected.topPhrases || []).slice(0, 6);
-  const width = Math.max(280, svg.node()?.getBoundingClientRect().width || 320);
-  const margin = { top: 6, right: 64, bottom: 6, left: 8 };
-  const rowHeight = 27;
-  const height = Math.max(44, margin.top + margin.bottom + phrases.length * rowHeight);
-
-  svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
-  svg.selectAll("*").remove();
-  if (!phrases.length) {
-    svg.append("text")
-      .attr("class", "phrase-empty")
-      .attr("x", width / 2)
-      .attr("y", 26)
-      .attr("text-anchor", "middle")
-      .text("No repeated phrases in this filter");
-    return;
-  }
-
-  const x = d3.scaleLinear()
-    .domain([0, d3.max(phrases, d => d.count) || 1])
-    .range([margin.left + 150, width - margin.right]);
-
-  const rows = svg.selectAll(".phrase-row")
-    .data(phrases)
-    .enter()
-    .append("g")
-    .attr("class", "phrase-row")
-    .attr("transform", (_, i) => `translate(0, ${margin.top + i * rowHeight})`);
-
-  rows.append("text")
-    .attr("class", "phrase-label")
-    .attr("x", margin.left)
-    .attr("y", 16)
-    .text(d => d.phrase);
-
-  rows.append("rect")
-    .attr("class", "phrase-bar-bg")
-    .attr("x", margin.left + 150)
-    .attr("y", 5)
-    .attr("width", width - margin.left - margin.right - 150)
-    .attr("height", 12);
-
-  rows.append("rect")
-    .attr("class", "phrase-bar")
-    .attr("x", margin.left + 150)
-    .attr("y", 5)
-    .attr("width", d => Math.max(2, x(d.count) - (margin.left + 150)))
-    .attr("height", 12);
-
-  rows.append("text")
-    .attr("class", "phrase-count")
-    .attr("x", width - margin.right + 6)
-    .attr("y", 16)
-    .text(d => formatNumber(d.count));
 }
 
 export function renderRanking({ characters, selectedCharacter, visibleEpisodes, formatNumber, onSelect }) {

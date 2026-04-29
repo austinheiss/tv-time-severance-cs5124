@@ -404,34 +404,6 @@ svg {
   text-transform: lowercase;
 }
 
-.phrase-chart {
-  width: 100%;
-  min-height: 44px;
-}
-
-.phrase-label {
-  fill: #1f282c;
-  font-size: 12px;
-}
-
-.phrase-bar-bg {
-  fill: #eaf0f0;
-}
-
-.phrase-bar {
-  fill: #2f827d;
-}
-
-.phrase-count {
-  fill: #536066;
-  font-size: 12px;
-}
-
-.phrase-empty {
-  fill: #697278;
-  font-size: 13px;
-}
-
 .phrase-controls {
   margin-top: 10px;
 }

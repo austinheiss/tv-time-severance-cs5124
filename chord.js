@@ -6,7 +6,7 @@ const { d3 } = window;
 
 export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip, formatNumber, onSelect }) {
     const width = 800;
-    const height = 800
+    const height = 425 
 
     // Get the most names of the characters with the most spoken words
     const topNames = new Set(Array.from(
@@ -31,7 +31,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
     // Build a matrix where element (i, j) is the number of words character i spoke to character j
     let matrix = buildInteractionMatrix(topVisibleRows).matrix;
 
-    const innerRadius = Math.min(width, height) * 0.4;
+    const innerRadius = Math.min(width, height) * 0.31;
     const outerRadius = innerRadius + 6;
 
     // Construct necessary directed chord chart elements
@@ -117,7 +117,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
         });
 
     // Add the "arc axes" ticks
-    const tickStep = d3.tickStep(0, d3.sum(matrix.flat()), 50);
+    const tickStep = d3.tickStep(0, d3.sum(matrix.flat()), 25);
     const groupTick = g.append("g")
         .selectAll()
         .data(d => groupTicks(d, tickStep))

@@ -162,7 +162,7 @@ async function loadEpisodeRows(currentEpisode) {
   }).filter(row => row.canonical && row.words > 0);
 }
 
-function canonicalSpeaker(speaker) {
+export function canonicalSpeaker(speaker) {
   const cleaned = cleanSpeaker(speaker);
   if (!cleaned) return null;
 

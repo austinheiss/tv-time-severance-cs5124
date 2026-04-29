@@ -62,32 +62,29 @@ function renderWordCloud(selected, tooltip) {
   const svg = d3.select("#word-cloud");
   const words = selected.wordCloud || [];
   const width = Math.max(280, svg.node()?.getBoundingClientRect().width || 320);
-  const height = 238;
+  const baseHeight = 214;
+  const verticalPadding = 6;
   const cx = width / 2;
-  const cy = 100;
-  const maxRadius = Math.min(width * 0.38, 104);
+  const xRadius = Math.min(width * 0.47, 280);
+  const yRadius = Math.min(96, Math.max(82, width * 0.15));
+  const cy = yRadius + 22;
 
   const maxCount = d3.max(words, d => d.count) || 1;
   const minCount = d3.min(words, d => d.count) || 1;
   const size = d3.scaleLinear().domain([minCount, maxCount]).range([12, 38]);
   const sortedWords = words.slice().sort((a, b) => d3.descending(a.count, b.count));
 
-  svg.attr("viewBox", `0 0 ${width} ${height}`).style("height", `${height}px`);
+  const placements = layoutWordCloud(sortedWords, size, cx, cy, xRadius, yRadius);
+  const bounds = placements.length
+    ? {
+        top: d3.min(placements, d => d.top),
+        bottom: d3.max(placements, d => d.bottom)
+      }
+    : { top: 0, bottom: baseHeight };
+  const viewBoxY = Math.floor(Math.min(0, bounds.top - verticalPadding));
+  const height = Math.max(baseHeight, Math.ceil(bounds.bottom + verticalPadding - viewBoxY));
 
-  const bulbOutline = [
-    `M ${cx} ${24}`,
-    `C ${cx - maxRadius} ${24}, ${cx - maxRadius - 16} ${152}, ${cx - 16} ${166}`,
-    `L ${cx - 22} ${192}`,
-    `L ${cx + 22} ${192}`,
-    `L ${cx + 16} ${166}`,
-    `C ${cx + maxRadius + 16} ${152}, ${cx + maxRadius} ${24}, ${cx} ${24}`
-  ].join(" ");
-
-  const frame = svg.selectAll(".word-cloud-frame").data([0]);
-  frame.enter().append("path").attr("class", "word-cloud-frame");
-  frame.attr("d", bulbOutline);
-
-  const placements = layoutBulbWords(sortedWords, size, cx, cy, maxRadius);
+  svg.attr("viewBox", `0 ${viewBoxY} ${width} ${height}`).style("height", `${height}px`);
 
   const tokens = svg.selectAll(".word-cloud-token").data(placements, d => d.word);
   const tokenEnter = tokens.enter()
@@ -112,7 +109,7 @@ function renderWordCloud(selected, tooltip) {
   tokens.exit().remove();
 }
 
-function layoutBulbWords(words, sizeScale, cx, cy, radius) {
+function layoutWordCloud(words, sizeScale, cx, cy, xRadius, yRadius) {
   if (!words.length) return [];
   const placed = [];
   const center = words[0];
@@ -123,25 +120,42 @@ function layoutBulbWords(words, sizeScale, cx, cy, radius) {
     const word = words[index];
     const fontSize = Math.round(sizeScale(word.count));
     const progress = index / Math.max(words.length - 1, 1);
-    const targetRadius = 20 + progress * (radius + 18);
+    const targetRadius = 0.18 + progress * 0.82;
     const angleStart = index * 2.399963229728653;
     let accepted = null;
 
     for (let step = 0; step < 140; step += 1) {
       const angle = angleStart + step * 0.46;
-      const radial = targetRadius + step * 0.95;
-      const x = cx + Math.cos(angle) * radial;
-      const y = cy + Math.sin(angle) * radial * 0.95;
+      const radial = targetRadius + step * 0.018;
+      const x = cx + Math.cos(angle) * radial * xRadius;
+      const y = cy + Math.sin(angle) * radial * yRadius;
       const candidate = createPlacement(word, x, y, fontSize);
-      if (isInsideBulb(candidate, cx, cy, radius) && !overlapsAny(candidate, placed)) {
+      if (isInsideWordCloud(candidate, cx, cy, xRadius, yRadius) && !overlapsAny(candidate, placed)) {
         accepted = candidate;
         break;
       }
     }
 
-    placed.push(accepted || createPlacement(word, cx, cy + radius + 20 + index * 2, fontSize));
+    if (!accepted) {
+      accepted = findOpenPlacement(word, fontSize, placed, cx, cy, xRadius, yRadius);
+    }
+
+    placed.push(accepted || createPlacement(word, cx, cy + yRadius + 20 + index * 2, fontSize));
   }
   return placed;
+}
+
+function findOpenPlacement(word, fontSize, placed, cx, cy, xRadius, yRadius) {
+  const ySteps = [0, -0.22, 0.22, -0.44, 0.44, -0.66, 0.66, -0.84, 0.84];
+  for (const yStep of ySteps) {
+    for (let xStep = -0.92; xStep <= 0.92; xStep += 0.08) {
+      const candidate = createPlacement(word, cx + xStep * xRadius, cy + yStep * yRadius, fontSize);
+      if (isInsideWordCloud(candidate, cx, cy, xRadius, yRadius) && !overlapsAny(candidate, placed)) {
+        return candidate;
+      }
+    }
+  }
+  return null;
 }
 
 function createPlacement(wordDatum, x, y, fontSize) {
@@ -160,25 +174,20 @@ function createPlacement(wordDatum, x, y, fontSize) {
   };
 }
 
-function isInsideBulb(candidate, cx, cy, radius) {
+function isInsideWordCloud(candidate, cx, cy, xRadius, yRadius) {
   const points = [
     [candidate.left, candidate.top],
     [candidate.right, candidate.top],
     [candidate.left, candidate.bottom],
     [candidate.right, candidate.bottom]
   ];
-  return points.every(([x, y]) => pointInsideBulb(x, y, cx, cy, radius));
+  return points.every(([x, y]) => pointInsideWordCloud(x, y, cx, cy, xRadius, yRadius));
 }
 
-function pointInsideBulb(x, y, cx, cy, radius) {
+function pointInsideWordCloud(x, y, cx, cy, xRadius, yRadius) {
   const dx = x - cx;
   const dy = y - cy;
-  const globe = (dx * dx) / (radius * radius) + (dy * dy) / ((radius + 20) * (radius + 20)) <= 1;
-  if (globe) return true;
-  const neckTop = cy + radius - 10;
-  const neckBottom = neckTop + 48;
-  const neckHalfWidth = 28;
-  return y >= neckTop && y <= neckBottom && Math.abs(dx) <= neckHalfWidth;
+  return (dx * dx) / (xRadius * xRadius) + (dy * dy) / (yRadius * yRadius) <= 1;
 }
 
 function overlapsAny(candidate, placed) {

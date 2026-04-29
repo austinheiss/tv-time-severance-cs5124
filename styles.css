@@ -106,6 +106,7 @@ h1 {
 .dashboard {
   display: grid;
   grid-template-columns: minmax(720px, 1fr) minmax(390px, 680px);
+  align-items: start;
   gap: 10px;
   margin-top: 10px;
 }
@@ -113,6 +114,10 @@ h1 {
 .panel {
   padding: 18px 26px;
   min-width: 0;
+}
+
+.selector-panel {
+  padding-bottom: 8px;
 }
 
 .ranking-panel {
@@ -247,10 +252,6 @@ svg {
   fill: var(--empty);
 }
 
-.selector-panel {
-  min-height: 570px;
-}
-
 .selected-title {
   margin: 0 0 16px;
   font-size: 17px;
@@ -342,7 +343,7 @@ svg {
 }
 
 .detail-list {
-  margin: 8px 0 20px;
+  margin: 8px 0 0;
   border-top: 1px solid var(--line);
 }
 
@@ -368,27 +369,22 @@ svg {
 }
 
 .spoken-block {
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .spoken-title {
-  margin: 0 0 10px;
+  display: grid;
+  align-items: center;
+  min-height: 50px;
+  margin: 0;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 .word-cloud {
   width: 100%;
-  height: 238px;
-  margin-top: 2px;
-}
-
-.word-cloud-frame {
-  fill: #f8fbfb;
-  stroke: #d4dddd;
-  stroke-width: 1.5;
+  margin-top: -37px;
 }
 
 .word-cloud-token {

@@ -16,13 +16,17 @@ export function renderDetails({ characters, selectedCharacter, visibleEpisodes, 
   d3.select("#selected-role").text(roleFor(selected.character));
 
   const facts = factsFor(selected.character);
+  const phraseLabel = selected.topSpokenPhrase?.kind === "phrase" ? "Most Spoken Phrase" : "Most Spoken Word";
+  const phraseText = selected.topSpokenPhrase?.text || "n/a";
+  const phraseCount = selected.topSpokenPhrase?.count || 0;
   const details = [
     { key: "lines", label: "Total Lines", value: formatNumber(selected.lines) },
     { key: "words", label: "Total Words Spoken", value: formatNumber(selected.words) },
     { key: "episodes", label: "Episodes Appeared In", value: `${selected.episodes.size} / ${visibleEpisodes.length}` },
     { key: "portrayedBy", label: "Portrayed By", value: facts.portrayedBy },
     { key: "status", label: "Status", value: facts.status },
-    { key: "firstAppearance", label: "First Appearance", value: facts.firstAppearance }
+    { key: "firstAppearance", label: "First Appearance", value: facts.firstAppearance },
+    { key: "topPhrase", label: phraseLabel, value: `${phraseText} (${formatNumber(phraseCount)})` }
   ];
 
   const rows = d3.select("#detail-list").selectAll(".detail-row").data(details, d => d.key);
@@ -35,11 +39,6 @@ export function renderDetails({ characters, selectedCharacter, visibleEpisodes, 
   rows.exit().remove();
 
   renderWordCloud(selected, tooltip);
-  const phraseLabel = selected.topSpokenPhrase?.kind === "phrase" ? "Most Spoken Phrase" : "Most Spoken Word";
-  const phraseText = selected.topSpokenPhrase?.text || "n/a";
-  const phraseCount = selected.topSpokenPhrase?.count || 0;
-  d3.select("#top-phrase-label").text(phraseLabel);
-  d3.select("#top-phrase-value").text(`${phraseText} (${formatNumber(phraseCount)})`);
 }
 
 function renderAvatar(character) {

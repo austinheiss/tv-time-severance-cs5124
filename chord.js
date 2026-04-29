@@ -106,16 +106,6 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
             tooltip.style("opacity", 0)
         });
 
-    g.append("title")
-        .text(d => `
-            ${names[d.index]}
-            said ${d3.sum(matrix[d.index])} words and 
-            was told ${d3.sum(matrix, row => row[d.index])} words
-            `);
-
-    g.append("title")
-        .text(d => `${names[d.index]}\n${d.value}`);
-
     const tickStep = d3.tickStep(0, d3.sum(matrix.flat()), 50);
     const groupTick = g.append("g")
         .selectAll()

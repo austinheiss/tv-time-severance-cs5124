@@ -54,7 +54,7 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
         .attr("fill", "none")
         .attr("d", d3.arc()({outerRadius, startAngle: 0, endAngle: 2 * Math.PI}));
 
-    svg.append("g")
+    const ribbons = svg.append("g")
         .attr("fill-opacity", 0.75)
         .selectAll()
         .data(chords)
@@ -62,40 +62,49 @@ export function renderChord({ characters, visibleEpisodes, visibleRows, tooltip,
         .attr("d", ribbon)
         .attr("fill", d => colors(names[d.source.index]))
         .style("mix-blend-mode", "multiply")
-        .on("mouseenter", event => showTooltip(event, tooltip, `<p>stuff</p>`))
+        .on("mouseenter", function(event, d) {
+            ribbons.style("opacity", r =>
+                (r === d ? 1 : 0.25)
+            );
+            showTooltip(
+                event,
+                tooltip, 
+                `${names[d.source.index]} said ${d.source.value} words to ${names[d.target.index]}`) 
+        })
         .on("mousemove", event => moveTooltip(event, tooltip))
-        .on("mouseleave", () => tooltip.style("opacity", 0))
-        // .on("mouseover", (event, d) => {
-        //     console.log(event)
-        //     console.log(names[d.source.index])
-        //     d3.select("#tooltip")
-        //         .style("display", "block")
-        //         .html(`
-        //             d
-        //         `)
-        //         .style("border", "1px solid #69b3a2");
-        // })
-        // .on("mousemove", (event) => {
-        //     d3.select("#tooltip")
-        //         .style("left", (event.pageX + 15) + "px")
-        //         .style("top", (event.pageY + 15) + "px");
-        // })
-        // .on("mouseout", () => {
-        //     d3.select("#tooltip")
-        //         .style("display", "none");
-        // })
-      .append("title")
-        .text(d => `${names[d.source.index]} said ${d.source.value} words to ${names[d.target.index]}`)
+        .on("mouseleave", function() {
+            ribbons.style("opacity", 1);
+            tooltip.style("opacity", 0)
+        });
 
     const g = svg.append("g")
       .selectAll()
       .data(chords.groups)
       .join("g");
 
-    g.append("path")
+    const arcs = g.append("path")
         .attr("d", arc)
         .attr("fill", d => colors(names[d.index]))
-        .attr("stroke", "#fff");
+        .attr("stroke", "#fff")
+        .on("mouseenter", function(event, d) {
+            arcs.style("opacity", r =>
+                (r === d ? 1 : 0.25)
+            );
+            ribbons.style("opacity", r =>
+                (r === d ? 1 : 0.25)
+            );
+            showTooltip(
+                event,
+                tooltip, 
+                `${names[d.index]} said ${d3.sum(matrix[d.index])} words and was told ${d3.sum(matrix, row => row[d.index])} words`
+            )
+        })
+        .on("mousemove", event => moveTooltip(event, tooltip))
+        .on("mouseleave", function() {
+            arcs.style("opacity", 1);
+            ribbons.style("opacity", 1);
+            tooltip.style("opacity", 0)
+        });
 
     g.append("title")
         .text(d => `

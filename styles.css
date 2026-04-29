@@ -106,6 +106,7 @@ h1 {
 .dashboard {
   display: grid;
   grid-template-columns: minmax(720px, 1fr) minmax(390px, 680px);
+  align-items: start;
   gap: 10px;
   margin-top: 10px;
 }
@@ -113,6 +114,10 @@ h1 {
 .panel {
   padding: 18px 26px;
   min-width: 0;
+}
+
+.selector-panel {
+  padding-bottom: 8px;
 }
 
 .ranking-panel {
@@ -247,10 +252,6 @@ svg {
   fill: var(--empty);
 }
 
-.selector-panel {
-  min-height: 570px;
-}
-
 .selected-title {
   margin: 0 0 16px;
   font-size: 17px;
@@ -342,7 +343,7 @@ svg {
 }
 
 .detail-list {
-  margin: 8px 0 20px;
+  margin: 8px 0 0;
   border-top: 1px solid var(--line);
 }
 
@@ -368,68 +369,28 @@ svg {
 }
 
 .spoken-block {
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .spoken-title {
-  margin: 0 0 10px;
-  color: var(--muted);
-  font-size: 15px;
-}
-
-.spoken-value {
+  display: grid;
+  align-items: center;
+  min-height: 50px;
   margin: 0;
-  font-size: 20px;
+  color: var(--muted);
+  font-size: 18px;
   line-height: 1.2;
-  font-weight: 650;
 }
 
 .word-cloud {
   width: 100%;
-  height: 238px;
-  margin-top: 2px;
-}
-
-.word-cloud-frame {
-  fill: #f8fbfb;
-  stroke: #d4dddd;
-  stroke-width: 1.5;
+  margin-top: -37px;
 }
 
 .word-cloud-token {
   color: #1a5351;
   fill: #1a5351;
   text-transform: lowercase;
-}
-
-.phrase-chart {
-  width: 100%;
-  min-height: 44px;
-}
-
-.phrase-label {
-  fill: #1f282c;
-  font-size: 12px;
-}
-
-.phrase-bar-bg {
-  fill: #eaf0f0;
-}
-
-.phrase-bar {
-  fill: #2f827d;
-}
-
-.phrase-count {
-  fill: #536066;
-  font-size: 12px;
-}
-
-.phrase-empty {
-  fill: #697278;
-  font-size: 13px;
 }
 
 .phrase-controls {
@@ -450,6 +411,13 @@ svg {
   border: 1px solid #bfc7cb;
   border-radius: 5px;
   font: inherit;
+}
+
+.phrase-input:focus,
+.phrase-input:focus-visible {
+  border-color: var(--teal);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(47, 130, 125, 0.35);
 }
 
 .phrase-meta {

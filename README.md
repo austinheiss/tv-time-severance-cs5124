@@ -3,7 +3,6 @@ This project visualizes Severance transcripts so you can see speaking volume by 
 
 # Data
 # Vis Components
-
 ## Header
 The header contains a blurb of the show, and information such as how many seasons the show has run for and how many total episodes - as well as the genre. We also chose to include the show logo in the header to invoke the design language of the show, which is very well defined and consistant throughout the show.
 

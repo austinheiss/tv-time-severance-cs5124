@@ -1,3 +1,8 @@
+# Severance Data Visualization 
+### Project 3 - CS 5124 
+### University of Cincinnati 
+### Austin Heiss, JP Vargas, Matt Heeter, Soham Vakani 
+
 # Motivation
 This project visualizes Severance transcripts so you can see speaking volume by character and season, word‑level detail for a selected character, episode participation, paired text exchanges between characters, and who says chosen phrases across episodes, instead of judging those patterns from memory alone. The motivation was to give a more quantitative aspect to the relationship between characters and how they speak/act.
 Our goal with our visualizations is to convey insights into the impact that the main characters of Severance have on the story, and how their relationships and dialogue between them build the world of the show. To accomplish this, we first want to show the user how frequently characters appear and how much they speak relative to the other characters in the show. Then, using the chord diagram, the users can tell which characters are speaking to one another the most and compare the level of relationships they have in the show. Combining this with the word cloud helps provide an insight into the personality of the characters, and when paired with the chord diagram, can also give insights into the types of conversations that a character has with another if they speak frequently with them.

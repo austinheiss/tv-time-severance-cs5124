@@ -51,7 +51,40 @@ We added the ability to search for a given phrase and examine how often it was s
 ![Search sketch](./sketches/search.png)
 
 # Discovery
+
+Using the dashboard, we were able to move from “character impressions” to measurable patterns in Severance dialogue across both seasons.
+
+- **Who drives dialogue overal**l: The Speaking Frequency ranking shows a clear top tier of characters by total words and episode coverage, making it easy to separate consistently central voices from occasional speakers.
+- **How presence changes by episode/season**: The Episode Participation heatmap highlights character-specific arcs (clusters of darker cells), including when characters become more/less active across season boundaries.
+**How relationships are expressed through speech volume**: The directed chord diagram reveals asymmetries in exchanges (who speaks to whom most), helping identify relationship dynamics that are not obvious from memory alone.
+**What defines each character’s language**: The Selected Character panel + word cloud surfaces recurring vocabulary and top phrases that reflect role/personality in the show.
+**Who “owns” important terms**: Phrase Ownership Explorer shows which episodes and which characters dominate specific words/phrases, connecting thematic terms to narrative timing.
+
 # Process
+This project was built as a client-side D3 visualization app, with a separate Python scraping/wrangling pipeline for transcript and character metadata preparation.
+
+## Libraries and tools used
+
+**Frontend visualization:** D3.js v7 (loaded from CDN in index.html).
+**Data scraping/wrangling:** pandas, BeautifulSoup, and Playwright Python scripts in transcript-web-scraping/.
+**Static assets + metadata:** local CSVs and character manifest JSON in data/ and public/characters/.
+
+## Code structure
+
+index.html: dashboard layout and section containers.
+app.js: global app state, season filtering, and render orchestration.
+data.js: data loading, canonical speaker mapping, phrase analysis, lexical summaries.
+charts.js: ranking, selected-character details, heatmap, and phrase explorer rendering.
+chord.js: directed chord-diagram construction for character-to-character dialogue.
+transcript-web-scraping/: scripts for scraping, cleaning, and exporting transcript/character CSVs.
+
+## How to access the app 
+
+Live app: https://severance-tv-time.vercel.app/
+
+
 # Demo Video
+
+You can find the demo video linked [here](https://mailuc-my.sharepoint.com/:v:/g/personal/vakanisa_mail_uc_edu/IQDhfJks-ni7TonPzw0gE3r8AYYfULb318oB6Kz4Q1F3wW4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OyYjaW)
 # Roles
 Our individual roles on the project aligned pretty closely to the different levels. Austin built the underlying data and logic abstractions for getting data to the visualizations and filtering by season/episode/character. He also built the visualizations showing character importances, attributes, pictures, and the episodes in which they appeared. JP performed all the inital data wrangling, including writing scripts to scrape the transcripts and convert them to CSVs. He also made the brushing/selection interaction on the appearance matrix. Soham implemented the word cloud visualization and frequent phrase display. He also added the word/phrase search feature. Matt built the character interaction chord diagram and wrote a script to derive who each character was talking to to populate it.

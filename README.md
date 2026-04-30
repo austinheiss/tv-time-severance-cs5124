@@ -54,3 +54,4 @@ We added the ability to search for a given phrase and examine how often it was s
 # Process
 # Demo Video
 # Roles
+Our individual roles on the project aligned pretty closely to the different levels. Austin built the underlying data and logic abstractions for getting data to the visualizations and filtering by season/episode/character. He also built the visualizations showing character importances, attributes, pictures, and the episodes in which they appeared. JP performed all the inital data wrangling, including writing scripts to scrape the transcripts and convert them to CSVs. He also made the brushing/selection interaction on the appearance matrix. Soham implemented the word cloud visualization and frequent phrase display. He also added the word/phrase search feature. Matt built the character interaction chord diagram and wrote a script to derive who each character was talking to to populate it.
